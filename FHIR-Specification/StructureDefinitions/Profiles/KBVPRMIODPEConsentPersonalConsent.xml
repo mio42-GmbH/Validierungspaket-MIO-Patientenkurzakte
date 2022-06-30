@@ -1,0 +1,577 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DPE_Consent_Personal_Consent" />
+  <version value="1.0.0" />
+  <name value="KBV_PR_MIO_DPE_Consent_Personal_Consent" />
+  <status value="active" />
+  <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <description value="Mit diesem Profil kann eine persönliche Erklärung abgebildet werden." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Consent" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Consent" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Consent.meta">
+      <path value="Consent.meta" />
+      <min value="1" />
+    </element>
+    <element id="Consent.meta.versionId">
+      <path value="Consent.meta.versionId" />
+      <max value="0" />
+    </element>
+    <element id="Consent.meta.lastUpdated">
+      <path value="Consent.meta.lastUpdated" />
+      <max value="0" />
+    </element>
+    <element id="Consent.meta.source">
+      <path value="Consent.meta.source" />
+      <max value="0" />
+    </element>
+    <element id="Consent.meta.profile">
+      <path value="Consent.meta.profile" />
+      <min value="1" />
+      <max value="1" />
+      <fixedCanonical value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DPE_Consent_Personal_Consent|1.0.0" />
+    </element>
+    <element id="Consent.meta.security">
+      <path value="Consent.meta.security" />
+      <max value="0" />
+    </element>
+    <element id="Consent.meta.tag">
+      <path value="Consent.meta.tag" />
+      <max value="0" />
+    </element>
+    <element id="Consent.implicitRules">
+      <path value="Consent.implicitRules" />
+      <max value="0" />
+    </element>
+    <element id="Consent.language">
+      <path value="Consent.language" />
+      <max value="0" />
+    </element>
+    <element id="Consent.text">
+      <path value="Consent.text" />
+      <max value="0" />
+    </element>
+    <element id="Consent.contained">
+      <path value="Consent.contained" />
+      <max value="0" />
+    </element>
+	<element id="Consent.extension">
+            <path value="Consent.extension" />
+            <slicing>
+                <discriminator>
+                    <type value="value" />
+                    <path value="url" />
+                </discriminator>
+                <rules value="closed" />
+            </slicing>
+        </element>
+        <element id="Consent.extension:beschreibungDerErklaerung">
+            <path value="Consent.extension" />
+            <sliceName value="beschreibungDerErklaerung" />
+            <max value="1" />
+            <type>
+                <code value="Extension" />
+                <profile value="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_DPE_Consent_Description" />
+            </type>
+            <mustSupport value="true" />
+        </element>
+    <element id="Consent.identifier">
+      <path value="Consent.identifier" />
+      <max value="0" />
+    </element>
+    <element id="Consent.status">
+      <path value="Consent.status" />
+      <fixedCode value="active" />
+    </element>
+    <element id="Consent.scope">
+      <path value="Consent.scope" />
+    </element>
+    <element id="Consent.scope.coding">
+      <path value="Consent.scope.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Consent.scope.coding.system">
+      <path value="Consent.scope.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/consentscope" />
+    </element>
+    <element id="Consent.scope.coding.version">
+      <path value="Consent.scope.coding.version" />
+      <min value="1" />
+      <fixedString value="4.0.1" />
+    </element>
+    <element id="Consent.scope.coding.code">
+      <path value="Consent.scope.coding.code" />
+      <min value="1" />
+      <fixedCode value="adr" />
+    </element>
+    <element id="Consent.scope.coding.display">
+      <path value="Consent.scope.coding.display" />
+      <min value="1" />
+      <fixedString value="Privacy Consent" />
+    </element>
+    <element id="Consent.scope.coding.userSelected">
+      <path value="Consent.scope.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Consent.scope.text">
+      <path value="Consent.scope.text" />
+      <max value="0" />
+    </element>
+    <element id="Consent.category">
+      <path value="Consent.category" />
+      <definition value="Verfügungskategorie" />
+      <max value="1" />
+    </element>
+    <element id="Consent.category.coding">
+      <path value="Consent.category.coding" />
+	  <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Consent.category.coding.system">
+      <path value="Consent.category.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Consent.category.coding.version">
+      <path value="Consent.category.coding.version" />
+      <min value="1" />
+      <fixedString value="2.71" />
+    </element>
+    <element id="Consent.category.coding.code">
+      <path value="Consent.category.coding.code" />
+      <min value="1" />
+      <fixedCode value="59284-0" />
+    </element>
+    <element id="Consent.category.coding.display">
+      <path value="Consent.category.coding.display" />
+      <min value="1" />
+      <fixedString value="Consent Document" />
+    </element>
+    <element id="Consent.category.coding.userSelected">
+      <path value="Consent.category.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Consent.category.text">
+      <path value="Consent.category.text" />
+      <max value="0" />
+    </element>
+    <element id="Consent.patient">
+      <path value="Consent.patient" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DPE_Patient_DPE|1.0.0" />
+      </type>
+    </element>
+    <element id="Consent.patient.reference">
+      <path value="Consent.patient.reference" />
+      <min value="1" />
+    </element>
+    <element id="Consent.patient.type">
+      <path value="Consent.patient.type" />
+      <max value="0" />
+    </element>
+    <element id="Consent.patient.identifier">
+      <path value="Consent.patient.identifier" />
+      <max value="0" />
+    </element>
+    <element id="Consent.patient.display">
+      <path value="Consent.patient.display" />
+      <max value="0" />
+    </element>
+    <element id="Consent.dateTime">
+      <path value="Consent.dateTime" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.performer">
+      <path value="Consent.performer" />
+      <max value="0" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.performer.reference">
+      <path value="Consent.performer.reference" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.performer.type">
+      <path value="Consent.performer.type" />
+      <max value="0" />
+    </element>
+    <element id="Consent.performer.identifier">
+      <path value="Consent.performer.identifier" />
+      <max value="0" />
+    </element>
+    <element id="Consent.performer.display">
+      <path value="Consent.performer.display" />
+      <max value="0" />
+    </element>
+    <element id="Consent.organization">
+      <path value="Consent.organization" />
+      <max value="0" />
+    </element>
+    <element id="Consent.source[x]">
+      <path value="Consent.source[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+	        <definition value="Beschreibung Ablageort der Verfügung" />
+
+      <type>
+        <code value="Reference" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.source[x]:sourceReference">
+      <path value="Consent.sourceReference" />
+      <sliceName value="sourceReference" />
+      <type>
+        <code value="Reference" />
+      </type>
+    </element>
+    
+   
+    
+    <element id="Consent.source[x]:sourceReference.reference">
+      <path value="Consent.sourceReference.reference" />
+      <max value="0" />
+    </element>
+	
+    <element id="Consent.source[x]:sourceReference.type">
+      <path value="Consent.sourceReference.type" />
+      <max value="0" />
+    </element>
+    <element id="Consent.source[x]:sourceReference.identifier">
+      <path value="Consent.sourceReference.identifier" />
+      <max value="0" />
+    </element>
+    <element id="Consent.source[x]:sourceReference.display">
+      <path value="Consent.sourceReference.display" />
+      <min value="1" />
+    </element>
+	<element id="Consent.source[x]:sourceReference.display.extension">
+      <path value="Consent.sourceReference.display.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Consent.source[x]:sourceReference.display.extension:ablageort">
+      <path value="Consent.sourceReference.display.extension" />
+      <sliceName value="ablageort" />
+     
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_NFDxDPE_Consent_Description_File_Location" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.policy">
+      <path value="Consent.policy" />
+      <definition value="Referenz auf Rechtstext" />
+      <max value="0" />
+    </element>
+    <element id="Consent.policy.authority">
+      <path value="Consent.policy.authority" />
+      <max value="0" />
+    </element>
+    <element id="Consent.policy.uri">
+      <path value="Consent.policy.uri" />
+      <max value="0" />
+    </element>
+    <element id="Consent.policyRule">
+      <path value="Consent.policyRule" />
+      <min value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_MIO_DPE_Declaration_Type|1.0.0" />
+      </binding>
+    </element>
+    <element id="Consent.policyRule.coding">
+      <path value="Consent.policyRule.coding" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.policyRule.coding.system">
+      <path value="Consent.policyRule.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Consent.policyRule.coding.version">
+      <path value="Consent.policyRule.coding.version" />
+      <min value="1" />
+    </element>
+    <element id="Consent.policyRule.coding.code">
+      <path value="Consent.policyRule.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Consent.policyRule.coding.display">
+      <path value="Consent.policyRule.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="Consent.policyRule.coding.display.extension">
+      <path value="Consent.policyRule.coding.display.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Consent.policyRule.coding.display.extension:anzeigeNamePolicyRule">
+      <path value="Consent.policyRule.coding.display.extension" />
+      <sliceName value="anzeigeNamePolicyRule" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.policyRule.coding.display.extension:anzeigeNamePolicyRule.extension">
+      <path value="Consent.policyRule.coding.display.extension.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Consent.policyRule.coding.display.extension:anzeigeNamePolicyRule.extension:content">
+      <path value="Consent.policyRule.coding.display.extension.extension" />
+      <sliceName value="content" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.policyRule.coding.display.extension:anzeigeNamePolicyRule.extension:content.value[x]">
+      <path value="Consent.policyRule.coding.display.extension.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.policyRule.coding.display.extension:anzeigeNamePolicyRule.extension:content.value[x]:valueString">
+      <path value="Consent.policyRule.coding.display.extension.extension.valueString" />
+      <sliceName value="valueString" />
+      <definition value="In diesem Attribut sollen die entsprechende deutsche Bezeichnung des Loinc oder Snomed-Codes aus der Conceptmap eingetragen werden, also in diesem Fall den Displaynamen des Targetsystems aus https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_DPE_Declaration_Type_German|1.0.0" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.policyRule.coding.userSelected">
+      <path value="Consent.policyRule.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Consent.policyRule.text">
+      <path value="Consent.policyRule.text" />
+      <max value="0" />
+    </element>
+    <element id="Consent.verification">
+      <path value="Consent.verification" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision">
+      <path value="Consent.provision" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.type">
+      <path value="Consent.provision.type" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.period">
+      <path value="Consent.provision.period" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.actor">
+      <path value="Consent.provision.actor" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.actor.role">
+      <path value="Consent.provision.actor.role" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.actor.role.coding">
+      <path value="Consent.provision.actor.role.coding" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.system">
+      <path value="Consent.provision.actor.role.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.version">
+      <path value="Consent.provision.actor.role.coding.version" />
+      <min value="1" />
+      <fixedString value="http://snomed.info/sct/900000000000207008/version/20210731" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.code">
+      <path value="Consent.provision.actor.role.coding.code" />
+      <min value="1" />
+      <fixedCode value="54056000" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.display">
+      <path value="Consent.provision.actor.role.coding.display" />
+      <min value="1" />
+      <patternString value="Trustee (person)" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.display.extension">
+      <path value="Consent.provision.actor.role.coding.display.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Consent.provision.actor.role.coding.display.extension:anzeigenameCode">
+      <path value="Consent.provision.actor.role.coding.display.extension" />
+      <sliceName value="anzeigenameCode" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.display.extension:anzeigenameCode.extension">
+      <path value="Consent.provision.actor.role.coding.display.extension.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Consent.provision.actor.role.coding.display.extension:anzeigenameCode.extension:content">
+      <path value="Consent.provision.actor.role.coding.display.extension.extension" />
+      <sliceName value="content" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.display.extension:anzeigenameCode.extension:content.value[x]">
+      <path value="Consent.provision.actor.role.coding.display.extension.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.display.extension:anzeigenameCode.extension:content.value[x]:valueString">
+      <path value="Consent.provision.actor.role.coding.display.extension.extension.valueString" />
+      <sliceName value="valueString" />
+      <min value="1" />
+      <fixedString value="Bevollmächtigte Person" />
+    </element>
+    <element id="Consent.provision.actor.role.coding.userSelected">
+      <path value="Consent.provision.actor.role.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.actor.role.text">
+      <path value="Consent.provision.actor.role.text" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.actor.reference">
+      <path value="Consent.provision.actor.reference" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DPE_Related_Person_Contact_Person|1.0.0" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.actor.reference.reference">
+      <path value="Consent.provision.actor.reference.reference" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Consent.provision.actor.reference.type">
+      <path value="Consent.provision.actor.reference.type" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.actor.reference.identifier">
+      <path value="Consent.provision.actor.reference.identifier" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.actor.reference.display">
+      <path value="Consent.provision.actor.reference.display" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.action">
+      <path value="Consent.provision.action" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.securityLabel">
+      <path value="Consent.provision.securityLabel" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.purpose">
+      <path value="Consent.provision.purpose" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.class">
+      <path value="Consent.provision.class" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.code">
+      <path value="Consent.provision.code" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.dataPeriod">
+      <path value="Consent.provision.dataPeriod" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.data">
+      <path value="Consent.provision.data" />
+      <max value="0" />
+    </element>
+    <element id="Consent.provision.provision">
+      <path value="Consent.provision.provision" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

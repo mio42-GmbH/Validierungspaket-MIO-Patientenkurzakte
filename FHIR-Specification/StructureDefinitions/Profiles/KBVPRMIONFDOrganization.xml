@@ -1,0 +1,233 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Organization" />
+   <version value="1.0.0" />
+  <name value="KBV_PR_MIO_NFD_Organization" />
+  <status value="active" />
+   <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <description value="Mit diesem Profil kann eine Institution abgebildet werden." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="servd" />
+    <uri value="http://www.omg.org/spec/ServD/1.0/" />
+    <name value="ServD" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Organization" />
+  <baseDefinition value="https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Organization|1.1.3" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Organization.meta">
+      <path value="Organization.meta" />
+      <min value="1" />
+    </element>
+    <element id="Organization.meta.versionId">
+      <path value="Organization.meta.versionId" />
+      <max value="0" />
+    </element>
+    <element id="Organization.meta.lastUpdated">
+      <path value="Organization.meta.lastUpdated" />
+      <max value="0" />
+    </element>
+    <element id="Organization.meta.source">
+      <path value="Organization.meta.source" />
+      <max value="0" />
+    </element>
+    <element id="Organization.meta.profile">
+      <path value="Organization.meta.profile" />
+      <min value="1" />
+      <max value="1" />
+      <fixedCanonical value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Organization|1.0.0" />
+    </element>
+    <element id="Organization.meta.security">
+      <path value="Organization.meta.security" />
+      <max value="0" />
+    </element>
+    <element id="Organization.meta.tag">
+      <path value="Organization.meta.tag" />
+      <max value="0" />
+    </element>
+    <element id="Organization.implicitRules">
+      <path value="Organization.implicitRules" />
+      <max value="0" />
+    </element>
+    <element id="Organization.language">
+      <path value="Organization.language" />
+      <max value="0" />
+    </element>
+    <element id="Organization.text">
+      <path value="Organization.text" />
+      <max value="0" />
+    </element>
+    <element id="Organization.contained">
+      <path value="Organization.contained" />
+      <max value="0" />
+    </element>
+    <element id="Organization.extension">
+      <path value="Organization.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+	  <max value="0" />
+    </element>
+    <element id="Organization.identifier">
+      <path value="Organization.identifier" />
+      <max value="0" />
+    </element>
+    <element id="Organization.active">
+      <path value="Organization.active" />
+      <max value="0" />
+    </element>
+    <element id="Organization.type">
+      <path value="Organization.type" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.type.coding">
+      <path value="Organization.type.coding" />
+      <max value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="example" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE|1.01" />
+      </binding>
+    </element>
+    <element id="Organization.type.coding.system">
+      <path value="Organization.type.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Organization.type.coding.version">
+      <path value="Organization.type.coding.version" />
+      <min value="1" />
+    </element>
+    <element id="Organization.type.coding.code">
+      <path value="Organization.type.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Organization.type.coding.display">
+      <path value="Organization.type.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="Organization.type.coding.userSelected">
+      <path value="Organization.type.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Organization.type.text">
+      <path value="Organization.type.text" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.name">
+      <path value="Organization.name" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.alias">
+      <path value="Organization.alias" />
+      <max value="0" />
+    </element>
+    <element id="Organization.telecom">
+      <path value="Organization.telecom" />
+      <max value="0" />
+    </element>
+    <element id="Organization.address">
+      <path value="Organization.address" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="type" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.address:Strassenanschrift">
+      <path value="Organization.address" />
+      <sliceName value="Strassenanschrift" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.extension">
+      <path value="Organization.address.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+	  <max value="0" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.use">
+      <path value="Organization.address.use" />
+      <max value="0" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.text">
+      <path value="Organization.address.text" />
+      <max value="0" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.line">
+      <path value="Organization.address.line" />
+      <max value="0" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.city">
+      <path value="Organization.address.city" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.state">
+      <path value="Organization.address.state" />
+      <max value="0" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.postalCode">
+      <path value="Organization.address.postalCode" />
+      <max value="0" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.country">
+      <path value="Organization.address.country" />
+      <max value="0" />
+    </element>
+    <element id="Organization.address:Strassenanschrift.period">
+      <path value="Organization.address.period" />
+      <max value="0" />
+    </element>
+    <element id="Organization.address:Postfach">
+      <path value="Organization.address" />
+      <sliceName value="Postfach" />
+      <max value="0" />
+    </element>
+    <element id="Organization.partOf">
+      <path value="Organization.partOf" />
+      <max value="0" />
+    </element>
+    <element id="Organization.contact">
+      <path value="Organization.contact" />
+      <max value="0" />
+    </element>
+    <element id="Organization.endpoint">
+      <path value="Organization.endpoint" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

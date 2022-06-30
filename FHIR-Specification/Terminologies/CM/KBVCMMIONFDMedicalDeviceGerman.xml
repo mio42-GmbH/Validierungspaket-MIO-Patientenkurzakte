@@ -1,0 +1,923 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_NFD_Implant_German" />
+  <version value="1.0.0" />
+  <name value="KBV_CM_MIO_NFD_Implant_German" />
+  <title value="Medizinprodukt" />
+  <status value="active" />
+  <experimental value="false" />
+  <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="https://mio.kbv.de" />
+    </telecom>
+  </contact>
+  <description value="Diese ConceptMap verknüpft die Codes für Medizinprodukt mit deutschen Bezeichnungen." />
+  <copyright value="Im folgenden Profil können Codes aus den Codesystemen Snomed, Loinc oder Ucum enthalten sein, die dem folgenden Urheberrecht unterliegen: This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of SNOMED International. All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. SNOMED and SNOMED CT are registered trademarks of SNOMED International. Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license. This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc. This product includes all or a portion of the UCUM table, UCUM codes, and UCUM definitions or is derived from it, subject to a license from Regenstrief Institute, Inc. and The UCUM Organization. Your use of the UCUM table, UCUM codes, UCUM definitions also is subject to this license, a copy of which is available at ?http://unitsofmeasure.org. The current complete UCUM table, UCUM Specification are available for download at http://unitsofmeasure.org. The UCUM table and UCUM codes are copyright © 1995-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. THE UCUM TABLE (IN ALL FORMATS), UCUM DEFINITIONS, AND SPECIFICATION ARE PROVIDED &quot;AS IS.&quot; ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE." />
+  <group>
+    <source value="http://snomed.info/sct" />
+    <sourceVersion value="http://snomed.info/sct/900000000000207008/version/20210731" />
+    <target value="https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_NFD_Implant_German" />
+    <targetVersion value="1.0.0" />
+    <element>
+            <code value="84683006"/>
+            <display value="Aortic valve prosthesis (physical object)"/>
+            <target>
+                <code value="Aortenklappenprothese"/>
+                <display value="Aortenklappenprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360046005"/>
+            <display value="Arterial stent (physical object)"/>
+            <target>
+                <code value="ArteriellerStent"/>
+                <display value="Arterieller Stent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303608005"/>
+            <display value="Ophthalmological implant (physical object)"/>
+            <target>
+                <code value="Augenimplantat"/>
+                <display value="Augenimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="421168009"/>
+            <display value="Eye sphere implant (physical object)"/>
+            <target>
+                <code value="Augenkugelimplantat"/>
+                <display value="Augenkugelimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="2282003"/>
+            <display value="Prosthetic breast implant (physical object)"/>
+            <target>
+                <code value="Brustprothese"/>
+                <display value="Brustprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="63289001"/>
+            <display value="Surgical metal nail, device (physical object)"/>
+            <target>
+                <code value="ChirurgischerMetallnagelGeraet"/>
+                <display value="Chirurgischer Metallnagel, Gerät"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="43252007"/>
+            <display value="Cochlear prosthesis, device (physical object)"/>
+            <target>
+                <code value="CochleaProthese"/>
+                <display value="Cochlea-Prothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360329004"/>
+            <display value="Polyethylene terephthalate graft (physical object)"/>
+            <target>
+                <code value="DacronTransplantat"/>
+                <display value="Dacron-Transplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="257327003"/>
+            <display value="Dynamic hip screw plate (physical object)"/>
+            <target>
+                <code value="DHSPlatte"/>
+                <display value="DHS-Platte"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303277008"/>
+            <display value="Fallopian tube prosthesis (physical object)"/>
+            <target>
+                <code value="Eileiterprothese"/>
+                <display value="Eileiterprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="102314001"/>
+            <display value="Embolization coil, device (physical object)"/>
+            <target>
+                <code value="Embolisationsspule"/>
+                <display value="Embolisationsspule"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="272307009"/>
+            <display value="Endosseous oral implant (physical object)"/>
+            <target>
+                <code value="EnossalesoralesImplantat"/>
+                <display value="Enossales orales Implantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360104003"/>
+            <display value="Extracochlear prosthesis (physical object)"/>
+            <target>
+                <code value="ExtracochleaereProthese"/>
+                <display value="Extracochleäre Prothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="74444006"/>
+            <display value="Limb prosthesis, device (physical object)"/>
+            <target>
+                <code value="Extremitaetenprothese"/>
+                <display value="Extremitätenprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="304121006"/>
+            <display value="Femoral head prosthesis (physical object)"/>
+            <target>
+                <code value="Femurkopfprothese"/>
+                <display value="Femurkopfprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="304185004"/>
+            <display value="Foot joint implant (physical object)"/>
+            <target>
+                <code value="Fussgelenkimplantat"/>
+                <display value="Fußgelenkimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360123005"/>
+            <display value="Biliary stent (physical object)"/>
+            <target>
+                <code value="Gallenstent"/>
+                <display value="Gallenstent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303617005"/>
+            <display value="Vascular implant (physical object)"/>
+            <target>
+                <code value="Gefaessimplantat"/>
+                <display value="Gefäßimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="102303004"/>
+            <display value="Vascular prosthesis, device (physical object)"/>
+            <target>
+                <code value="Gefaessprothese"/>
+                <display value="Gefäßprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="314523008"/>
+            <display value="Joint implant (physical object)"/>
+            <target>
+                <code value="Gelenkimplantat"/>
+                <display value="Gelenkimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="304186003"/>
+            <display value="Hand joint implant (physical object)"/>
+            <target>
+                <code value="Handgelenkimplantat"/>
+                <display value="Handgelenkimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="34759008"/>
+            <display value="Urethral catheter, device (physical object)"/>
+            <target>
+                <code value="Harnroehrenkatheter"/>
+                <display value="Harnröhrenkatheter"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="286576009"/>
+            <display value="Urethral stent (physical object)"/>
+            <target>
+                <code value="Harnroehrenstent"/>
+                <display value="Harnröhrenstent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303619008"/>
+            <display value="Cardiac implant (physical object)"/>
+            <target>
+                <code value="Herzimplantat"/>
+                <display value="Herzimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="25510005"/>
+            <display value="Cardiac valve prosthesis (physical object)"/>
+            <target>
+                <code value="Herzklappenprothese"/>
+                <display value="Herzklappenprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303490004"/>
+            <display value="Cardiovascular implant (physical object)"/>
+            <target>
+                <code value="HerzKreislaufImplantat"/>
+                <display value="Herz-Kreislauf-Implantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="264824009"/>
+            <display value="Cardiac conduit (physical object)"/>
+            <target>
+                <code value="Herzleitung"/>
+                <display value="Herzleitung"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="118375008"/>
+            <display value="Cardiac septum prosthesis, device (physical object)"/>
+            <target>
+                <code value="HerzscheidewandProthese"/>
+                <display value="Herzscheidewand-Prothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="14106009"/>
+            <display value="Cardiac pacemaker, device (physical object)"/>
+            <target>
+                <code value="Herzschrittmacher"/>
+                <display value="Herzschrittmacher"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360129009"/>
+            <display value="Cardiac pacemaker lead (physical object)"/>
+            <target>
+                <code value="HerzschrittmacherElektrode"/>
+                <display value="Herzschrittmacher-Elektrode"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="6012004"/>
+            <display value="Hearing aid, device (physical object)"/>
+            <target>
+                <code value="Hoergeraet"/>
+                <display value="Hörgerät"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303500007"/>
+            <display value="Auditory implant (physical object)"/>
+            <target>
+                <code value="Hoerimplantat"/>
+                <display value="Hörimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303533002"/>
+            <display value="Hip joint implant (physical object)"/>
+            <target>
+                <code value="Hueftgelenkimplantat"/>
+                <display value="Hüftgelenkimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="67270000"/>
+            <display value="Hip prosthesis, device (physical object)"/>
+            <target>
+                <code value="Hueftprothese"/>
+                <display value="Hüftprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="417136005"/>
+            <display value="Ileostomy bag (physical object)"/>
+            <target>
+                <code value="IleostomieBeutel"/>
+                <display value="Ileostomie-Beutel"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="342706005"/>
+            <display value="Ileostomy set (physical object)"/>
+            <target>
+                <code value="IleostomieSet"/>
+                <display value="Ileostomie-Set"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303618000"/>
+            <display value="Nervous system implant (physical object)"/>
+            <target>
+                <code value="ImplantatdesNervensystems"/>
+                <display value="Implantat des Nervensystems"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="72506001"/>
+            <display value="Implantable defibrillator, device (physical object)"/>
+            <target>
+                <code value="ImplantierbarerDefibrillator"/>
+                <display value="Implantierbarer Defibrillator"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="398013009"/>
+            <display value="Implantable venous access port (physical object)"/>
+            <target>
+                <code value="ImplantierbarervenoeserZugang"/>
+                <display value="Implantierbarer venöser Zugang"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360041000"/>
+            <display value="Implanted drug delivery system (physical object)"/>
+            <target>
+                <code value="ImplantiertesArzneimittelabgabesystem"/>
+                <display value="Implantiertes Arzneimittelabgabesystem"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="272287005"/>
+            <display value="Inlay dental restoration (physical object)"/>
+            <target>
+                <code value="InlayZahnersatz"/>
+                <display value="Inlay-Zahnersatz"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360103009"/>
+            <display value="Intracochlear prosthesis (physical object)"/>
+            <target>
+                <code value="IntracochleaereProthese"/>
+                <display value="Intracochleäre Prothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="268460000"/>
+            <display value="Intrauterine contraceptive device (physical object)"/>
+            <target>
+                <code value="IntrauterinesVerhuetungsmittel"/>
+                <display value="Intrauterines Verhütungsmittel"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360058005"/>
+            <display value="Intraventricular pump (physical object)"/>
+            <target>
+                <code value="IntraventrikulaerePumpe"/>
+                <display value="Intraventrikuläre Pumpe"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="257366006"/>
+            <display value="JJ stent (physical object)"/>
+            <target>
+                <code value="JJStent"/>
+                <display value="JJ-Stent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="413766009"/>
+            <display value="Carotid artery stent (physical object)"/>
+            <target>
+                <code value="Karotisstent"/>
+                <display value="Karotisstent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="19923001"/>
+            <display value="Catheter, device (physical object)"/>
+            <target>
+                <code value="Katheter"/>
+                <display value="Katheter"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360070009"/>
+            <display value="Laryngeal implant (physical object)"/>
+            <target>
+                <code value="Kehlkopfimplantat"/>
+                <display value="Kehlkopfimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="414580007"/>
+            <display value="Laryngeal keel (physical object)"/>
+            <target>
+                <code value="Kehlkopfkiel"/>
+                <display value="Kehlkopfkiel"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="272245008"/>
+            <display value="Maxillofacial prosthesis/appliance (physical object)"/>
+            <target>
+                <code value="KieferundGesichtsprothesegeraet"/>
+                <display value="Kiefer- und Gesichtsprothese / -gerät"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="63112008"/>
+            <display value="Bone wire, device (physical object)"/>
+            <target>
+                <code value="Knochendraht"/>
+                <display value="Knochendraht"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="77777004"/>
+            <display value="Bone staple, device (physical object)"/>
+            <target>
+                <code value="Knochenheftklammer"/>
+                <display value="Knochenheftklammer"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="271003"/>
+            <display value="Bone plate, device (physical object)"/>
+            <target>
+                <code value="Knochenplatte"/>
+                <display value="Knochenplatte"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360145006"/>
+            <display value="Bone prosthesis (physical object)"/>
+            <target>
+                <code value="Knochenprothese"/>
+                <display value="Knochenprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="68183006"/>
+            <display value="Bone screw, device (physical object)"/>
+            <target>
+                <code value="Knochenschraube"/>
+                <display value="Knochenschraube"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="77444004"/>
+            <display value="Bone pin, device (physical object)"/>
+            <target>
+                <code value="Knochenstift"/>
+                <display value="Knochenstift"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="339648008"/>
+            <display value="Colostomy bag (physical object)"/>
+            <target>
+                <code value="Kolostomiebeutel"/>
+                <display value="Kolostomiebeutel"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="341036005"/>
+            <display value="Colostomy set (physical object)"/>
+            <target>
+                <code value="KolostomieSet"/>
+                <display value="Kolostomie-Set"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="304070008"/>
+            <display value="Body wall implant (physical object)"/>
+            <target>
+                <code value="Koerperwandimplantat"/>
+                <display value="Körperwandimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="429798007"/>
+            <display value="Artificial vertebral disc (physical object)"/>
+            <target>
+                <code value="KuenstlicheBandscheibe"/>
+                <display value="Künstliche Bandscheibe"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="24073000"/>
+            <display value="Artificial cardiac valve prosthesis, device (physical object)"/>
+            <target>
+                <code value="KuenstlicheHerzklappenprothese"/>
+                <display value="Künstliche Herzklappenprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="257362008"/>
+            <display value="Plastic stent (physical object)"/>
+            <target>
+                <code value="KunststoffStent"/>
+                <display value="Kunststoff-Stent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="257282009"/>
+            <display value="Non-valved conduit (physical object)"/>
+            <target>
+                <code value="LeitungohneVentil"/>
+                <display value="Leitung ohne Ventil"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360117000"/>
+            <display value="Gastric bubble (physical object)"/>
+            <target>
+                <code value="Magenblase"/>
+                <display value="Magenblase"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303499003"/>
+            <display value="Gastrointestinal implant (physical object)"/>
+            <target>
+                <code value="MagenDarmImplantat"/>
+                <display value="Magen-Darm-Implantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="90134004"/>
+            <display value="Metal periosteal implant, device (physical object)"/>
+            <target>
+                <code value="Metallperiostimplantat"/>
+                <display value="Metallperiostimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="257363003"/>
+            <display value="Metal stent (physical object)"/>
+            <target>
+                <code value="MetallStent"/>
+                <display value="Metall-Stent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="17107009"/>
+            <display value="Mitral valve prosthesis (physical object)"/>
+            <target>
+                <code value="Mitralklappenprothese"/>
+                <display value="Mitralklappenprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303503009"/>
+            <display value="Musculoskeletal implant (physical object)"/>
+            <target>
+                <code value="MuskelSkelettImplantat"/>
+                <display value="Muskel-Skelett-Implantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="25937001"/>
+            <display value="Neurostimulator, device (physical object)"/>
+            <target>
+                <code value="NeurostimulatorGeraet"/>
+                <display value="Neurostimulator, Gerät"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303515008"/>
+            <display value="Orbital implant (physical object)"/>
+            <target>
+                <code value="Orbitalimplantat"/>
+                <display value="Orbitalimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="16349000"/>
+            <display value="Orthopedic device (physical object)"/>
+            <target>
+                <code value="OrthopaedischesGeraet"/>
+                <display value="Orthopädisches Gerät"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="31031000"/>
+            <display value="Orthopedic internal fixation system, device (physical object)"/>
+            <target>
+                <code value="OrthopaedischesinternesFixationssystem"/>
+                <display value="Orthopädisches internes Fixationssystem"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="45633005"/>
+            <display value="Peritoneal dialyzer, device (physical object)"/>
+            <target>
+                <code value="Peritonealdialysator"/>
+                <display value="Peritonealdialysator"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="102319006"/>
+            <display value="Percutaneous transluminal angioplasty balloon, device (physical object)"/>
+            <target>
+                <code value="PerkutanetransluminaleAngioplastieBallon"/>
+                <display value="Perkutane transluminale Angioplastie Ballon"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="424921004"/>
+            <display value="Permanent cardiac pacemaker, device (physical object)"/>
+            <target>
+                <code value="PermanenterHerzschrittmacherGeraet"/>
+                <display value="Permanenter Herzschrittmacher, Gerät"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360063009"/>
+            <display value="Prosthetic cardiac annuloplasty ring (physical object)"/>
+            <target>
+                <code value="ProthesenringfuerdieHerzanuloplastik"/>
+                <display value="Prothesenring für die Herzanuloplastik"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="423449009"/>
+            <display value="Pulmonary valve prosthesis (physical object)"/>
+            <target>
+                <code value="PulmonalklappenprotheseGeraet"/>
+                <display value="Pulmonalklappenprothese, Gerät"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="118378005"/>
+            <display value="Pacemaker pulse generator, device (physical object)"/>
+            <target>
+                <code value="SchrittmacherImpulsgeber"/>
+                <display value="Schrittmacher-Impulsgeber"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="304124003"/>
+            <display value="Shoulder joint implant (physical object)"/>
+            <target>
+                <code value="Schultergelenkimplantat"/>
+                <display value="Schultergelenkimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303726000"/>
+            <display value="Shoulder joint prosthesis (physical object)"/>
+            <target>
+                <code value="Schultergelenkprothese"/>
+                <display value="Schultergelenkprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="465380004"/>
+            <display value="Silicone gel-filled breast implant (physical object)"/>
+            <target>
+                <code value="SilikongelgefuelltesBrustimplantat"/>
+                <display value="Silikongel-gefülltes Brustimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="118374007"/>
+            <display value="Silicone implant, device (physical object)"/>
+            <target>
+                <code value="Silikonimplantat"/>
+                <display value="Silikonimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="304184000"/>
+            <display value="Ankle joint implant (physical object)"/>
+            <target>
+                <code value="Sprunggelenkimplantat"/>
+                <display value="Sprunggelenkimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303947005"/>
+            <display value="Rod fixation system (physical object)"/>
+            <target>
+                <code value="Stangenfixierungssystem"/>
+                <display value="Stangenfixierungssystem"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="65818007"/>
+            <display value="Stent (physical object)"/>
+            <target>
+                <code value="Stent"/>
+                <display value="Stent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="304120007"/>
+            <display value="Total hip replacement prosthesis (physical object)"/>
+            <target>
+                <code value="TotalHueftprothese"/>
+                <display value="Total Hüftprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="360100007"/>
+            <display value="Tracheal stent (physical object)"/>
+            <target>
+                <code value="Trachealstent"/>
+                <display value="Trachealstent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="386124003"/>
+            <display value="Transseptal catheter (physical object)"/>
+            <target>
+                <code value="TransseptalerKatheter"/>
+                <display value="Transseptaler Katheter"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="286558002"/>
+            <display value="Ureteric stent (physical object)"/>
+            <target>
+                <code value="Ureterstent"/>
+                <display value="Ureterstent"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="303497001"/>
+            <display value="Urogenital implant (physical object)"/>
+            <target>
+                <code value="Urogenitalimplantat"/>
+                <display value="Urogenitalimplantat"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="344088002"/>
+            <display value="Urostomy bag (physical object)"/>
+            <target>
+                <code value="UrostomieBeutel"/>
+                <display value="Urostomie-Beutel"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="344575009"/>
+            <display value="Urostomy set (physical object)"/>
+            <target>
+                <code value="UrostomieSet"/>
+                <display value="Urostomie-Set"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="257283004"/>
+            <display value="Valved cardiac conduit (physical object)"/>
+            <target>
+                <code value="VentilierterHerzkanal"/>
+                <display value="Ventilierter Herzkanal"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="258593008"/>
+            <display value="Ventricular shunt (physical object)"/>
+            <target>
+                <code value="VentrikulaererShunt"/>
+                <display value="Ventrikulärer Shunt"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="118425005"/>
+            <display value="Cerebral ventricular reservoir device (physical object)"/>
+            <target>
+                <code value="VentrikulaeresReservoir"/>
+                <display value="Ventrikuläres Reservoir"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="257275005"/>
+            <display value="Spinal cage (physical object)"/>
+            <target>
+                <code value="Wirbelsaeulenkaefig"/>
+                <display value="Wirbelsäulenkäfig"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="257343005"/>
+            <display value="Xenograft cardiac valve (physical object)"/>
+            <target>
+                <code value="XenotransplantatHerzklappe"/>
+                <display value="Xenotransplantat-Herzklappe"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="27606000"/>
+            <display value="Dental prosthesis, device (physical object)"/>
+            <target>
+                <code value="Zahnprothese"/>
+                <display value="Zahnprothese"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+        <element>
+            <code value="52124006"/>
+            <display value="Central venous catheter, device (physical object)"/>
+            <target>
+                <code value="ZentralerVenenkatheter"/>
+                <display value="Zentraler Venenkatheter"/>
+                <equivalence value="equivalent"/>
+            </target>
+        </element>
+  </group>
+</ConceptMap>

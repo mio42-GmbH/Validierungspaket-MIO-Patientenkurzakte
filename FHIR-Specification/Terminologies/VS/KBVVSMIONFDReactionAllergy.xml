@@ -1,0 +1,140 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/ValueSet/KBV_VS_MIO_NFD_Reaction_Allergy" />
+  <version value="1.0.0" />
+  <name value="KBV_VS_MIO_NFD_Reaction_Allergy" />
+  <title value="Manifestation" />
+  <status value="active" />
+  <experimental value="false" />
+  <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="https://mio.kbv.de" />
+    </telecom>
+  </contact>
+    <description value="Dieses Valueset enthält die Codes zur Beschreibung von Manifestation."/>
+  <immutable value="false" />
+  <copyright value="Im folgenden Profil können Codes aus den Codesystemen Snomed, Loinc oder Ucum enthalten sein, die dem folgenden Urheberrecht unterliegen: This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of SNOMED International. All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. SNOMED and SNOMED CT are registered trademarks of SNOMED International. Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license. This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc. This product includes all or a portion of the UCUM table, UCUM codes, and UCUM definitions or is derived from it, subject to a license from Regenstrief Institute, Inc. and The UCUM Organization. Your use of the UCUM table, UCUM codes, UCUM definitions also is subject to this license, a copy of which is available at ?http://unitsofmeasure.org. The current complete UCUM table, UCUM Specification are available for download at http://unitsofmeasure.org. The UCUM table and UCUM codes are copyright © 1995-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. THE UCUM TABLE (IN ALL FORMATS), UCUM DEFINITIONS, AND SPECIFICATION ARE PROVIDED &quot;AS IS.&quot; ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE." />
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct" />
+      <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
+      <concept>
+        <code value="39579001" />
+        <display value="Anaphylaxis (disorder)" />
+      </concept>
+      <concept>
+        <code value="41291007" />
+        <display value="Angioedema (disorder)" />
+      </concept>
+      <concept>
+        <code value="702809001" />
+        <display value="Drug reaction with eosinophilia and systemic symptoms (disorder)" />
+      </concept>
+      <concept>
+        <code value="195967001" />
+        <display value="Asthma (disorder)" />
+      </concept>
+	  <concept>
+        <code value="24079001"/>
+        <display value="Atopic dermatitis (disorder)"/>
+      </concept>
+      <concept>
+        <code value="4386001" />
+        <display value="Bronchospasm (finding)" />
+      </concept>
+      <concept>
+        <code value="271759003" />
+        <display value="Bullous eruption (disorder)" />
+      </concept>
+      <concept>
+        <code value="62315008" />
+        <display value="Diarrhea (finding)" />
+      </concept>
+      <concept>
+        <code value="267036007" />
+        <display value="Dyspnea (finding)" />
+      </concept>
+      <concept>
+        <code value="43116000" />
+        <display value="Eczema (disorder)" />
+      </concept>
+      <concept>
+        <code value="23924001" />
+        <display value="Tight chest (finding)" />
+      </concept>
+      <concept>
+        <code value="91175000" />
+        <display value="Seizure (finding)" />
+      </concept>
+      <concept>
+        <code value="1985008" />
+        <display value="Vomitus (substance)" />
+      </concept>
+      <concept>
+        <code value="418363000" />
+        <display value="Itching of skin (finding)" />
+      </concept>
+      <concept>
+        <code value="49727002" />
+        <display value="Cough (finding)" />
+      </concept>
+      <concept>
+        <code value="698247007" />
+        <display value="Cardiac arrhythmia (disorder)" />
+      </concept>
+      <concept>
+        <code value="410430005" />
+        <display value="Cardiorespiratory arrest (disorder)" />
+      </concept>
+      <concept>
+        <code value="9826008" />
+        <display value="Conjunctivitis (disorder)" />
+      </concept>
+      <concept>
+        <code value="51599000" />
+        <display value="Edema of larynx (disorder)" />
+      </concept>
+      <concept>
+        <code value="76067001" />
+        <display value="Sneezing (finding)" />
+      </concept>
+      <concept>
+        <code value="359610006" />
+        <display value="Ocular hyperemia (disorder)" />
+      </concept>
+      <concept>
+        <code value="271757001" />
+        <display value="Papular eruption (disorder)" />
+      </concept>
+      <concept>
+        <code value="247472004" />
+        <display value="Wheal (finding)" />
+      </concept>
+      <concept>
+        <code value="70076002" />
+        <display value="Rhinitis (disorder)" />
+      </concept>
+      <concept>
+        <code value="73442001" />
+        <display value="Stevens-Johnson syndrome (disorder)" />
+      </concept>
+      <concept>
+        <code value="162290004" />
+        <display value="Dry eyes (finding)" />
+      </concept>
+      <concept>
+        <code value="422587007" />
+        <display value="Nausea (finding)" />
+      </concept>
+      <concept>
+        <code value="126485001" />
+        <display value="Urticaria (disorder)" />
+      </concept>
+      <concept>
+        <code value="31996006" />
+        <display value="Vasculitis (disorder)" />
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

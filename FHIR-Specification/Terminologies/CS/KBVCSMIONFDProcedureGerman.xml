@@ -1,0 +1,2503 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_NFD_Procedure_German" />
+  <version value="1.0.0" />
+  <name value="KBV_CS_MIO_NFD_Procedure_German" />
+  <title value="Prozedur SNOMEDCT" />
+  <status value="active" />
+  <experimental value="false" />
+  <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="https://mio.kbv.de" />
+    </telecom>
+  </contact>
+  <description value="Dieses CodeSystem enthält die Codes für deutsche Bezeichner für Prozedur SNOMED CT." />
+  <copyright value="Im folgenden Profil können Codes aus den Codesystemen Snomed, Loinc oder Ucum enthalten sein, die dem folgenden Urheberrecht unterliegen: This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of SNOMED International. All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. SNOMED and SNOMED CT are registered trademarks of SNOMED International. Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license. This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc. This product includes all or a portion of the UCUM table, UCUM codes, and UCUM definitions or is derived from it, subject to a license from Regenstrief Institute, Inc. and The UCUM Organization. Your use of the UCUM table, UCUM codes, UCUM definitions also is subject to this license, a copy of which is available at ?http://unitsofmeasure.org. The current complete UCUM table, UCUM Specification are available for download at http://unitsofmeasure.org. The UCUM table and UCUM codes are copyright © 1995-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. THE UCUM TABLE (IN ALL FORMATS), UCUM DEFINITIONS, AND SPECIFICATION ARE PROVIDED &quot;AS IS.&quot; ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE." />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+        <code value="AbdominaleHysterektomie"/>
+        <display value="Abdominale Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="AbdominaleHysterektomiemitErhaltungderEierstoecke"/>
+        <display value="Abdominale Hysterektomie mit Erhaltung der Eierstöcke"/>
+    </concept>
+    <concept>
+        <code value="AbdominaleHysterektomiemitKolpoUrethrozystopexieTypMarshallMarchettiKrantz"/>
+        <display value="Abdominale Hysterektomie mit Kolpo-Urethrozystopexie, Typ Marshall-Marchetti-Krantz"/>
+    </concept>
+    <concept>
+        <code value="AbdominaleHysterektomieundlinkeSalpingoOophorektomie"/>
+        <display value="Abdominale Hysterektomie und linke Salpingo-Oophorektomie"/>
+    </concept>
+    <concept>
+        <code value="AbdominaleHysterektomieundrechteSalpingoOophorektomie"/>
+        <display value="Abdominale Hysterektomie und rechte Salpingo-Oophorektomie"/>
+    </concept>
+    <concept>
+        <code value="AbdominaleHysterokolpektomie"/>
+        <display value="Abdominale Hysterokolpektomie"/>
+    </concept>
+    <concept>
+        <code value="AbdominalgeburtbeiSchulterdystokie"/>
+        <display value="Abdominalgeburt bei Schulterdystokie"/>
+    </concept>
+    <concept>
+        <code value="Abdominoplastik"/>
+        <display value="Abdominoplastik"/>
+    </concept>
+    <concept>
+        <code value="AblationdesatrioventrikulaerenKnotens"/>
+        <display value="Ablation des atrioventrikulären Knotens"/>
+    </concept>
+    <concept>
+        <code value="AblationsoperationbeiHerzrhythmusstoerungen"/>
+        <display value="Ablationsoperation bei Herzrhythmusstörungen"/>
+    </concept>
+    <concept>
+        <code value="Adenoidexzision"/>
+        <display value="Adenoidexzision"/>
+    </concept>
+    <concept>
+        <code value="AmniotomiebeiEntbindung"/>
+        <display value="Amniotomie bei Entbindung"/>
+    </concept>
+    <concept>
+        <code value="Amputation"/>
+        <display value="Amputation"/>
+    </concept>
+    <concept>
+        <code value="AmputationderunterenExtremitaet"/>
+        <display value="Amputation der unteren Extremität"/>
+    </concept>
+    <concept>
+        <code value="AmputationdesBeinesdurchSchienundWadenbein"/>
+        <display value="Amputation des Beines durch Schien- und Wadenbein"/>
+    </concept>
+    <concept>
+        <code value="AmputationeinerZehe"/>
+        <display value="Amputation einer Zehe"/>
+    </concept>
+    <concept>
+        <code value="AmputationoberhalbdesKnies"/>
+        <display value="Amputation oberhalb des Knies"/>
+    </concept>
+    <concept>
+        <code value="AmputationvonFingernausserDaumen"/>
+        <display value="Amputation von Fingern, außer Daumen"/>
+    </concept>
+    <concept>
+        <code value="AnastomosederArteriapulmonalissubclaviamittelsBlalockTaussigOperation"/>
+        <display value="Anastomose der Arteria pulmonalis-subclavia mittels Blalock-Taussig-Operation"/>
+    </concept>
+    <concept>
+        <code value="AngioplastieeinerVene"/>
+        <display value="Angioplastie einer Vene"/>
+    </concept>
+    <concept>
+        <code value="AngioplastieeinesBlutgefaesses"/>
+        <display value="Angioplastie eines Blutgefäßes"/>
+    </concept>
+    <concept>
+        <code value="AnlegeneinerHerzschrittmachertascheanneuerStelleimsubkutanenGewebe"/>
+        <display value="Anlegen einer Herzschrittmachertasche an neuer Stelle im subkutanen Gewebe"/>
+    </concept>
+    <concept>
+        <code value="AnlegeneinerIleostomie"/>
+        <display value="Anlegen einer Ileostomie"/>
+    </concept>
+    <concept>
+        <code value="AnlegeneinesaortofemoralenShunts"/>
+        <display value="Anlegen eines aortofemoralen Shunts"/>
+    </concept>
+    <concept>
+        <code value="AnlegeneinesConduitszwischenrechterHerzkammerundPulmonalarterie"/>
+        <display value="Anlegen eines Conduits zwischen rechter Herzkammer und Pulmonalarterie"/>
+    </concept>
+    <concept>
+        <code value="AnterioreKolporrhaphie"/>
+        <display value="Anteriore Kolporrhaphie"/>
+    </concept>
+    <concept>
+        <code value="AortenaneurysmaReparatur"/>
+        <display value="Aortenaneurysma-Reparatur"/>
+    </concept>
+    <concept>
+        <code value="AortopulmonaleRekonstruktionmitrechtsventrikulaeremzupulmonalemarteriellemklappenlosemConduit"/>
+        <display value="Aortopulmonale Rekonstruktion mit rechtsventrikulärem zu pulmonalem arteriellem klappenlosem Conduit"/>
+    </concept>
+    <concept>
+        <code value="ArterielleSwitchOperation"/>
+        <display value="Arterielle Switch-Operation"/>
+    </concept>
+    <concept>
+        <code value="Arthrodese"/>
+        <display value="Arthrodese"/>
+    </concept>
+    <concept>
+        <code value="ArthrodeseinanteriorerinterkorporellerTechnikderHalswirbelsaeuleunterhalbCmitKnochentransplantat"/>
+        <display value="Arthrodese in anteriorer interkorporeller Technik der Halswirbelsäule unterhalb C2 mit Knochentransplantat"/>
+    </concept>
+    <concept>
+        <code value="ArthroskopiedesKniesmitmedialerundlateralerMeniskektomie"/>
+        <display value="Arthroskopie des Knies mit medialer und lateraler Meniskektomie"/>
+    </concept>
+    <concept>
+        <code value="ArthroskopiedesKniesmitMeniskusreparatur"/>
+        <display value="Arthroskopie des Knies mit Meniskusreparatur"/>
+    </concept>
+    <concept>
+        <code value="ArthroskopischunterstuetztevordereKreuzbandplastik"/>
+        <display value="Arthroskopisch unterstützte vordere Kreuzbandplastik"/>
+    </concept>
+    <concept>
+        <code value="ArthroskopischeMeniskektomie"/>
+        <display value="Arthroskopische Meniskektomie"/>
+    </concept>
+    <concept>
+        <code value="ArthroskopischepartiellelateraleMeniskektomie"/>
+        <display value="Arthroskopische partielle laterale Meniskektomie"/>
+    </concept>
+    <concept>
+        <code value="ArthroskopischepartiellemedialeMeniskusentfernung"/>
+        <display value="Arthroskopische partielle mediale Meniskusentfernung"/>
+    </concept>
+    <concept>
+        <code value="ArthroskopischetotalemedialeMeniskektomie"/>
+        <display value="Arthroskopische totale mediale Meniskektomie"/>
+    </concept>
+    <concept>
+        <code value="AspirationskuerettagederGebaermutternachderGeburt"/>
+        <display value="Aspirationskürettage der Gebärmutter nach der Geburt"/>
+    </concept>
+    <concept>
+        <code value="AspirationskuerettagederGebaermutternachEntbindung"/>
+        <display value="Aspirationskürettage der Gebärmutter nach Entbindung"/>
+    </concept>
+    <concept>
+        <code value="Atherektomie"/>
+        <display value="Atherektomie"/>
+    </concept>
+    <concept>
+        <code value="AtherektomiemitdemRotationsschneider"/>
+        <display value="Atherektomie mit dem Rotationsschneider"/>
+    </concept>
+    <concept>
+        <code value="AtherektomiemitLaser"/>
+        <display value="Atherektomie mit Laser"/>
+    </concept>
+    <concept>
+        <code value="AugenuntersuchungundBeurteilung"/>
+        <display value="Augenuntersuchung und Beurteilung"/>
+    </concept>
+    <concept>
+        <code value="Augmentationsmammoplastik"/>
+        <display value="Augmentationsmammoplastik"/>
+    </concept>
+    <concept>
+        <code value="AustauscheinerintraokularenLinse"/>
+        <display value="Austausch einer intraokularen Linse"/>
+    </concept>
+    <concept>
+        <code value="AvulsioneinerLaesionderZervixuteri"/>
+        <display value="Avulsion einer Läsion der Zervix uteri"/>
+    </concept>
+    <concept>
+        <code value="BariatrischesoperativesVerfahren"/>
+        <display value="Bariatrisches operatives Verfahren"/>
+    </concept>
+    <concept>
+        <code value="BetriebanderMembran"/>
+        <display value="Betrieb an der Membran"/>
+    </concept>
+    <concept>
+        <code value="BidirektionaleGlennShuntOperationderlinkenoberenHohlvene"/>
+        <display value="Bidirektionale Glenn-Shunt-Operation der linken oberen Hohlvene"/>
+    </concept>
+    <concept>
+        <code value="BidirektionalerGlennShuntfuerdierechteobereHohlvene"/>
+        <display value="Bidirektionaler Glenn-Shunt für die rechte obere Hohlvene"/>
+    </concept>
+    <concept>
+        <code value="BilateraleEileiterunterbindung"/>
+        <display value="Bilaterale Eileiterunterbindung"/>
+    </concept>
+    <concept>
+        <code value="BilateraleLeistenhernienreparatur"/>
+        <display value="Bilaterale Leistenhernienreparatur"/>
+    </concept>
+    <concept>
+        <code value="BilateraleMammareduktionsplastik"/>
+        <display value="Bilaterale Mammareduktionsplastik"/>
+    </concept>
+    <concept>
+        <code value="BilateraleSalpingektomiemitOophorektomie"/>
+        <display value="Bilaterale Salpingektomie mit Oophorektomie"/>
+    </concept>
+    <concept>
+        <code value="BilateralesegmentaleVasektomieundLigatur"/>
+        <display value="Bilaterale segmentale Vasektomie und Ligatur"/>
+    </concept>
+    <concept>
+        <code value="BiologischerPulmonalklappenersatz"/>
+        <display value="Biologischer Pulmonalklappenersatz"/>
+    </concept>
+    <concept>
+        <code value="Biopsie"/>
+        <display value="Biopsie"/>
+    </concept>
+    <concept>
+        <code value="Blinddarmentfernung"/>
+        <display value="Blinddarmentfernung"/>
+    </concept>
+    <concept>
+        <code value="BlockdissektionzervikalerLymphknoten"/>
+        <display value="Blockdissektion zervikaler Lymphknoten"/>
+    </concept>
+    <concept>
+        <code value="Bronchoskopie"/>
+        <display value="Bronchoskopie"/>
+    </concept>
+    <concept>
+        <code value="BypassGastroenterostomie"/>
+        <display value="Bypass-Gastroenterostomie"/>
+    </concept>
+    <concept>
+        <code value="BypassTransplantatderFemoralPoplitealArterie"/>
+        <display value="Bypass-Transplantat der Femoral-Popliteal-Arterie"/>
+    </concept>
+    <concept>
+        <code value="BypassTransplantatderKoronararterie"/>
+        <display value="Bypass-Transplantat der Koronararterie"/>
+    </concept>
+    <concept>
+        <code value="CerclagedesGebaermutterhalses"/>
+        <display value="Cerclage des Gebärmutterhalses"/>
+    </concept>
+    <concept>
+        <code value="CerclagedesGebaermutterhalsesinderSchwangerschaftuebereinenvaginalenZugang"/>
+        <display value="Cerclage des Gebärmutterhalses in der Schwangerschaft über einen vaginalen Zugang"/>
+    </concept>
+    <concept>
+        <code value="CerclagedesGebaermutterhalseswaehrendderSchwangerschaftdurchabdominalenZugang"/>
+        <display value="Cerclage des Gebärmutterhalses während der Schwangerschaft durch abdominalen Zugang"/>
+    </concept>
+    <concept>
+        <code value="ChirurgischeBiopsie"/>
+        <display value="Chirurgische Biopsie"/>
+    </concept>
+    <concept>
+        <code value="ChirurgischeBiopsiederBrust"/>
+        <display value="Chirurgische Biopsie der Brust"/>
+    </concept>
+    <concept>
+        <code value="ChirurgischerEingriff"/>
+        <display value="Chirurgischer Eingriff"/>
+    </concept>
+    <concept>
+        <code value="ChirurgischerEingriffamAuge"/>
+        <display value="Chirurgischer Eingriff am Auge"/>
+    </concept>
+    <concept>
+        <code value="ChirurgischerEingriffamThorax"/>
+        <display value="Chirurgischer Eingriff am Thorax"/>
+    </concept>
+    <concept>
+        <code value="ChirurgischerEingriffanderBrustwand"/>
+        <display value="Chirurgischer Eingriff an der Brustwand"/>
+    </concept>
+    <concept>
+        <code value="Cholezystektomie"/>
+        <display value="Cholezystektomie"/>
+    </concept>
+    <concept>
+        <code value="CholezystektomiemitExplorationdesDuctuscommunis"/>
+        <display value="Cholezystektomie mit Exploration des Ductus communis"/>
+    </concept>
+    <concept>
+        <code value="ChondrektomiederWirbelsaeule"/>
+        <display value="Chondrektomie der Wirbelsäule"/>
+    </concept>
+    <concept>
+        <code value="Coarctationsangioplastie"/>
+        <display value="Coarctationsangioplastie"/>
+    </concept>
+    <concept>
+        <code value="Dammschnitt"/>
+        <display value="Dammschnitt"/>
+    </concept>
+    <concept>
+        <code value="DamusStanselKayeOperation"/>
+        <display value="Damus-Stansel-Kaye-Operation"/>
+    </concept>
+    <concept>
+        <code value="Darmspiegelung"/>
+        <display value="Darmspiegelung"/>
+    </concept>
+    <concept>
+        <code value="DebridementvonGeschwueren"/>
+        <display value="Debridement von Geschwüren"/>
+    </concept>
+    <concept>
+        <code value="DekompressiondesNmedianus"/>
+        <display value="Dekompression des N. medianus"/>
+    </concept>
+    <concept>
+        <code value="DenervierungderWirbelsaeulenfacettengelenke"/>
+        <display value="Denervierung der Wirbelsäulenfacettengelenke"/>
+    </concept>
+    <concept>
+        <code value="Dermabrasion"/>
+        <display value="Dermabrasion"/>
+    </concept>
+    <concept>
+        <code value="DiagnostischeDilatationundKuerettagederGebaermutter"/>
+        <display value="Diagnostische Dilatation und Kürettage der Gebärmutter"/>
+    </concept>
+    <concept>
+        <code value="DilatationderSpeiseroehre"/>
+        <display value="Dilatation der Speiseröhre"/>
+    </concept>
+    <concept>
+        <code value="DilatationdesGallenganges"/>
+        <display value="Dilatation des Gallenganges"/>
+    </concept>
+    <concept>
+        <code value="DilatationdesGebaermutterhalseszurEntbindung"/>
+        <display value="Dilatation des Gebärmutterhalses zur Entbindung"/>
+    </concept>
+    <concept>
+        <code value="DilatationundKuerettage"/>
+        <display value="Dilatation und Kürettage"/>
+    </concept>
+    <concept>
+        <code value="DilatationundKuerettagederGebaermutter"/>
+        <display value="Dilatation und Kürettage der Gebärmutter"/>
+    </concept>
+    <concept>
+        <code value="DilatationundKuerettagederGebaermutternachderEntbindung"/>
+        <display value="Dilatation und Kürettage der Gebärmutter nach der Entbindung"/>
+    </concept>
+    <concept>
+        <code value="DilatationInzisiondesGebaermutterhalsesGeburtshilfe"/>
+        <display value="Dilatation/Inzision des Gebärmutterhalses - Geburtshilfe"/>
+    </concept>
+    <concept>
+        <code value="DiskektomiebeiBandscheibenvorfallNucleuspulposus"/>
+        <display value="Diskektomie bei Bandscheibenvorfall, Nucleus pulposus"/>
+    </concept>
+    <concept>
+        <code value="Dissektionsverfahren"/>
+        <display value="Dissektionsverfahren"/>
+    </concept>
+    <concept>
+        <code value="DoppelteLungentransplantation"/>
+        <display value="Doppelte Lungentransplantation"/>
+    </concept>
+    <concept>
+        <code value="DorranceOperationPushbackOperationbeiGaumenspalte"/>
+        <display value="Dorrance-Operation, Push-back-Operation bei Gaumenspalte"/>
+    </concept>
+    <concept>
+        <code value="Duenndarmexzision"/>
+        <display value="Dünndarmexzision"/>
+    </concept>
+    <concept>
+        <code value="EinfacheExzisiondesLeistenbruchsacks"/>
+        <display value="Einfache Exzision des Leistenbruchsacks"/>
+    </concept>
+    <concept>
+        <code value="EinfacheLigaturvonHaemorrhoiden"/>
+        <display value="Einfache Ligatur von Hämorrhoiden"/>
+    </concept>
+    <concept>
+        <code value="EinfacheMastektomie"/>
+        <display value="Einfache Mastektomie"/>
+    </concept>
+    <concept>
+        <code value="EinfuehrungeinesHerzschrittmachersystemsueberdieVene"/>
+        <display value="Einführung eines Herzschrittmachersystems über die Vene"/>
+    </concept>
+    <concept>
+        <code value="EinfuehrungkuenstlicherAtemwege"/>
+        <display value="Einführung künstlicher Atemwege"/>
+    </concept>
+    <concept>
+        <code value="EinsetzenderBrustprothese"/>
+        <display value="Einsetzen der Brustprothese"/>
+    </concept>
+    <concept>
+        <code value="EinsetzeneinerHueftprothese"/>
+        <display value="Einsetzen einer Hüftprothese"/>
+    </concept>
+    <concept>
+        <code value="EinsetzeneinespermanentenHerzschrittmachersmittransvenoesenElektrodenventrikulaer"/>
+        <display value="Einsetzen eines permanenten Herzschrittmachers mit transvenösen Elektroden, ventrikulär"/>
+    </concept>
+    <concept>
+        <code value="EinsetzeneinesStentsindieHerzkranzgefaesse"/>
+        <display value="Einsetzen eines Stents in die Herzkranzgefäße"/>
+    </concept>
+    <concept>
+        <code value="EinsetzeneinesStentsineineKoronararterie"/>
+        <display value="Einsetzen eines Stents in eine Koronararterie"/>
+    </concept>
+    <concept>
+        <code value="EinsetzenvonbeidseitigenBrustprothesen"/>
+        <display value="Einsetzen von beidseitigen Brustprothesen"/>
+    </concept>
+    <concept>
+        <code value="ElektiveHysterektomieperKaiserschnitt"/>
+        <display value="Elektive Hysterektomie per Kaiserschnitt"/>
+    </concept>
+    <concept>
+        <code value="Endometriumablation"/>
+        <display value="Endometriumablation"/>
+    </concept>
+    <concept>
+        <code value="Endoskopie"/>
+        <display value="Endoskopie"/>
+    </concept>
+    <concept>
+        <code value="EndoskopiederGallenwege"/>
+        <display value="Endoskopie der Gallenwege"/>
+    </concept>
+    <concept>
+        <code value="EndovaskulaereReparatureinesabdominalenAortenaneurysmas"/>
+        <display value="Endovaskuläre Reparatur eines abdominalen Aortenaneurysmas"/>
+    </concept>
+    <concept>
+        <code value="EntbindungdurchMalstromExtraktionmitEpisiotomie"/>
+        <display value="Entbindung durch Malstrom-Extraktion mit Episiotomie"/>
+    </concept>
+    <concept>
+        <code value="EntbindungdurchVakuumextraktionmitEpisiotomie"/>
+        <display value="Entbindung durch Vakuumextraktion mit Episiotomie"/>
+    </concept>
+    <concept>
+        <code value="EntfernungderintrakraniellenLaesion"/>
+        <display value="Entfernung der intrakraniellen Läsion"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinerHerzschrittmacherelektrode"/>
+        <display value="Entfernung einer Herzschrittmacherelektrode"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinerKnochenschraubeausdemKnochen"/>
+        <display value="Entfernung einer Knochenschraube aus dem Knochen"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinerOvarialzyste"/>
+        <display value="Entfernung einer Ovarialzyste"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinerPlatteausdemKnochenProzedur"/>
+        <display value="Entfernung einer Platte aus dem Knochen (Prozedur)"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinesAkustikusneurinoms"/>
+        <display value="Entfernung eines Akustikusneurinoms"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinesautomatischenHerzdefibrillators"/>
+        <display value="Entfernung eines automatischen Herzdefibrillators"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinesboesartigenBrusttumors"/>
+        <display value="Entfernung eines bösartigen Brusttumors"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinesBrustimplantats"/>
+        <display value="Entfernung eines Brustimplantats"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinesHautmolekuelsdurchExzision"/>
+        <display value="Entfernung eines Hautmoleküls durch Exzision"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinesHerzschrittmachers"/>
+        <display value="Entfernung eines Herzschrittmachers"/>
+    </concept>
+    <concept>
+        <code value="EntfernungeinesinternenFixateurs"/>
+        <display value="Entfernung eines internen Fixateurs"/>
+    </concept>
+    <concept>
+        <code value="EntfernungvonHerzschrittmacherelektrodenmitErsatz"/>
+        <display value="Entfernung von Herzschrittmacherelektroden mit Ersatz"/>
+    </concept>
+    <concept>
+        <code value="EntfernungvonmalignenNeubildungen"/>
+        <display value="Entfernung von malignen Neubildungen"/>
+    </concept>
+    <concept>
+        <code value="EntfernungvonWeichgewebe"/>
+        <display value="Entfernung von Weichgewebe"/>
+    </concept>
+    <concept>
+        <code value="EntlastungbeideQuervainsTenosynovitisderHand"/>
+        <display value="Entlastung bei de Quervain's Tenosynovitis der Hand"/>
+    </concept>
+    <concept>
+        <code value="EntnahmevonperipherenBlutstammzellen"/>
+        <display value="Entnahme von peripheren Blutstammzellen"/>
+    </concept>
+    <concept>
+        <code value="EntnahmevonSpendermaterial"/>
+        <display value="Entnahme von Spendermaterial"/>
+    </concept>
+    <concept>
+        <code value="EnukleationdesAugapfels"/>
+        <display value="Enukleation des Augapfels"/>
+    </concept>
+    <concept>
+        <code value="EroeffnungdesBrustkorbs"/>
+        <display value="Eröffnung des Brustkorbs"/>
+    </concept>
+    <concept>
+        <code value="ErsatzderMitralklappe"/>
+        <display value="Ersatz der Mitralklappe"/>
+    </concept>
+    <concept>
+        <code value="ErsatzderMitralklappemitGewebetransplantat"/>
+        <display value="Ersatz der Mitralklappe mit Gewebetransplantat"/>
+    </concept>
+    <concept>
+        <code value="ErsatzderTrikuspidalklappemitGewebetransplantat"/>
+        <display value="Ersatz der Trikuspidalklappe mit Gewebetransplantat"/>
+    </concept>
+    <concept>
+        <code value="ErsatzeinerAortenklappe"/>
+        <display value="Ersatz einer Aortenklappe"/>
+    </concept>
+    <concept>
+        <code value="ErsatzeineselektronischenHerzgeraetsImpulsgebers"/>
+        <display value="Ersatz eines elektronischen Herzgeräts, Impulsgebers"/>
+    </concept>
+    <concept>
+        <code value="ErsatzeinesHerzschrittmachers"/>
+        <display value="Ersatz eines Herzschrittmachers"/>
+    </concept>
+    <concept>
+        <code value="ErsatzeinesKardioverterDefibrillators"/>
+        <display value="Ersatz eines Kardioverter-Defibrillators"/>
+    </concept>
+    <concept>
+        <code value="ErsatzeinesZweikammerImpulsgenerators"/>
+        <display value="Ersatz eines Zweikammer-Impulsgenerators"/>
+    </concept>
+    <concept>
+        <code value="ErstimplantationeinerElektrodeindenVorhofdesHerzens"/>
+        <display value="Erstimplantation einer Elektrode in den Vorhof des Herzens"/>
+    </concept>
+    <concept>
+        <code value="ErstimplantationeinerElektrodeinHerzvorhofundHerzkammer"/>
+        <display value="Erstimplantation einer Elektrode in Herzvorhof und Herzkammer"/>
+    </concept>
+    <concept>
+        <code value="ErstimplantationeinesEinkammerHerzgeraets"/>
+        <display value="Erstimplantation eines Einkammer-Herzgeräts"/>
+    </concept>
+    <concept>
+        <code value="ErstimplantationeinesZweikammerHerzgeraets"/>
+        <display value="Erstimplantation eines Zweikammer-Herzgeräts"/>
+    </concept>
+    <concept>
+        <code value="ErzwungenemanuelleDilatationdesAnus"/>
+        <display value="Erzwungene manuelle Dilatation des Anus"/>
+    </concept>
+    <concept>
+        <code value="EvakuierungdesintrazerebralenHaematoms"/>
+        <display value="Evakuierung des intrazerebralen Hämatoms"/>
+    </concept>
+    <concept>
+        <code value="EvakuierungdessubduralenHaematoms"/>
+        <display value="Evakuierung des subduralen Hämatoms"/>
+    </concept>
+    <concept>
+        <code value="ExplorativeLaparotomie"/>
+        <display value="Explorative Laparotomie"/>
+    </concept>
+    <concept>
+        <code value="ExtrakapsulaereExtraktion"/>
+        <display value="Extrakapsuläre Extraktion"/>
+    </concept>
+    <concept>
+        <code value="ExtrakapsulaereExtraktionderLinse"/>
+        <display value="Extrakapsuläre Extraktion der Linse"/>
+    </concept>
+    <concept>
+        <code value="ExtraktionderAugenlinse"/>
+        <display value="Extraktion der Augenlinse"/>
+    </concept>
+    <concept>
+        <code value="ExtraktionvonKatarakt"/>
+        <display value="Extraktion von Katarakt"/>
+    </concept>
+    <concept>
+        <code value="ExtraperitonealerKaiserschnitt"/>
+        <display value="Extraperitonealer Kaiserschnitt"/>
+    </concept>
+    <concept>
+        <code value="Extremitaetenbetrieb"/>
+        <display value="Extremitätenbetrieb"/>
+    </concept>
+    <concept>
+        <code value="Exzision"/>
+        <display value="Exzision"/>
+    </concept>
+    <concept>
+        <code value="ExzisionderGebaermutterundderunterstuetzendenStrukturen"/>
+        <display value="Exzision der Gebärmutter und der unterstützenden Strukturen"/>
+    </concept>
+    <concept>
+        <code value="ExzisionderLaminaderHalswirbelsaeule"/>
+        <display value="Exzision der Lamina der Halswirbelsäule"/>
+    </concept>
+    <concept>
+        <code value="ExzisionderLaminaeinesWirbels"/>
+        <display value="Exzision der Lamina eines Wirbels"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinerakzessorischenGebaermutter"/>
+        <display value="Exzision einer akzessorischen Gebärmutter"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinerHautwucherung"/>
+        <display value="Exzision einer Hautwucherung"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinerHautzyste"/>
+        <display value="Exzision einer Hautzyste"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinerKrampfaderderunterenExtremitaet"/>
+        <display value="Exzision einer Krampfader der unteren Extremität"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinerLaesionderHaut"/>
+        <display value="Exzision einer Läsion der Haut"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinerMagenstruktur"/>
+        <display value="Exzision einer Magenstruktur"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinerTalgdruesenzyste"/>
+        <display value="Exzision einer Talgdrüsenzyste"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesBallenzeh"/>
+        <display value="Exzision eines Ballenzeh"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesboesartigenHauttumors"/>
+        <display value="Exzision eines bösartigen Hauttumors"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesHandgelenksganglions"/>
+        <display value="Exzision eines Handgelenksganglions"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesKniegelenksganglions"/>
+        <display value="Exzision eines Kniegelenksganglions"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesLipoms"/>
+        <display value="Exzision eines Lipoms"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesNagelkeils"/>
+        <display value="Exzision eines Nagelkeils"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesNeoplasmas"/>
+        <display value="Exzision eines Neoplasmas"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesPapilloms"/>
+        <display value="Exzision eines Papilloms"/>
+    </concept>
+    <concept>
+        <code value="ExzisioneinesTumorsderHirnhaeute"/>
+        <display value="Exzision eines Tumors der Hirnhäute"/>
+    </concept>
+    <concept>
+        <code value="ExzisionvonBrustgewebe"/>
+        <display value="Exzision von Brustgewebe"/>
+    </concept>
+    <concept>
+        <code value="ExzisionvonEndometriumSynechien"/>
+        <display value="Exzision von Endometrium-Synechien"/>
+    </concept>
+    <concept>
+        <code value="Exzisionsbiopsie"/>
+        <display value="Exzisionsbiopsie"/>
+    </concept>
+    <concept>
+        <code value="ExzisionsbiopsieeinerHautlaesion"/>
+        <display value="Exzisionsbiopsie einer Hautläsion"/>
+    </concept>
+    <concept>
+        <code value="FemoralpoplitealeArterienBypassTransplantationmitVene"/>
+        <display value="Femoral-popliteale Arterien-Bypass-Transplantation mit Vene"/>
+    </concept>
+    <concept>
+        <code value="FettabsaugungdesUnterhautgewebes"/>
+        <display value="Fettabsaugung des Unterhautgewebes"/>
+    </concept>
+    <concept>
+        <code value="FixierungdeslinkenHodens"/>
+        <display value="Fixierung des linken Hodens"/>
+    </concept>
+    <concept>
+        <code value="FixierungdesrechtenHodens"/>
+        <display value="Fixierung des rechten Hodens"/>
+    </concept>
+    <concept>
+        <code value="FusionderhinterenLendenwirbelsaeule"/>
+        <display value="Fusion der hinteren Lendenwirbelsäule"/>
+    </concept>
+    <concept>
+        <code value="Gastrostomie"/>
+        <display value="Gastrostomie"/>
+    </concept>
+    <concept>
+        <code value="Geburtshilfe"/>
+        <display value="Geburtshilfe"/>
+    </concept>
+    <concept>
+        <code value="GeburtshilflicheHysterotomie"/>
+        <display value="Geburtshilfliche Hysterotomie"/>
+    </concept>
+    <concept>
+        <code value="Gefaesschirurgie"/>
+        <display value="Gefäßchirurgie"/>
+    </concept>
+    <concept>
+        <code value="HaematopoetischeStammzelltransplantation"/>
+        <display value="Hämatopoetische Stammzelltransplantation"/>
+    </concept>
+    <concept>
+        <code value="HammerzehenOperation"/>
+        <display value="Hammerzehen-Operation"/>
+    </concept>
+    <concept>
+        <code value="Haemorrhoidektomie"/>
+        <display value="Hämorrhoidektomie"/>
+    </concept>
+    <concept>
+        <code value="Harnblasenexzision"/>
+        <display value="Harnblasenexzision"/>
+    </concept>
+    <concept>
+        <code value="HartmannOperationRektumresektion"/>
+        <display value="Hartmann-Operation, Rektumresektion"/>
+    </concept>
+    <concept>
+        <code value="Hauttransplantation"/>
+        <display value="Hauttransplantation"/>
+    </concept>
+    <concept>
+        <code value="HemiFontanOperation"/>
+        <display value="Hemi-Fontan-Operation"/>
+    </concept>
+    <concept>
+        <code value="Hernienreparatur"/>
+        <display value="Hernienreparatur"/>
+    </concept>
+    <concept>
+        <code value="Herzklappenersatz"/>
+        <display value="Herzklappenersatz"/>
+    </concept>
+    <concept>
+        <code value="HerzklappenersatzProthese"/>
+        <display value="Herzklappenersatz - Prothese"/>
+    </concept>
+    <concept>
+        <code value="HerzKreislaufChirurgie"/>
+        <display value="Herz-Kreislauf-Chirurgie"/>
+    </concept>
+    <concept>
+        <code value="HerzLungenTransplantationmitEmpfaengerKardiektomiePneumonektomie"/>
+        <display value="Herz-Lungen-Transplantation mit Empfänger-Kardiektomie-Pneumonektomie"/>
+    </concept>
+    <concept>
+        <code value="Herztransplantation"/>
+        <display value="Herztransplantation"/>
+    </concept>
+    <concept>
+        <code value="HochzangengeburtmitEpisiotomie"/>
+        <display value="Hochzangengeburt mit Episiotomie"/>
+    </concept>
+    <concept>
+        <code value="Hodenexzision"/>
+        <display value="Hodenexzision"/>
+    </concept>
+    <concept>
+        <code value="Hornhauttransplantation"/>
+        <display value="Hornhauttransplantation"/>
+    </concept>
+    <concept>
+        <code value="Hueftgelenksrekonstruktion"/>
+        <display value="Hüftgelenksrekonstruktion"/>
+    </concept>
+    <concept>
+        <code value="Hysterektomie"/>
+        <display value="Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="HysterektomieinderSchwangerschaft"/>
+        <display value="Hysterektomie in der Schwangerschaft"/>
+    </concept>
+    <concept>
+        <code value="HysterektomieperKaiserschnitt"/>
+        <display value="Hysterektomie per Kaiserschnitt"/>
+    </concept>
+    <concept>
+        <code value="HysterektomieundFoetusentfernung"/>
+        <display value="Hysterektomie und Fötusentfernung"/>
+    </concept>
+    <concept>
+        <code value="HysterotomiebeiretinierterPlazenta"/>
+        <display value="Hysterotomie bei retinierter Plazenta"/>
+    </concept>
+    <concept>
+        <code value="HysterotomiemitEntfernungeinesFremdkoerpers"/>
+        <display value="Hysterotomie mit Entfernung eines Fremdkörpers"/>
+    </concept>
+    <concept>
+        <code value="HysterotomiemitEntfernungeineshydatidiformenMuttermals"/>
+        <display value="Hysterotomie mit Entfernung eines hydatidiformen Muttermals"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerAortenklappenprotheseodereinessynthetischenGeraets"/>
+        <display value="Implantation einer Aortenklappenprothese oder eines synthetischen Geräts"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerCochleaElektrode"/>
+        <display value="Implantation einer Cochlea-Elektrode"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerCochleaProthese"/>
+        <display value="Implantation einer Cochlea-Prothese"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerCochleaProtheseeinkanalig"/>
+        <display value="Implantation einer Cochlea-Prothese, einkanalig"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerCochleaProtheseElektrodeundEmpfaenger"/>
+        <display value="Implantation einer Cochlea-Prothese, Elektrode und Empfänger"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerCochleaProthesemehrereKanaele"/>
+        <display value="Implantation einer Cochlea-Prothese, mehrere Kanäle"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerHerzklappemitGewebetransplantat"/>
+        <display value="Implantation einer Herzklappe mit Gewebetransplantat"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerHerzklappenprotheseodereinesKunststoffgeraets"/>
+        <display value="Implantation einer Herzklappenprothese oder eines Kunststoffgeräts"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerintracochleaerenProthese"/>
+        <display value="Implantation einer intracochleären Prothese"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerintraokularenHinterkammerlinse"/>
+        <display value="Implantation einer intraokularen Hinterkammerlinse"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerMitralklappenprotheseodereinessynthetischenGeraets"/>
+        <display value="Implantation einer Mitralklappenprothese oder eines synthetischen Geräts"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerPenisprothese"/>
+        <display value="Implantation einer Penisprothese"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerprothetischenIntraokularlinse"/>
+        <display value="Implantation einer prothetischen Intraokularlinse"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerPulmonalklappenprotheseodereinessynthetischenGeraets"/>
+        <display value="Implantation einer Pulmonalklappenprothese oder eines synthetischen Geräts"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinerTrikuspidalklappenprotheseodereinessynthetischenGeraets"/>
+        <display value="Implantation einer Trikuspidalklappenprothese oder eines synthetischen Geräts"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesautomatischenHerzdefibrillators"/>
+        <display value="Implantation eines automatischen Herzdefibrillators"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesautomatischenKardiovertersDefibrillatorsGesamtsystem"/>
+        <display value="Implantation eines automatischen Kardioverters/Defibrillators, Gesamtsystem"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesHerzschrittmachers"/>
+        <display value="Implantation eines Herzschrittmachers"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesHerzunterstuetzungssystems"/>
+        <display value="Implantation eines Herzunterstützungssystems"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesinternenHerzdefibrillators"/>
+        <display value="Implantation eines internen Herzdefibrillators"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesintravenoesenZweikammerDauerschrittmachers"/>
+        <display value="Implantation eines intravenösen Zweikammer-Dauerschrittmachers"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesKardioverterDefibrillatorsmitdreiElektrodenleitungen"/>
+        <display value="Implantation eines Kardioverter-Defibrillators mit drei Elektrodenleitungen"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesKardioverterDefibrillatorsmiteinerElektrodenleitung"/>
+        <display value="Implantation eines Kardioverter-Defibrillators mit einer Elektrodenleitung"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesKardioverterDefibrillatorsmitzweiElektrodenleitungen"/>
+        <display value="Implantation eines Kardioverter-Defibrillators mit zwei Elektrodenleitungen"/>
+    </concept>
+    <concept>
+        <code value="ImplantationeinesSchirmsindieVenacava"/>
+        <display value="Implantation eines Schirms in die Vena cava"/>
+    </concept>
+    <concept>
+        <code value="ImplantationindasHerzKreislaufSystem"/>
+        <display value="Implantation in das Herz-Kreislauf-System"/>
+    </concept>
+    <concept>
+        <code value="ImplantationvonBaffleatrialoderinteratrial"/>
+        <display value="Implantation von Baffle, atrial oder interatrial"/>
+    </concept>
+    <concept>
+        <code value="InduzierterSchwangerschaftsabbruchnachintraamniotischerInjektionmitHysterotomie"/>
+        <display value="Induzierter Schwangerschaftsabbruch nach intra-amniotischer Injektion mit Hysterotomie"/>
+    </concept>
+    <concept>
+        <code value="InteratrialeTranspositiondesvenoesenRueckflusses"/>
+        <display value="Interatriale Transposition des venösen Rückflusses"/>
+    </concept>
+    <concept>
+        <code value="InterneFixationmitSchraube"/>
+        <display value="Interne Fixation mit Schraube"/>
+    </concept>
+    <concept>
+        <code value="InterneFixationmittelsPlatte"/>
+        <display value="Interne Fixation mittels Platte"/>
+    </concept>
+    <concept>
+        <code value="InterneFixierungmitKlammer"/>
+        <display value="Interne Fixierung mit Klammer"/>
+    </concept>
+    <concept>
+        <code value="InterneSkelettFixierung"/>
+        <display value="Interne Skelett-Fixierung"/>
+    </concept>
+    <concept>
+        <code value="IntestinalerBypassbeimorbiderAdipositas"/>
+        <display value="Intestinaler Bypass bei morbider Adipositas"/>
+    </concept>
+    <concept>
+        <code value="IntrakapsulaereExtraktionderLinse"/>
+        <display value="Intrakapsuläre Extraktion der Linse"/>
+    </concept>
+    <concept>
+        <code value="IntrakapsulaereKataraktextraktion"/>
+        <display value="Intrakapsuläre Kataraktextraktion"/>
+    </concept>
+    <concept>
+        <code value="IntrakapsulaereKataraktextraktionundEinsetzeneinerintraokularenLinse"/>
+        <display value="Intrakapsuläre Kataraktextraktion und Einsetzen einer intraokularen Linse"/>
+    </concept>
+    <concept>
+        <code value="IntrakavitaereBrachytherapie"/>
+        <display value="Intrakavitäre Brachytherapie"/>
+    </concept>
+    <concept>
+        <code value="InzisionderGallenblase"/>
+        <display value="Inzision der Gallenblase"/>
+    </concept>
+    <concept>
+        <code value="InzisionderLuftroehre"/>
+        <display value="Inzision der Luftröhre"/>
+    </concept>
+    <concept>
+        <code value="InzisionUNDDrainage"/>
+        <display value="Inzision UND Drainage"/>
+    </concept>
+    <concept>
+        <code value="InzisionundDrainageeinerWunde"/>
+        <display value="Inzision und Drainage einer Wunde"/>
+    </concept>
+    <concept>
+        <code value="InzisionundDrainageeinesAbszesses"/>
+        <display value="Inzision und Drainage eines Abszesses"/>
+    </concept>
+    <concept>
+        <code value="Inzisionsbiopsie"/>
+        <display value="Inzisionsbiopsie"/>
+    </concept>
+    <concept>
+        <code value="InzisionsbiopsieeinerBrustmasse"/>
+        <display value="Inzisionsbiopsie einer Brustmasse"/>
+    </concept>
+    <concept>
+        <code value="Kaiserschnitt"/>
+        <display value="Kaiserschnitt"/>
+    </concept>
+    <concept>
+        <code value="KardiopulmonaleBypassOperation"/>
+        <display value="Kardiopulmonale Bypass-Operation"/>
+    </concept>
+    <concept>
+        <code value="Kardioversion"/>
+        <display value="Kardioversion"/>
+    </concept>
+    <concept>
+        <code value="Karotisendarteriektomie"/>
+        <display value="Karotisendarteriektomie"/>
+    </concept>
+    <concept>
+        <code value="KataraktextraktionundEinsetzeneinerintraokularenLinse"/>
+        <display value="Kataraktextraktion und Einsetzen einer intraokularen Linse"/>
+    </concept>
+    <concept>
+        <code value="KatheterablationvonHerzgewebe"/>
+        <display value="Katheterablation von Herzgewebe"/>
+    </concept>
+    <concept>
+        <code value="KatheterisierungdeslinkenundrechtenHerzensmitTransplantat"/>
+        <display value="Katheterisierung des linken und rechten Herzens mit Transplantat"/>
+    </concept>
+    <concept>
+        <code value="KauterisationderinnerenNase"/>
+        <display value="Kauterisation der inneren Nase"/>
+    </concept>
+    <concept>
+        <code value="KauterisationderNasenmuschel"/>
+        <display value="Kauterisation der Nasenmuschel"/>
+    </concept>
+    <concept>
+        <code value="KauterisationeinerWarze"/>
+        <display value="Kauterisation einer Warze"/>
+    </concept>
+    <concept>
+        <code value="KeilentfernungderLunge"/>
+        <display value="Keilentfernung der Lunge"/>
+    </concept>
+    <concept>
+        <code value="Keilresektion"/>
+        <display value="Keilresektion"/>
+    </concept>
+    <concept>
+        <code value="KieferundKiefergelenksoperationen"/>
+        <display value="Kiefer- und Kiefergelenksoperationen"/>
+    </concept>
+    <concept>
+        <code value="KlassischerKaiserschnitt"/>
+        <display value="Klassischer Kaiserschnitt"/>
+    </concept>
+    <concept>
+        <code value="Klitoridektomie"/>
+        <display value="Klitoridektomie"/>
+    </concept>
+    <concept>
+        <code value="Knieendoprothetik"/>
+        <display value="Knieendoprothetik"/>
+    </concept>
+    <concept>
+        <code value="Kniegelenksoperation"/>
+        <display value="Kniegelenksoperation"/>
+    </concept>
+    <concept>
+        <code value="Kolektomie"/>
+        <display value="Kolektomie"/>
+    </concept>
+    <concept>
+        <code value="KolonoskopischePolypektomie"/>
+        <display value="Kolonoskopische Polypektomie"/>
+    </concept>
+    <concept>
+        <code value="Kolostomie"/>
+        <display value="Kolostomie"/>
+    </concept>
+    <concept>
+        <code value="KolpoperineorrhaphienachEntbindung"/>
+        <display value="Kolpoperineorrhaphie nach Entbindung"/>
+    </concept>
+    <concept>
+        <code value="KolporrhaphiezurReparaturderHarnroehre"/>
+        <display value="Kolporrhaphie zur Reparatur der Harnröhre"/>
+    </concept>
+    <concept>
+        <code value="KombinierteanteroposterioreKolporrhaphie"/>
+        <display value="Kombinierte anteroposteriore Kolporrhaphie"/>
+    </concept>
+    <concept>
+        <code value="KompletteexterneHaemorrhoidektomie"/>
+        <display value="Komplette externe Hämorrhoidektomie"/>
+    </concept>
+    <concept>
+        <code value="KompletteZystektomie"/>
+        <display value="Komplette Zystektomie"/>
+    </concept>
+    <concept>
+        <code value="KonstruktioneinesConduitsrechterVorhofzumTruncuspulmonalis"/>
+        <display value="Konstruktion eines Conduits - rechter Vorhof zum Truncus pulmonalis"/>
+    </concept>
+    <concept>
+        <code value="KonstruktioneinesTunnelsvonderlinkenHerzkammerzurAortamiteinemConduitvonderrechtenHerzkammerzurPulmonalarterie"/>
+        <display value="Konstruktion eines Tunnels von der linken Herzkammer zur Aorta mit einem Conduit von der rechten Herzkammer zur Pulmonalarterie"/>
+    </concept>
+    <concept>
+        <code value="KonusbiopsiedesGebaermutterhalses"/>
+        <display value="Konusbiopsie des Gebärmutterhalses"/>
+    </concept>
+    <concept>
+        <code value="Koronarangioplastie"/>
+        <display value="Koronarangioplastie"/>
+    </concept>
+    <concept>
+        <code value="KoronararterienBypassmitautogenemTransplantatdreiTransplantate"/>
+        <display value="Koronararterien-Bypass mit autogenem Transplantat, drei Transplantate"/>
+    </concept>
+    <concept>
+        <code value="KoronararterienBypassmitautogenemTransplantatvierTransplantate"/>
+        <display value="Koronararterien-Bypass mit autogenem Transplantat, vier Transplantate"/>
+    </concept>
+    <concept>
+        <code value="KoronararterienBypassTransplantationxdrei"/>
+        <display value="Koronararterien-Bypass-Transplantation  x 3"/>
+    </concept>
+    <concept>
+        <code value="KoronararterienBypassTransplantationxfuenf"/>
+        <display value="Koronararterien-Bypass-Transplantation  x 5"/>
+    </concept>
+    <concept>
+        <code value="KoronararterienBypassTransplantationxzwei"/>
+        <display value="Koronararterien-Bypass-Transplantation x 2"/>
+    </concept>
+    <concept>
+        <code value="KoronararterienBypassTransplantationxvier"/>
+        <display value="Koronararterien-Bypass-Transplantation x 4"/>
+    </concept>
+    <concept>
+        <code value="KorrekturderAtresiedesaeusserenGehoergangs"/>
+        <display value="Korrektur der Atresie des äußeren Gehörgangs"/>
+    </concept>
+    <concept>
+        <code value="KorrektureinerangeborenenkardiovaskulaerenDeformitaet"/>
+        <display value="Korrektur einer angeborenen kardiovaskulären Deformität"/>
+    </concept>
+    <concept>
+        <code value="KorrektureinesVentrikelseptumdefekts"/>
+        <display value="Korrektur eines Ventrikelseptumdefekts"/>
+    </concept>
+    <concept>
+        <code value="KosmetischeChirurgie"/>
+        <display value="Kosmetische Chirurgie"/>
+    </concept>
+    <concept>
+        <code value="Kraniotomie"/>
+        <display value="Kraniotomie"/>
+    </concept>
+    <concept>
+        <code value="KryoablationOperationbeiHerzrhythmusstoerungen"/>
+        <display value="Kryoablation-Operation bei Herzrhythmusstörungen"/>
+    </concept>
+    <concept>
+        <code value="LaminaexzisionanderLendenwirbelsaeulezurDekompressiondesRueckenmarks"/>
+        <display value="Laminaexzision an der Lendenwirbelsäule zur Dekompression des Rückenmarks"/>
+    </concept>
+    <concept>
+        <code value="LaminotomiezurDekompressionundExploration"/>
+        <display value="Laminotomie zur Dekompression und Exploration"/>
+    </concept>
+    <concept>
+        <code value="LangenbeckOperationGaumenspaltreparatur"/>
+        <display value="Langenbeck-Operation, Gaumenspaltreparatur"/>
+    </concept>
+    <concept>
+        <code value="LaparoskopischeAppendektomie"/>
+        <display value="Laparoskopische Appendektomie"/>
+    </concept>
+    <concept>
+        <code value="LaparoskopischeCholezystektomie"/>
+        <display value="Laparoskopische Cholezystektomie"/>
+    </concept>
+    <concept>
+        <code value="LaparoskopischeCholezystektomiemitErkundungdesDuctuscommunis"/>
+        <display value="Laparoskopische Cholezystektomie mit Erkundung des Ductus communis"/>
+    </concept>
+    <concept>
+        <code value="LaparoskopischeHysterektomie"/>
+        <display value="Laparoskopische Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="LaparoskopischeNissenFundoplikationmitabdominalemZugang"/>
+        <display value="Laparoskopische Nissen-Fundoplikation mit abdominalem Zugang"/>
+    </concept>
+    <concept>
+        <code value="LaparoskopischeReparaturvonLeistenbruch"/>
+        <display value="Laparoskopische Reparatur von Leistenbruch"/>
+    </concept>
+    <concept>
+        <code value="Laparotomie"/>
+        <display value="Laparotomie"/>
+    </concept>
+    <concept>
+        <code value="Laryngektomie"/>
+        <display value="Laryngektomie"/>
+    </concept>
+    <concept>
+        <code value="LaserassistierteInsituKeratomileusis"/>
+        <display value="Laser-assistierte In-situ-Keratomileusis"/>
+    </concept>
+    <concept>
+        <code value="LaserassistiertesubepithelialeKeratomileusis"/>
+        <display value="Laser-assistierte subepitheliale Keratomileusis"/>
+    </concept>
+    <concept>
+        <code value="Laseriridotomie"/>
+        <display value="Laseriridotomie"/>
+    </concept>
+    <concept>
+        <code value="LaserPhotokoagulationanderNetzhaut"/>
+        <display value="Laser-Photokoagulation an der Netzhaut"/>
+    </concept>
+    <concept>
+        <code value="Lasertrabekuloplastik"/>
+        <display value="Lasertrabekuloplastik"/>
+    </concept>
+    <concept>
+        <code value="Leberexzision"/>
+        <display value="Leberexzision"/>
+    </concept>
+    <concept>
+        <code value="Lebertransplantation"/>
+        <display value="Lebertransplantation"/>
+    </concept>
+    <concept>
+        <code value="LeftGlennShuntVerfahren"/>
+        <display value="Left Glenn Shunt Verfahren"/>
+    </concept>
+    <concept>
+        <code value="LemesurierOperationLippenspaltenreparatur"/>
+        <display value="Lemesurier-Operation, Lippenspaltenreparatur"/>
+    </concept>
+    <concept>
+        <code value="LigaturderKrampfaderderunterenExtremitaet"/>
+        <display value="Ligatur der Krampfader der unteren Extremität"/>
+    </concept>
+    <concept>
+        <code value="LigaturderlangenVenasaphenamagna"/>
+        <display value="Ligatur der langen Vena saphena magna"/>
+    </concept>
+    <concept>
+        <code value="LigaturdesEileiters"/>
+        <display value="Ligatur des Eileiters"/>
+    </concept>
+    <concept>
+        <code value="Lithotripsie"/>
+        <display value="Lithotripsie"/>
+    </concept>
+    <concept>
+        <code value="Lobektomie"/>
+        <display value="Lobektomie"/>
+    </concept>
+    <concept>
+        <code value="LobektomiederLunge"/>
+        <display value="Lobektomie der Lunge"/>
+    </concept>
+    <concept>
+        <code value="LokaleExzision"/>
+        <display value="Lokale Exzision"/>
+    </concept>
+    <concept>
+        <code value="LokaleExzisionvonHautundSubkutangewebe"/>
+        <display value="Lokale Exzision von Haut und Subkutangewebe"/>
+    </concept>
+    <concept>
+        <code value="LumbaleWirbelsaeulenfusion"/>
+        <display value="Lumbale Wirbelsäulenfusion"/>
+    </concept>
+    <concept>
+        <code value="LumpektomiederBrust"/>
+        <display value="Lumpektomie der Brust"/>
+    </concept>
+    <concept>
+        <code value="Lungentransplantation"/>
+        <display value="Lungentransplantation"/>
+    </concept>
+    <concept>
+        <code value="Lungentumorentfernung"/>
+        <display value="Lungentumorentfernung"/>
+    </concept>
+    <concept>
+        <code value="MacdonaldszervikaleCerclage"/>
+        <display value="Macdonald's zervikale Cerclage"/>
+    </concept>
+    <concept>
+        <code value="MagenbypassmitkurzschenkligerRouxenYGastroenterostomie"/>
+        <display value="Magenbypass mit kurzschenkliger Roux-en-Y-Gastroenterostomie"/>
+    </concept>
+    <concept>
+        <code value="Mastoidektomie"/>
+        <display value="Mastoidektomie"/>
+    </concept>
+    <concept>
+        <code value="MechanischeVitrektomiemitParsPlanaAnsatz"/>
+        <display value="Mechanische Vitrektomie mit Pars-Plana-Ansatz"/>
+    </concept>
+    <concept>
+        <code value="MechanischprothetischerAortenklappenersatz"/>
+        <display value="Mechanisch-prothetischer Aortenklappenersatz"/>
+    </concept>
+    <concept>
+        <code value="MechanischprothetischerMitralklappenersatz"/>
+        <display value="Mechanisch-prothetischer Mitralklappenersatz"/>
+    </concept>
+    <concept>
+        <code value="Mitralvalvuloplastie"/>
+        <display value="Mitralvalvuloplastie"/>
+    </concept>
+    <concept>
+        <code value="MittlereZangengeburtmitEpisiotomie"/>
+        <display value="Mittlere Zangengeburt mit Episiotomie"/>
+    </concept>
+    <concept>
+        <code value="ModifizierteradikaleMastektomiederlinkenBrust"/>
+        <display value="Modifizierte radikale Mastektomie der linken Brust"/>
+    </concept>
+    <concept>
+        <code value="ModifizierteradikaleMastektomiederrechtenBrust"/>
+        <display value="Modifizierte radikale Mastektomie der rechten Brust"/>
+    </concept>
+    <concept>
+        <code value="Myokardrevaskularisation"/>
+        <display value="Myokardrevaskularisation"/>
+    </concept>
+    <concept>
+        <code value="Myringoplastik"/>
+        <display value="Myringoplastik"/>
+    </concept>
+    <concept>
+        <code value="MyringotomieundEinsetzeneinesKurzzeitPaukenroehrchens"/>
+        <display value="Myringotomie und Einsetzen eines Kurzzeit-Paukenröhrchens"/>
+    </concept>
+    <concept>
+        <code value="MyringotomieundEinsetzeneinesLangzeitbeatmungsschlauches"/>
+        <display value="Myringotomie und Einsetzen eines Langzeitbeatmungsschlauches"/>
+    </concept>
+    <concept>
+        <code value="MyringotomieundEinsetzeneinesPaukenroehrchens"/>
+        <display value="Myringotomie und Einsetzen eines Paukenröhrchens"/>
+    </concept>
+    <concept>
+        <code value="MyringotomieundEinsetzeneinesTTubus"/>
+        <display value="Myringotomie und Einsetzen eines T-Tubus"/>
+    </concept>
+    <concept>
+        <code value="NasalePolypektomie"/>
+        <display value="Nasale Polypektomie"/>
+    </concept>
+    <concept>
+        <code value="Nasenscheidewandplastik"/>
+        <display value="Nasenscheidewandplastik"/>
+    </concept>
+    <concept>
+        <code value="NasenscheidewandplastikmitTransplantat"/>
+        <display value="Nasenscheidewandplastik mit Transplantat"/>
+    </concept>
+    <concept>
+        <code value="NeuroplastikundTranspositiondesNervusmedianusamKarpaltunnel"/>
+        <display value="Neuroplastik und Transposition des Nervus medianus am Karpaltunnel"/>
+    </concept>
+    <concept>
+        <code value="NichtobstetischeumlaufendeNahtdesMuttermundes"/>
+        <display value="Nicht-obstetische umlaufende Naht des Muttermundes"/>
+    </concept>
+    <concept>
+        <code value="NiedrigeZangengeburtmitEpisiotomie"/>
+        <display value="Niedrige Zangengeburt mit Episiotomie"/>
+    </concept>
+    <concept>
+        <code value="Nierenexzision"/>
+        <display value="Nierenexzision"/>
+    </concept>
+    <concept>
+        <code value="Nierentransplantation"/>
+        <display value="Nierentransplantation"/>
+    </concept>
+    <concept>
+        <code value="NorwoodTypOperation"/>
+        <display value="Norwood-Typ-Operation"/>
+    </concept>
+    <concept>
+        <code value="NotfallAppendektomie"/>
+        <display value="Notfall-Appendektomie"/>
+    </concept>
+    <concept>
+        <code value="NotfallKaiserschnittimoberenSegment"/>
+        <display value="Notfall-Kaiserschnitt im oberen Segment"/>
+    </concept>
+    <concept>
+        <code value="NotfallKaiserschnittimunterenSegment"/>
+        <display value="Notfall-Kaiserschnitt im unteren Segment"/>
+    </concept>
+    <concept>
+        <code value="NotfallKaiserschnittHysterektomie"/>
+        <display value="Notfall-Kaiserschnitt-Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="NotfallKoronararterienBypassTransplantation"/>
+        <display value="Notfall-Koronararterien-Bypass-Transplantation"/>
+    </concept>
+    <concept>
+        <code value="OffeneAblationdesatrioventrikulaerenKnotens"/>
+        <display value="Offene Ablation des atrioventrikulären Knotens"/>
+    </concept>
+    <concept>
+        <code value="OffeneAkromioplastikzurDekompressionderRotatorenmanschette"/>
+        <display value="Offene Akromioplastik zur Dekompression der Rotatorenmanschette"/>
+    </concept>
+    <concept>
+        <code value="OffeneBiopsie"/>
+        <display value="Offene Biopsie"/>
+    </concept>
+    <concept>
+        <code value="OffeneRepositioneinerFraktur"/>
+        <display value="Offene Reposition einer Fraktur"/>
+    </concept>
+    <concept>
+        <code value="OffeneRepositioneinerFrakturmitinternerFixierung"/>
+        <display value="Offene Reposition einer Fraktur mit interner Fixierung"/>
+    </concept>
+    <concept>
+        <code value="Oophorektomie"/>
+        <display value="Oophorektomie"/>
+    </concept>
+    <concept>
+        <code value="OperationamakzessorischenSinus"/>
+        <display value="Operation am akzessorischen Sinus"/>
+    </concept>
+    <concept>
+        <code value="OperationamAugenlid"/>
+        <display value="Operation am Augenlid"/>
+    </concept>
+    <concept>
+        <code value="OperationamBronchus"/>
+        <display value="Operation am Bronchus"/>
+    </concept>
+    <concept>
+        <code value="OperationamGelenk"/>
+        <display value="Operation am Gelenk"/>
+    </concept>
+    <concept>
+        <code value="OperationamHals"/>
+        <display value="Operation am Hals"/>
+    </concept>
+    <concept>
+        <code value="OperationamHarnsystem"/>
+        <display value="Operation am Harnsystem"/>
+    </concept>
+    <concept>
+        <code value="OperationamHerzen"/>
+        <display value="Operation am Herzen"/>
+    </concept>
+    <concept>
+        <code value="OperationamKnochen"/>
+        <display value="Operation am Knochen"/>
+    </concept>
+    <concept>
+        <code value="OperationamNervensystem"/>
+        <display value="Operation am Nervensystem"/>
+    </concept>
+    <concept>
+        <code value="OperationamOhr"/>
+        <display value="Operation am Ohr"/>
+    </concept>
+    <concept>
+        <code value="OperationamRetroperitoneum"/>
+        <display value="Operation am Retroperitoneum"/>
+    </concept>
+    <concept>
+        <code value="OperationanderBauchregion"/>
+        <display value="Operation an der Bauchregion"/>
+    </concept>
+    <concept>
+        <code value="OperationanderBrust"/>
+        <display value="Operation an der Brust"/>
+    </concept>
+    <concept>
+        <code value="OperationanderHerzklappe"/>
+        <display value="Operation an der Herzklappe"/>
+    </concept>
+    <concept>
+        <code value="OperationanderLuftroehre"/>
+        <display value="Operation an der Luftröhre"/>
+    </concept>
+    <concept>
+        <code value="OperationanderLunge"/>
+        <display value="Operation an der Lunge"/>
+    </concept>
+    <concept>
+        <code value="OperationanderLymphstruktur"/>
+        <display value="Operation an der Lymphstruktur"/>
+    </concept>
+    <concept>
+        <code value="OperationanderMilz"/>
+        <display value="Operation an der Milz"/>
+    </concept>
+    <concept>
+        <code value="OperationanderNasenscheidewand"/>
+        <display value="Operation an der Nasenscheidewand"/>
+    </concept>
+    <concept>
+        <code value="OperationanHerzundPerikard"/>
+        <display value="Operation an Herz und Perikard"/>
+    </concept>
+    <concept>
+        <code value="OperationanweiblichenGeschlechtsorganen"/>
+        <display value="Operation an weiblichen Geschlechtsorganen"/>
+    </concept>
+    <concept>
+        <code value="OperationaufderHaut"/>
+        <display value="Operation auf der Haut"/>
+    </concept>
+    <concept>
+        <code value="OperationaufMediastinum"/>
+        <display value="Operation auf Mediastinum"/>
+    </concept>
+    <concept>
+        <code value="OperationdeszentralenaortopulmonalenShunts"/>
+        <display value="Operation des zentralen aortopulmonalen Shunts"/>
+    </concept>
+    <concept>
+        <code value="OperationeinerGanglionzyste"/>
+        <display value="Operation einer Ganglionzyste"/>
+    </concept>
+    <concept>
+        <code value="OperationzurGeburtserleichterung"/>
+        <display value="Operation zur Geburtserleichterung"/>
+    </concept>
+    <concept>
+        <code value="OperationsverfahrenammaennlichenUrogenitalsystem"/>
+        <display value="Operationsverfahren am männlichen Urogenitalsystem"/>
+    </concept>
+    <concept>
+        <code value="OperationsverfahrenamVerdauungssystem"/>
+        <display value="Operationsverfahren am Verdauungssystem"/>
+    </concept>
+    <concept>
+        <code value="OperationsverfahrenanderWirbelsaeulenstruktur"/>
+        <display value="Operationsverfahren an der Wirbelsäulenstruktur"/>
+    </concept>
+    <concept>
+        <code value="OperativerEingriffamFuss"/>
+        <display value="Operativer Eingriff am Fuß"/>
+    </concept>
+    <concept>
+        <code value="OperativerEingriffamKnie"/>
+        <display value="Operativer Eingriff am Knie"/>
+    </concept>
+    <concept>
+        <code value="OperativerEingriffanderHand"/>
+        <display value="Operativer Eingriff an der Hand"/>
+    </concept>
+    <concept>
+        <code value="OperativerEingriffanderSchulterregion"/>
+        <display value="Operativer Eingriff an der Schulterregion"/>
+    </concept>
+    <concept>
+        <code value="Orchidopexie"/>
+        <display value="Orchidopexie"/>
+    </concept>
+    <concept>
+        <code value="OesophagogastraleFundoplastik"/>
+        <display value="Ösophagogastrale Fundoplastik"/>
+    </concept>
+    <concept>
+        <code value="Osteotomie"/>
+        <display value="Osteotomie"/>
+    </concept>
+    <concept>
+        <code value="Pankreatektomie"/>
+        <display value="Pankreatektomie"/>
+    </concept>
+    <concept>
+        <code value="Pankreatikoduodenektomie"/>
+        <display value="Pankreatikoduodenektomie"/>
+    </concept>
+    <concept>
+        <code value="Parathyreoidektomie"/>
+        <display value="Parathyreoidektomie"/>
+    </concept>
+    <concept>
+        <code value="Parotidektomie"/>
+        <display value="Parotidektomie"/>
+    </concept>
+    <concept>
+        <code value="PartielleExzision"/>
+        <display value="Partielle Exzision"/>
+    </concept>
+    <concept>
+        <code value="PartielleHysterektomie"/>
+        <display value="Partielle Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="PartielleKolektomiemitAnastomose"/>
+        <display value="Partielle Kolektomie mit Anastomose"/>
+    </concept>
+    <concept>
+        <code value="PartielleMastektomie"/>
+        <display value="Partielle Mastektomie"/>
+    </concept>
+    <concept>
+        <code value="PartielleNephrektomie"/>
+        <display value="Partielle Nephrektomie"/>
+    </concept>
+    <concept>
+        <code value="PenetrierendeKeratoplastik"/>
+        <display value="Penetrierende Keratoplastik"/>
+    </concept>
+    <concept>
+        <code value="PerkutaneBallonvalvuloplastiederAortenklappe"/>
+        <display value="Perkutane Ballonvalvuloplastie der Aortenklappe"/>
+    </concept>
+    <concept>
+        <code value="PerkutaneDiskektomie"/>
+        <display value="Perkutane Diskektomie"/>
+    </concept>
+    <concept>
+        <code value="PerkutaneEinlageeinerNephrostomieSonde"/>
+        <display value="Perkutane Einlage einer Nephrostomie-Sonde"/>
+    </concept>
+    <concept>
+        <code value="PerkutaneEinlageeinesintravaskulaerenFilters"/>
+        <display value="Perkutane Einlage eines intravaskulären Filters"/>
+    </concept>
+    <concept>
+        <code value="PerkutaneendoskopischeEinlageeinerGastrostomiesonde"/>
+        <display value="Perkutane endoskopische Einlage einer Gastrostomiesonde"/>
+    </concept>
+    <concept>
+        <code value="PerkutaneKoronarintervention"/>
+        <display value="Perkutane Koronarintervention"/>
+    </concept>
+    <concept>
+        <code value="PerkutanetransluminaleAblationdesatrioventrikulaerenKnotens"/>
+        <display value="Perkutane transluminale Ablation des atrioventrikulären Knotens"/>
+    </concept>
+    <concept>
+        <code value="PerkutanetransluminaleBallonangioplastie"/>
+        <display value="Perkutane transluminale Ballonangioplastie"/>
+    </concept>
+    <concept>
+        <code value="PerkutanetransluminaleBallonangioplastiederAortenisthmusstenosemitStentimplantation"/>
+        <display value="Perkutane transluminale Ballonangioplastie der Aortenisthmusstenose mit Stentimplantation"/>
+    </concept>
+    <concept>
+        <code value="PerkutanetransluminaleBallonangioplastiemitEinfuehrungeinesStentsindieKoronararterie"/>
+        <display value="Perkutane transluminale Ballonangioplastie mit Einführung eines Stents in die Koronararterie"/>
+    </concept>
+    <concept>
+        <code value="PerkutanetransluminaleKoronarangioplastie"/>
+        <display value="Perkutane transluminale Koronarangioplastie"/>
+    </concept>
+    <concept>
+        <code value="PerkutanetransluminaleKoronarangioplastiemitRotoablationEinzelgefaess"/>
+        <display value="Perkutane transluminale Koronarangioplastie mit Rotoablation, Einzelgefäß"/>
+    </concept>
+    <concept>
+        <code value="PerkutanerErsatzeinerAortenklappeunterfluoroskopischerKontrolle"/>
+        <display value="Perkutaner Ersatz einer Aortenklappe unter fluoroskopischer Kontrolle"/>
+    </concept>
+    <concept>
+        <code value="PhotorefraktiveKeratektomie"/>
+        <display value="Photorefraktive Keratektomie"/>
+    </concept>
+    <concept>
+        <code value="PilonidalsinusOperation"/>
+        <display value="Pilonidalsinus-Operation"/>
+    </concept>
+    <concept>
+        <code value="PlastischeOperationanderBrust"/>
+        <display value="Plastische Operation an der Brust"/>
+    </concept>
+    <concept>
+        <code value="PlastischeReparaturderAortenklappe"/>
+        <display value="Plastische Reparatur der Aortenklappe"/>
+    </concept>
+    <concept>
+        <code value="PlastischeReparaturderMitralklappe"/>
+        <display value="Plastische Reparatur der Mitralklappe"/>
+    </concept>
+    <concept>
+        <code value="PlastischeReparatureinerSehne"/>
+        <display value="Plastische Reparatur einer Sehne"/>
+    </concept>
+    <concept>
+        <code value="PrimaereExzisionderzervikalenBandscheibe"/>
+        <display value="Primäre Exzision der zervikalen Bandscheibe"/>
+    </concept>
+    <concept>
+        <code value="PrimaerelumbaleDiskektomie"/>
+        <display value="Primäre lumbale Diskektomie"/>
+    </concept>
+    <concept>
+        <code value="PrimaereoffeneRepositionundinterneFixationeinerproximalenFemurfrakturmitSchraubeNagelundPlattengeraet"/>
+        <display value="Primäre offene Reposition und interne Fixation einer proximalen Femurfraktur mit Schraube/Nagel und Plattengerät"/>
+    </concept>
+    <concept>
+        <code value="PrimaereReparatureinerFemoralhernie"/>
+        <display value="Primäre Reparatur einer Femoralhernie"/>
+    </concept>
+    <concept>
+        <code value="PrimaereReparatureinerGaumenspalte"/>
+        <display value="Primäre Reparatur einer Gaumenspalte"/>
+    </concept>
+    <concept>
+        <code value="PrimaereReparatureinerLeistenhernie"/>
+        <display value="Primäre Reparatur einer Leistenhernie"/>
+    </concept>
+    <concept>
+        <code value="Prostatektomie"/>
+        <display value="Prostatektomie"/>
+    </concept>
+    <concept>
+        <code value="ProthetischeEndoprothetikderHuefte"/>
+        <display value="Prothetische Endoprothetik der Hüfte"/>
+    </concept>
+    <concept>
+        <code value="ProthetischerErsatzeinerHerzklappe"/>
+        <display value="Prothetischer Ersatz einer Herzklappe"/>
+    </concept>
+    <concept>
+        <code value="PubiotomiezurGeburtshilfe"/>
+        <display value="Pubiotomie zur Geburtshilfe"/>
+    </concept>
+    <concept>
+        <code value="Punktionsverfahren"/>
+        <display value="Punktionsverfahren"/>
+    </concept>
+    <concept>
+        <code value="QuadrantektomiederBrust"/>
+        <display value="Quadrantektomie der Brust"/>
+    </concept>
+    <concept>
+        <code value="RadialeKeratotomie"/>
+        <display value="Radiale Keratotomie"/>
+    </concept>
+    <concept>
+        <code value="RadikaleabdominaleHysterektomie"/>
+        <display value="Radikale abdominale Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="RadikaleExzision"/>
+        <display value="Radikale Exzision"/>
+    </concept>
+    <concept>
+        <code value="RadikaleExzisionmitLymphknotendissektion"/>
+        <display value="Radikale Exzision mit Lymphknotendissektion"/>
+    </concept>
+    <concept>
+        <code value="RadikaleMastektomie"/>
+        <display value="Radikale Mastektomie"/>
+    </concept>
+    <concept>
+        <code value="RadikaleMastektomiederlinkenBrust"/>
+        <display value="Radikale Mastektomie der linken Brust"/>
+    </concept>
+    <concept>
+        <code value="RadikaleMastektomiederrechtenBrust"/>
+        <display value="Radikale Mastektomie der rechten Brust"/>
+    </concept>
+    <concept>
+        <code value="RadikaleperinealeProstatektomie"/>
+        <display value="Radikale perineale Prostatektomie"/>
+    </concept>
+    <concept>
+        <code value="RadikaleProstatektomie"/>
+        <display value="Radikale Prostatektomie"/>
+    </concept>
+    <concept>
+        <code value="RadikaleretropubischeProstatektomie"/>
+        <display value="Radikale retropubische Prostatektomie"/>
+    </concept>
+    <concept>
+        <code value="RadiofrequenzAblationsoperationbeiHerzrhythmusstoerungen"/>
+        <display value="Radiofrequenz-Ablationsoperation bei Herzrhythmusstörungen"/>
+    </concept>
+    <concept>
+        <code value="RadiomarkierteAntikoerperTherapie"/>
+        <display value="Radiomarkierte Antikörper-Therapie"/>
+    </concept>
+    <concept>
+        <code value="RadionuklidTherapiebeiHyperthyreose"/>
+        <display value="Radionuklid-Therapie bei Hyperthyreose"/>
+    </concept>
+    <concept>
+        <code value="ReduktiondergeschlossenenFraktur"/>
+        <display value="Reduktion der geschlossenen Fraktur"/>
+    </concept>
+    <concept>
+        <code value="ReduktionoffenerFrakturen"/>
+        <display value="Reduktion offener Frakturen"/>
+    </concept>
+    <concept>
+        <code value="Reduktionsmammoplastik"/>
+        <display value="Reduktionsmammoplastik"/>
+    </concept>
+    <concept>
+        <code value="Reexzision"/>
+        <display value="Reexzision"/>
+    </concept>
+    <concept>
+        <code value="RekonstruktionderBrust"/>
+        <display value="Rekonstruktion der Brust"/>
+    </concept>
+    <concept>
+        <code value="RekonstruktionderNase"/>
+        <display value="Rekonstruktion der Nase"/>
+    </concept>
+    <concept>
+        <code value="RekonstruktiondesvorderenKreuzbandesamKniegelenk"/>
+        <display value="Rekonstruktion des vorderen Kreuzbandes am Kniegelenk"/>
+    </concept>
+    <concept>
+        <code value="Rekonstruktionsverfahren"/>
+        <display value="Rekonstruktionsverfahren"/>
+    </concept>
+    <concept>
+        <code value="ReparativerVerschluss"/>
+        <display value="Reparativer Verschluss"/>
+    </concept>
+    <concept>
+        <code value="ReparaturderAortenklappemitGewebetransplantat"/>
+        <display value="Reparatur der Aortenklappe mit Gewebetransplantat"/>
+    </concept>
+    <concept>
+        <code value="ReparaturderGaumenspalte"/>
+        <display value="Reparatur der Gaumenspalte"/>
+    </concept>
+    <concept>
+        <code value="ReparaturdergerissenenSupraspinatussehneakut"/>
+        <display value="Reparatur der gerissenen Supraspinatussehne, akut"/>
+    </concept>
+    <concept>
+        <code value="ReparaturdergerissenenSupraspinatussehnechronisch"/>
+        <display value="Reparatur der gerissenen Supraspinatussehne, chronisch"/>
+    </concept>
+    <concept>
+        <code value="ReparaturderMitralklappe"/>
+        <display value="Reparatur der Mitralklappe"/>
+    </concept>
+    <concept>
+        <code value="ReparaturderMitralklappeunterfluoroskopischerKontrolle"/>
+        <display value="Reparatur der Mitralklappe unter fluoroskopischer Kontrolle"/>
+    </concept>
+    <concept>
+        <code value="ReparaturdermuskulotendinoesenManschettederSchulter"/>
+        <display value="Reparatur der muskulotendinösen Manschette der Schulter"/>
+    </concept>
+    <concept>
+        <code value="ReparaturderNetzhautbeiNetzhautabloesung"/>
+        <display value="Reparatur der Netzhaut bei Netzhautablösung"/>
+    </concept>
+    <concept>
+        <code value="ReparaturderRotatorenmanschettedurchNaht"/>
+        <display value="Reparatur der Rotatorenmanschette durch Naht"/>
+    </concept>
+    <concept>
+        <code value="ReparaturderSpaltedeshartenGaumens"/>
+        <display value="Reparatur der Spalte des harten Gaumens"/>
+    </concept>
+    <concept>
+        <code value="ReparaturderTrikuspidalklappe"/>
+        <display value="Reparatur der Trikuspidalklappe"/>
+    </concept>
+    <concept>
+        <code value="ReparaturdesAneurysmasderBauchaorta"/>
+        <display value="Reparatur des Aneurysmas der Bauchaorta"/>
+    </concept>
+    <concept>
+        <code value="ReparaturdesDefektsderatrioventrikulaerenScheidewand"/>
+        <display value="Reparatur des Defekts der atrioventrikulären Scheidewand"/>
+    </concept>
+    <concept>
+        <code value="ReparaturdesinfrarenalenabdominalenAortenaneurysmasmitEinfuehrungeinesendovaskulaerenStents"/>
+        <display value="Reparatur des infrarenalen abdominalen Aortenaneurysmas mit Einführung eines endovaskulären Stents"/>
+    </concept>
+    <concept>
+        <code value="ReparaturdesMittelohrs"/>
+        <display value="Reparatur des Mittelohrs"/>
+    </concept>
+    <concept>
+        <code value="ReparaturdurchNageln"/>
+        <display value="Reparatur durch Nageln"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinerAortenkoarktation"/>
+        <display value="Reparatur einer Aortenkoarktation"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinerbeidseitigenLippenspalte"/>
+        <display value="Reparatur einer beidseitigen Lippenspalte"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinerGaumenspalte"/>
+        <display value="Reparatur einer Gaumenspalte"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinergleitendenLeistenhernie"/>
+        <display value="Reparatur einer gleitenden Leistenhernie"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinerLippenspalte"/>
+        <display value="Reparatur einer Lippenspalte"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinerparaoesophagealenZwerchfellhernie"/>
+        <display value="Reparatur einer paraösophagealen Zwerchfellhernie"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinerpartiellenanomalenpulmonalvenoesenVerbindung"/>
+        <display value="Reparatur einer partiellen anomalen pulmonalvenösen Verbindung"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinertotalenanomalenpulmonalenVenenverbindung"/>
+        <display value="Reparatur einer totalen anomalen pulmonalen Venenverbindung"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinerventralenHernie"/>
+        <display value="Reparatur einer ventralen Hernie"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinesabdominalenAortenaneurysmasmitEinsetzeneinesStents"/>
+        <display value="Reparatur eines abdominalen Aortenaneurysmas mit Einsetzen eines Stents"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinesAneurysmasderBauchaortamitTransplantat"/>
+        <display value="Reparatur eines Aneurysmas der Bauchaorta mit Transplantat"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinesimplantiertenaortalenparavalvulaerenLecks"/>
+        <display value="Reparatur eines implantierten aortalen paravalvulären Lecks"/>
+    </concept>
+    <concept>
+        <code value="ReparatureineskomplettenSchultermanschettenausrisseschronisch"/>
+        <display value="Reparatur eines kompletten Schultermanschettenausrisses, chronisch"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinesNabelbruchs"/>
+        <display value="Reparatur eines Nabelbruchs"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinesreponierbarenLeistenbruchs"/>
+        <display value="Reparatur eines reponierbaren Leistenbruchs"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinesrezidivierendenLeistenbruchs"/>
+        <display value="Reparatur eines rezidivierenden Leistenbruchs"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinesVentrikelseptumdefektsmitProthese"/>
+        <display value="Reparatur eines Ventrikelseptumdefekts mit Prothese"/>
+    </concept>
+    <concept>
+        <code value="ReparatureinesVorhofseptumdefektesmitProtheseingeschlossenerHerztechnik"/>
+        <display value="Reparatur eines Vorhofseptumdefektes mit Prothese in geschlossener Herztechnik"/>
+    </concept>
+    <concept>
+        <code value="ReparaturvonLeistenbruch"/>
+        <display value="Reparatur von Leistenbruch"/>
+    </concept>
+    <concept>
+        <code value="ResektioneinesNeoplasmasamHerzen"/>
+        <display value="Resektion eines Neoplasmas am Herzen"/>
+    </concept>
+    <concept>
+        <code value="ResektioneinesPolypen"/>
+        <display value="Resektion eines Polypen"/>
+    </concept>
+    <concept>
+        <code value="RhinocheiloplastikbeiLippenspalte"/>
+        <display value="Rhinocheiloplastik bei Lippenspalte"/>
+    </concept>
+    <concept>
+        <code value="Rhinoseptoplastik"/>
+        <display value="Rhinoseptoplastik"/>
+    </concept>
+    <concept>
+        <code value="RightGlennShuntVerfahren"/>
+        <display value="Right Glenn Shunt Verfahren"/>
+    </concept>
+    <concept>
+        <code value="RouxenYGastrojejunostomie"/>
+        <display value="Roux-en-Y-Gastrojejunostomie"/>
+    </concept>
+    <concept>
+        <code value="SalpingoOophorektomie"/>
+        <display value="Salpingo-Oophorektomie"/>
+    </concept>
+    <concept>
+        <code value="SanoVerfahren"/>
+        <display value="Sano-Verfahren"/>
+    </concept>
+    <concept>
+        <code value="Schilddruesenentfernung"/>
+        <display value="Schilddrüsenentfernung"/>
+    </concept>
+    <concept>
+        <code value="Scraping"/>
+        <display value="Scraping"/>
+    </concept>
+    <concept>
+        <code value="SegmentaleExzisionundLigatur"/>
+        <display value="Segmentale Exzision und Ligatur"/>
+    </concept>
+    <concept>
+        <code value="ShaveBiopsie"/>
+        <display value="Shave-Biopsie"/>
+    </concept>
+    <concept>
+        <code value="ShirodkarszervikaleCerclage"/>
+        <display value="Shirodkar's zervikale Cerclage"/>
+    </concept>
+    <concept>
+        <code value="SkleraleKnickung"/>
+        <display value="Sklerale Knickung"/>
+    </concept>
+    <concept>
+        <code value="SofortigeReparatureinergeburtshilflichenRisswunde"/>
+        <display value="Sofortige Reparatur einer geburtshilflichen Risswunde"/>
+    </concept>
+    <concept>
+        <code value="SofortigeReparatureinerkleinengeburtshilflichenRisswunde"/>
+        <display value="Sofortige Reparatur einer kleinen geburtshilflichen Risswunde"/>
+    </concept>
+    <concept>
+        <code value="SofortigeReparatureinerRisswundederGebaermutteroderdesGebaermutterhalses"/>
+        <display value="Sofortige Reparatur einer Risswunde der Gebärmutter oder des Gebärmutterhalses"/>
+    </concept>
+    <concept>
+        <code value="SofortigeReparatureinerRisswundederVaginaunddesBeckenbodens"/>
+        <display value="Sofortige Reparatur einer Risswunde der Vagina und des Beckenbodens"/>
+    </concept>
+    <concept>
+        <code value="SofortigeReparatureinesgeburtshilflichenRissesdesDammesunddesSchliessmuskelsdesAnus"/>
+        <display value="Sofortige Reparatur eines geburtshilflichen Risses des Dammes und des Schließmuskels des Anus"/>
+    </concept>
+    <concept>
+        <code value="Splenektomie"/>
+        <display value="Splenektomie"/>
+    </concept>
+    <concept>
+        <code value="SpuelungdesAntrumsmaxillaris"/>
+        <display value="Spülung des Antrums maxillaris"/>
+    </concept>
+    <concept>
+        <code value="StagingOperationmitInzisionExplorationundBiopsie"/>
+        <display value="Staging-Operation mit Inzision, Exploration und Biopsie"/>
+    </concept>
+    <concept>
+        <code value="StandardBeschneidung"/>
+        <display value="Standard-Beschneidung"/>
+    </concept>
+    <concept>
+        <code value="Stanzbiopsie"/>
+        <display value="Stanzbiopsie"/>
+    </concept>
+    <concept>
+        <code value="Stapedektomie"/>
+        <display value="Stapedektomie"/>
+    </concept>
+    <concept>
+        <code value="StrabismusChirurgie"/>
+        <display value="Strabismus-Chirurgie"/>
+    </concept>
+    <concept>
+        <code value="StrippenundLigation"/>
+        <display value="Strippen und Ligation"/>
+    </concept>
+    <concept>
+        <code value="StrippingvonVenen"/>
+        <display value="Stripping von Venen"/>
+    </concept>
+    <concept>
+        <code value="SubkutaneMastektomie"/>
+        <display value="Subkutane Mastektomie"/>
+    </concept>
+    <concept>
+        <code value="SubmukoeseResektionderNasenscheidewand"/>
+        <display value="Submuköse Resektion der Nasenscheidewand"/>
+    </concept>
+    <concept>
+        <code value="SubtotaleabdominaleHysterektomie"/>
+        <display value="Subtotale abdominale Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="SubtotaleGastrektomie"/>
+        <display value="Subtotale Gastrektomie"/>
+    </concept>
+    <concept>
+        <code value="SubtotaleHysterektomienachKaiserschnittentbindung"/>
+        <display value="Subtotale Hysterektomie nach Kaiserschnittentbindung"/>
+    </concept>
+    <concept>
+        <code value="SubtotaleThyreoidektomie"/>
+        <display value="Subtotale Thyreoidektomie"/>
+    </concept>
+    <concept>
+        <code value="SuprapubischeZystostomie"/>
+        <display value="Suprapubische Zystostomie"/>
+    </concept>
+    <concept>
+        <code value="SuprazervikaleHysterektomie"/>
+        <display value="Suprazervikale Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="TeilresektiondesDickdarms"/>
+        <display value="Teilresektion des Dickdarms"/>
+    </concept>
+    <concept>
+        <code value="TherapeutischearthroskopischeOperationenanderKniegelenkshoehle"/>
+        <display value="Therapeutische arthroskopische Operationen an der Kniegelenkshöhle"/>
+    </concept>
+    <concept>
+        <code value="TherapeutischerSchwangerschaftsabbruchdurchHysterotomie"/>
+        <display value="Therapeutischer Schwangerschaftsabbruch durch Hysterotomie"/>
+    </concept>
+    <concept>
+        <code value="ThompsonOperationReparaturderLippenspalte"/>
+        <display value="Thompson-Operation, Reparatur der Lippenspalte"/>
+    </concept>
+    <concept>
+        <code value="ThromboendarterektomiemitTransplantatderHalsschlagaderdurchHalsschnitt"/>
+        <display value="Thromboendarterektomie mit Transplantat der Halsschlagader durch Halsschnitt"/>
+    </concept>
+    <concept>
+        <code value="Tonsillektomie"/>
+        <display value="Tonsillektomie"/>
+    </concept>
+    <concept>
+        <code value="TonsillektomieundAdenoidektomie"/>
+        <display value="Tonsillektomie und Adenoidektomie"/>
+    </concept>
+    <concept>
+        <code value="TotaleabdominaleHysterektomie"/>
+        <display value="Totale abdominale Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="TotaleabdominaleHysterektomiemitbeidseitigerSalpingoOophorektomie"/>
+        <display value="Totale abdominale Hysterektomie mit beidseitiger Salpingo-Oophorektomie"/>
+    </concept>
+    <concept>
+        <code value="TotaleAvulsionderNagelplatte"/>
+        <display value="Totale Avulsion der Nagelplatte"/>
+    </concept>
+    <concept>
+        <code value="TotaleHysterektomiemitEntfernungbeiderEileiterundEierstoecke"/>
+        <display value="Totale Hysterektomie mit Entfernung beider Eileiter und Eierstöcke"/>
+    </concept>
+    <concept>
+        <code value="TotalekavopulmonaleVerbindungmitlateralemVorhoftunnel"/>
+        <display value="Totale kavopulmonale Verbindung mit lateralem Vorhoftunnel"/>
+    </concept>
+    <concept>
+        <code value="TotaleKolektomie"/>
+        <display value="Totale Kolektomie"/>
+    </concept>
+    <concept>
+        <code value="TotaleLobektomiederLunge"/>
+        <display value="Totale Lobektomie der Lunge"/>
+    </concept>
+    <concept>
+        <code value="TotaleNephrektomie"/>
+        <display value="Totale Nephrektomie"/>
+    </concept>
+    <concept>
+        <code value="TotalePneumonektomie"/>
+        <display value="Totale Pneumonektomie"/>
+    </concept>
+    <concept>
+        <code value="TotaleSplenektomie"/>
+        <display value="Totale Splenektomie"/>
+    </concept>
+    <concept>
+        <code value="TotaleThyreoidektomie"/>
+        <display value="Totale Thyreoidektomie"/>
+    </concept>
+    <concept>
+        <code value="TotalerErsatzdeslinkenKniegelenks"/>
+        <display value="Totaler Ersatz des linken Kniegelenks"/>
+    </concept>
+    <concept>
+        <code value="TotalerErsatzdesrechtenKniegelenks"/>
+        <display value="Totaler Ersatz des rechten Kniegelenks"/>
+    </concept>
+    <concept>
+        <code value="TotalerKnieersatz"/>
+        <display value="Totaler Knieersatz"/>
+    </concept>
+    <concept>
+        <code value="TotalerprothetischerErsatzdesHueftgelenksmitZement"/>
+        <display value="Totaler prothetischer Ersatz des Hüftgelenks mit Zement"/>
+    </concept>
+    <concept>
+        <code value="TotalerprothetischerErsatzdesKniegelenksmitZement"/>
+        <display value="Totaler prothetischer Ersatz des Kniegelenks mit Zement"/>
+    </concept>
+    <concept>
+        <code value="TotalerSchulterersatz"/>
+        <display value="Totaler Schulterersatz"/>
+    </concept>
+    <concept>
+        <code value="TotalersatzderHuefte"/>
+        <display value="Totalersatz der Hüfte"/>
+    </concept>
+    <concept>
+        <code value="TotalersatzdesEllenbogens"/>
+        <display value="Totalersatz des Ellenbogens"/>
+    </concept>
+    <concept>
+        <code value="Trabekulektomieabexterno"/>
+        <display value="Trabekulektomie ab externo"/>
+    </concept>
+    <concept>
+        <code value="TransjugulaererintrahepatischerportosystemischerShunt"/>
+        <display value="Transjugulärer intrahepatischer portosystemischer Shunt"/>
+    </concept>
+    <concept>
+        <code value="TransplantationderBauchspeicheldruese"/>
+        <display value="Transplantation der Bauchspeicheldrüse"/>
+    </concept>
+    <concept>
+        <code value="TransplantationdeskardiovaskulaerenSystems"/>
+        <display value="Transplantation des kardiovaskulären Systems"/>
+    </concept>
+    <concept>
+        <code value="TransplantationeinerAortenklappenprotheseuebereinentransapikalenZugang"/>
+        <display value="Transplantation einer Aortenklappenprothese über einen transapikalen Zugang"/>
+    </concept>
+    <concept>
+        <code value="TransplantationfesterOrgane"/>
+        <display value="Transplantation fester Organe"/>
+    </concept>
+    <concept>
+        <code value="TransplantationvonDuenndarm"/>
+        <display value="Transplantation von Dünndarm"/>
+    </concept>
+    <concept>
+        <code value="TransurethraleProstatektomie"/>
+        <display value="Transurethrale Prostatektomie"/>
+    </concept>
+    <concept>
+        <code value="Trepanationsbiopsie"/>
+        <display value="Trepanationsbiopsie"/>
+    </concept>
+    <concept>
+        <code value="Trimmen"/>
+        <display value="Trimmen"/>
+    </concept>
+    <concept>
+        <code value="Tympanomastoidektomie"/>
+        <display value="Tympanomastoidektomie"/>
+    </concept>
+    <concept>
+        <code value="Tympanotomie"/>
+        <display value="Tympanotomie"/>
+    </concept>
+    <concept>
+        <code value="UeberarbeitungdesHueftersatzes"/>
+        <display value="Überarbeitung des Hüftersatzes"/>
+    </concept>
+    <concept>
+        <code value="Ureteroileostomie"/>
+        <display value="Ureteroileostomie"/>
+    </concept>
+    <concept>
+        <code value="VaginaleHysterektomie"/>
+        <display value="Vaginale Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="VaginalerKaiserschnitt"/>
+        <display value="Vaginaler Kaiserschnitt"/>
+    </concept>
+    <concept>
+        <code value="ValvuloplastiederAortenklappe"/>
+        <display value="Valvuloplastie der Aortenklappe"/>
+    </concept>
+    <concept>
+        <code value="Varizenoperation"/>
+        <display value="Varizenoperation"/>
+    </concept>
+    <concept>
+        <code value="Varizenstripping"/>
+        <display value="Varizenstripping"/>
+    </concept>
+    <concept>
+        <code value="Vasektomie"/>
+        <display value="Vasektomie"/>
+    </concept>
+    <concept>
+        <code value="VentrikuloperitonealerShunt"/>
+        <display value="Ventrikuloperitonealer Shunt"/>
+    </concept>
+    <concept>
+        <code value="VerfahrenamBlutgefaess"/>
+        <display value="Verfahren am Blutgefäß"/>
+    </concept>
+    <concept>
+        <code value="VerfahrenamDarm"/>
+        <display value="Verfahren am Darm"/>
+    </concept>
+    <concept>
+        <code value="VerfahrenamKopfundoderHals"/>
+        <display value="Verfahren am Kopf und / oder Hals"/>
+    </concept>
+    <concept>
+        <code value="VerfahrenamOhrundverwandtenStrukturen"/>
+        <display value="Verfahren am Ohr und verwandten Strukturen"/>
+    </concept>
+    <concept>
+        <code value="VerfahrenamweiblichenGenitalsystem"/>
+        <display value="Verfahren am weiblichen Genitalsystem"/>
+    </concept>
+    <concept>
+        <code value="VerfahrenanderExtremitaet"/>
+        <display value="Verfahren an der Extremität"/>
+    </concept>
+    <concept>
+        <code value="VerfahrenaufPleura"/>
+        <display value="Verfahren auf Pleura"/>
+    </concept>
+    <concept>
+        <code value="VerfahrenzuFuss"/>
+        <display value="Verfahren zu Fuß"/>
+    </concept>
+    <concept>
+        <code value="VeroedungvonHaemorrhoidendurchSklerosierung"/>
+        <display value="Verödung von Hämorrhoiden durch Sklerosierung"/>
+    </concept>
+    <concept>
+        <code value="VerschlussdesDuctusarteriosusmitClip"/>
+        <display value="Verschluss des Ductus arteriosus mit Clip"/>
+    </concept>
+    <concept>
+        <code value="VerschlussdesDuctusarteriosusmittelsEmbolisationsspule"/>
+        <display value="Verschluss des Ductus arteriosus mittels Embolisationsspule"/>
+    </concept>
+    <concept>
+        <code value="VerschlussdesoffenenForamenovale"/>
+        <display value="Verschluss des offenen Foramen ovale"/>
+    </concept>
+    <concept>
+        <code value="VerschlussdesoffenenForamenovaleunterDurchleuchtung"/>
+        <display value="Verschluss des offenen Foramen ovale unter Durchleuchtung"/>
+    </concept>
+    <concept>
+        <code value="VerschlussdesVentrikelseptumdefektsunterDurchleuchtungssteuerung"/>
+        <display value="Verschluss des Ventrikelseptumdefekts unter Durchleuchtungssteuerung"/>
+    </concept>
+    <concept>
+        <code value="VerschlussdesVorhofseptumdefektsunterfluoroskopischerKontrolle"/>
+        <display value="Verschluss des Vorhofseptumdefekts unter fluoroskopischer Kontrolle"/>
+    </concept>
+    <concept>
+        <code value="VerschlussdurchNaht"/>
+        <display value="Verschluss durch Naht"/>
+    </concept>
+    <concept>
+        <code value="VerschlusseinervesikouterinenFistelmitHysterektomie"/>
+        <display value="Verschluss einer vesiko-uterinen Fistel mit Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="VerschlusseinesVorhofseptumdefekts"/>
+        <display value="Verschluss eines Vorhofseptumdefekts"/>
+    </concept>
+    <concept>
+        <code value="Vitrektomie"/>
+        <display value="Vitrektomie"/>
+    </concept>
+    <concept>
+        <code value="VollstaendigeExzisiondesOrgans"/>
+        <display value="Vollständige Exzision des Organs"/>
+    </concept>
+    <concept>
+        <code value="VollstaendigetransurethraleResektionderProstataeinschliesslichKontrollederNachblutung"/>
+        <display value="Vollständige transurethrale Resektion der Prostata, einschließlich Kontrolle der Nachblutung"/>
+    </concept>
+    <concept>
+        <code value="VorhofinversionsoperationmitVorhofwand"/>
+        <display value="Vorhofinversionsoperation mit Vorhofwand"/>
+    </concept>
+    <concept>
+        <code value="WahlweiserKaiserschnitt"/>
+        <display value="Wahlweiser Kaiserschnitt"/>
+    </concept>
+    <concept>
+        <code value="WahlweiserKaiserschnittimoberenSegment"/>
+        <display value="Wahlweiser Kaiserschnitt im oberen Segment"/>
+    </concept>
+    <concept>
+        <code value="WahlweiserKaiserschnittimunterenSegment"/>
+        <display value="Wahlweiser Kaiserschnitt im unteren Segment"/>
+    </concept>
+    <concept>
+        <code value="WardillOperationGaumenspaltreparatur"/>
+        <display value="Wardill-Operation, Gaumenspaltreparatur"/>
+    </concept>
+    <concept>
+        <code value="WertheimMeigsabdominaleHysterektomie"/>
+        <display value="Wertheim-Meigs abdominale Hysterektomie"/>
+    </concept>
+    <concept>
+        <code value="WertheimOperation"/>
+        <display value="Wertheim-Operation"/>
+    </concept>
+    <concept>
+        <code value="WiederherstellungderKniescheibe"/>
+        <display value="Wiederherstellung der Kniescheibe"/>
+    </concept>
+    <concept>
+        <code value="WiederherstellungdesOberschenkelkopfes"/>
+        <display value="Wiederherstellung des Oberschenkelkopfes"/>
+    </concept>
+    <concept>
+        <code value="WirbelsaeulenArthrodese"/>
+        <display value="Wirbelsäulen-Arthrodese"/>
+    </concept>
+    <concept>
+        <code value="YttriumAluminiumGranatLaserKapsulotomiederLinse"/>
+        <display value="Yttrium-Aluminium-Granat-Laser-Kapsulotomie der Linse"/>
+    </concept>
+    <concept>
+        <code value="ZangenextraktioneinerLinse"/>
+        <display value="Zangenextraktion einer Linse"/>
+    </concept>
+    <concept>
+        <code value="ZervikaleArthrodese"/>
+        <display value="Zervikale Arthrodese"/>
+    </concept>
+    <concept>
+        <code value="ZervikaleArthrodeseinanteriorerTechnik"/>
+        <display value="Zervikale Arthrodese in anteriorer Technik"/>
+    </concept>
+    <concept>
+        <code value="Zirkumzision"/>
+        <display value="Zirkumzision"/>
+    </concept>
+</CodeSystem>

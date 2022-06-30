@@ -1,0 +1,151 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFDxDPE_Address" />
+  <version value="1.0.0" />
+  <name value="KBV_PR_MIO_NFDxDPE_Address" />
+  <status value="active" />
+   <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <description value="Mit dieser Ressource kann eine Adresse abgebildet werden." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="KVDT" />
+    <name value="KVDT Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="BDT" />
+    <name value="BDT Mapping" />
+  </mapping>
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <type value="Address" />
+  <baseDefinition value="http://fhir.de/StructureDefinition/address-de-basis" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Address.use">
+      <path value="Address.use" />
+      <max value="0" />
+    </element>
+    <element id="Address.type">
+      <path value="Address.type" />
+      <max value="0" />
+    </element>
+    <element id="Address.text">
+      <path value="Address.text" />
+      <max value="0" />
+    </element>
+    <element id="Address.line">
+      <path value="Address.line" />
+      <min value="1" />
+      <max value="3" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension">
+      <path value="Address.line.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Address.line.extension:Strasse">
+      <path value="Address.line.extension" />
+      <sliceName value="Strasse" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Strasse.value[x]">
+      <path value="Address.line.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Strasse.value[x]:valueString">
+      <path value="Address.line.extension.valueString" />
+      <sliceName value="valueString" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Hausnummer">
+      <path value="Address.line.extension" />
+      <sliceName value="Hausnummer" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Hausnummer.value[x]">
+      <path value="Address.line.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Hausnummer.value[x]:valueString">
+      <path value="Address.line.extension.valueString" />
+      <sliceName value="valueString" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Adresszusatz">
+      <path value="Address.line.extension" />
+      <sliceName value="Adresszusatz" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Adresszusatz.value[x]">
+      <path value="Address.line.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Adresszusatz.value[x]:valueString">
+      <path value="Address.line.extension.valueString" />
+      <sliceName value="valueString" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.line.extension:Postfach">
+      <path value="Address.line.extension" />
+      <sliceName value="Postfach" />
+      <max value="0" />
+    </element>
+    <element id="Address.city">
+      <path value="Address.city" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.state">
+      <path value="Address.state" />
+      <max value="0" />
+    </element>
+    <element id="Address.postalCode">
+      <path value="Address.postalCode" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Address.country">
+      <path value="Address.country" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_MIO_NFDxDPE_Bundle_Type|1.0.0" />
+      </binding>
+    </element>
+    <element id="Address.period">
+      <path value="Address.period" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

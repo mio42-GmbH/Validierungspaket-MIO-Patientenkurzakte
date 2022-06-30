@@ -1,0 +1,296 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Practitioner_Role_With_Organization" />
+  <version value="1.0.0" />
+  <name value="KBV_PR_MIO_NFD_Practitioner_Role_With_Organization" />
+  <status value="active" />
+   <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <description value="Mit diesem Profil kann eine diagnostizierende/indizierende Person/Einrichtung abgebildet werden." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="servd" />
+    <uri value="http://www.omg.org/spec/ServD/1.0/" />
+    <name value="ServD" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="PractitionerRole" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="PractitionerRole.meta">
+      <path value="PractitionerRole.meta" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.meta.versionId">
+      <path value="PractitionerRole.meta.versionId" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.meta.lastUpdated">
+      <path value="PractitionerRole.meta.lastUpdated" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.meta.source">
+      <path value="PractitionerRole.meta.source" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.meta.profile">
+      <path value="PractitionerRole.meta.profile" />
+      <min value="1" />
+      <max value="1" />
+      <fixedCanonical value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Practitioner_Role_With_Organization|1.0.0" />
+    </element>
+    <element id="PractitionerRole.meta.security">
+      <path value="PractitionerRole.meta.security" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.meta.tag">
+      <path value="PractitionerRole.meta.tag" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.implicitRules">
+      <path value="PractitionerRole.implicitRules" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.language">
+      <path value="PractitionerRole.language" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.text">
+      <path value="PractitionerRole.text" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.contained">
+      <path value="PractitionerRole.contained" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.identifier">
+      <path value="PractitionerRole.identifier" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.active">
+      <path value="PractitionerRole.active" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.period">
+      <path value="PractitionerRole.period" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.practitioner">
+      <path value="PractitionerRole.practitioner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Practitioner_Physician|1.0.0" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.practitioner.reference">
+      <path value="PractitionerRole.practitioner.reference" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.practitioner.type">
+      <path value="PractitionerRole.practitioner.type" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.practitioner.identifier">
+      <path value="PractitionerRole.practitioner.identifier" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.practitioner.display">
+      <path value="PractitionerRole.practitioner.display" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.organization">
+      <path value="PractitionerRole.organization" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Organization|1.0.0" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.organization.reference">
+      <path value="PractitionerRole.organization.reference" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.organization.type">
+      <path value="PractitionerRole.organization.type" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.organization.identifier">
+      <path value="PractitionerRole.organization.identifier" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.organization.display">
+      <path value="PractitionerRole.organization.display" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.code">
+      <path value="PractitionerRole.code" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_MIO_NFD_Person_Institution|1.0.0" />
+      </binding>
+    </element>
+    <element id="PractitionerRole.code.coding">
+      <path value="PractitionerRole.code.coding" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.code.coding.system">
+      <path value="PractitionerRole.code.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.code.coding.version">
+      <path value="PractitionerRole.code.coding.version" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.code.coding.code">
+      <path value="PractitionerRole.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.code.coding.display">
+      <path value="PractitionerRole.code.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.code.coding.display.extension">
+      <path value="PractitionerRole.code.coding.display.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="PractitionerRole.code.coding.display.extension:anzeigenameCode">
+      <path value="PractitionerRole.code.coding.display.extension" />
+      <sliceName value="anzeigenameCode" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.code.coding.display.extension:anzeigenameCode.extension">
+      <path value="PractitionerRole.code.coding.display.extension.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="PractitionerRole.code.coding.display.extension:anzeigenameCode.extension:content">
+      <path value="PractitionerRole.code.coding.display.extension.extension" />
+      <sliceName value="content" />
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.code.coding.display.extension:anzeigenameCode.extension:content.value[x]">
+      <path value="PractitionerRole.code.coding.display.extension.extension.value[x]" />
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.code.coding.display.extension:anzeigenameCode.extension:content.value[x]:valueString">
+      <path value="PractitionerRole.code.coding.display.extension.extension.valueString" />
+      <sliceName value="valueString" />
+      <definition value="In diesem Attribut sollen die entsprechende deutsche Bezeichnung des Loinc oder Snomed-Codes aus der Conceptmap eingetragen werden, also in diesem Fall den Displaynamen des Targetsystems aus https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_NFD_Person_Institution_German|1.0.0" />
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.code.coding.userSelected">
+      <path value="PractitionerRole.code.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.code.text">
+      <path value="PractitionerRole.code.text" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.specialty">
+      <path value="PractitionerRole.specialty" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.specialty.coding">
+      <path value="PractitionerRole.specialty.coding" />
+      <max value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_BAR2_ARZTNRFACHGRUPPE|1.01" />
+      </binding>
+    </element>
+    <element id="PractitionerRole.specialty.coding.system">
+      <path value="PractitionerRole.specialty.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.specialty.coding.version">
+      <path value="PractitionerRole.specialty.coding.version" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.specialty.coding.code">
+      <path value="PractitionerRole.specialty.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.specialty.coding.display">
+      <path value="PractitionerRole.specialty.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.specialty.coding.userSelected">
+      <path value="PractitionerRole.specialty.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.specialty.text">
+      <path value="PractitionerRole.specialty.text" />
+      <mustSupport value="true" />
+    </element>
+    <element id="PractitionerRole.location">
+      <path value="PractitionerRole.location" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.healthcareService">
+      <path value="PractitionerRole.healthcareService" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.telecom">
+      <path value="PractitionerRole.telecom" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.availableTime">
+      <path value="PractitionerRole.availableTime" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.notAvailable">
+      <path value="PractitionerRole.notAvailable" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.availabilityExceptions">
+      <path value="PractitionerRole.availabilityExceptions" />
+      <max value="0" />
+    </element>
+    <element id="PractitionerRole.endpoint">
+      <path value="PractitionerRole.endpoint" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

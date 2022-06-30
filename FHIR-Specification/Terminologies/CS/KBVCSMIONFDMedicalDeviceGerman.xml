@@ -1,0 +1,419 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_NFD_Implant_German" />
+  <version value="1.0.0" />
+  <name value="KBV_CS_MIO_NFD_Implant_German" />
+  <title value="Medizinprodukt" />
+  <status value="active" />
+  <experimental value="false" />
+  <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="https://mio.kbv.de" />
+    </telecom>
+  </contact>
+  <description value="Dieses CodeSystem enthält die Codes für deutsche Bezeichner für Medizinprodukt." />
+  <copyright value="Im folgenden Profil können Codes aus den Codesystemen Snomed, Loinc oder Ucum enthalten sein, die dem folgenden Urheberrecht unterliegen: This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of SNOMED International. All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. SNOMED and SNOMED CT are registered trademarks of SNOMED International. Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license. This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc. This product includes all or a portion of the UCUM table, UCUM codes, and UCUM definitions or is derived from it, subject to a license from Regenstrief Institute, Inc. and The UCUM Organization. Your use of the UCUM table, UCUM codes, UCUM definitions also is subject to this license, a copy of which is available at ?http://unitsofmeasure.org. The current complete UCUM table, UCUM Specification are available for download at http://unitsofmeasure.org. The UCUM table and UCUM codes are copyright © 1995-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. THE UCUM TABLE (IN ALL FORMATS), UCUM DEFINITIONS, AND SPECIFICATION ARE PROVIDED &quot;AS IS.&quot; ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE." />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+        <code value="Aortenklappenprothese"/>
+        <display value="Aortenklappenprothese"/>
+    </concept>
+    <concept>
+        <code value="ArteriellerStent"/>
+        <display value="Arterieller Stent"/>
+    </concept>
+    <concept>
+        <code value="Augenimplantat"/>
+        <display value="Augenimplantat"/>
+    </concept>
+    <concept>
+        <code value="Augenkugelimplantat"/>
+        <display value="Augenkugelimplantat"/>
+    </concept>
+    <concept>
+        <code value="Brustprothese"/>
+        <display value="Brustprothese"/>
+    </concept>
+    <concept>
+        <code value="ChirurgischerMetallnagelGeraet"/>
+        <display value="Chirurgischer Metallnagel, Gerät"/>
+    </concept>
+    <concept>
+        <code value="CochleaProthese"/>
+        <display value="Cochlea-Prothese"/>
+    </concept>
+    <concept>
+        <code value="DacronTransplantat"/>
+        <display value="Dacron-Transplantat"/>
+    </concept>
+    <concept>
+        <code value="DHSPlatte"/>
+        <display value="DHS-Platte"/>
+    </concept>
+    <concept>
+        <code value="Eileiterprothese"/>
+        <display value="Eileiterprothese"/>
+    </concept>
+    <concept>
+        <code value="Embolisationsspule"/>
+        <display value="Embolisationsspule"/>
+    </concept>
+    <concept>
+        <code value="EnossalesoralesImplantat"/>
+        <display value="Enossales orales Implantat"/>
+    </concept>
+    <concept>
+        <code value="ExtracochleaereProthese"/>
+        <display value="Extracochleäre Prothese"/>
+    </concept>
+    <concept>
+        <code value="Extremitaetenprothese"/>
+        <display value="Extremitätenprothese"/>
+    </concept>
+    <concept>
+        <code value="Femurkopfprothese"/>
+        <display value="Femurkopfprothese"/>
+    </concept>
+    <concept>
+        <code value="Fussgelenkimplantat"/>
+        <display value="Fußgelenkimplantat"/>
+    </concept>
+    <concept>
+        <code value="Gallenstent"/>
+        <display value="Gallenstent"/>
+    </concept>
+    <concept>
+        <code value="Gefaessimplantat"/>
+        <display value="Gefäßimplantat"/>
+    </concept>
+    <concept>
+        <code value="Gefaessprothese"/>
+        <display value="Gefäßprothese"/>
+    </concept>
+    <concept>
+        <code value="Gelenkimplantat"/>
+        <display value="Gelenkimplantat"/>
+    </concept>
+    <concept>
+        <code value="Handgelenkimplantat"/>
+        <display value="Handgelenkimplantat"/>
+    </concept>
+    <concept>
+        <code value="Harnroehrenkatheter"/>
+        <display value="Harnröhrenkatheter"/>
+    </concept>
+    <concept>
+        <code value="Harnroehrenstent"/>
+        <display value="Harnröhrenstent"/>
+    </concept>
+    <concept>
+        <code value="Herzimplantat"/>
+        <display value="Herzimplantat"/>
+    </concept>
+    <concept>
+        <code value="Herzklappenprothese"/>
+        <display value="Herzklappenprothese"/>
+    </concept>
+    <concept>
+        <code value="HerzKreislaufImplantat"/>
+        <display value="Herz-Kreislauf-Implantat"/>
+    </concept>
+    <concept>
+        <code value="Herzleitung"/>
+        <display value="Herzleitung"/>
+    </concept>
+    <concept>
+        <code value="HerzscheidewandProthese"/>
+        <display value="Herzscheidewand-Prothese"/>
+    </concept>
+    <concept>
+        <code value="Herzschrittmacher"/>
+        <display value="Herzschrittmacher"/>
+    </concept>
+    <concept>
+        <code value="HerzschrittmacherElektrode"/>
+        <display value="Herzschrittmacher-Elektrode"/>
+    </concept>
+    <concept>
+        <code value="Hoergeraet"/>
+        <display value="Hörgerät"/>
+    </concept>
+    <concept>
+        <code value="Hoerimplantat"/>
+        <display value="Hörimplantat"/>
+    </concept>
+    <concept>
+        <code value="Hueftgelenkimplantat"/>
+        <display value="Hüftgelenkimplantat"/>
+    </concept>
+    <concept>
+        <code value="Hueftprothese"/>
+        <display value="Hüftprothese"/>
+    </concept>
+    <concept>
+        <code value="IleostomieBeutel"/>
+        <display value="Ileostomie-Beutel"/>
+    </concept>
+    <concept>
+        <code value="IleostomieSet"/>
+        <display value="Ileostomie-Set"/>
+    </concept>
+    <concept>
+        <code value="ImplantatdesNervensystems"/>
+        <display value="Implantat des Nervensystems"/>
+    </concept>
+    <concept>
+        <code value="ImplantierbarerDefibrillator"/>
+        <display value="Implantierbarer Defibrillator"/>
+    </concept>
+    <concept>
+        <code value="ImplantierbarervenoeserZugang"/>
+        <display value="Implantierbarer venöser Zugang"/>
+    </concept>
+    <concept>
+        <code value="ImplantiertesArzneimittelabgabesystem"/>
+        <display value="Implantiertes Arzneimittelabgabesystem"/>
+    </concept>
+    <concept>
+        <code value="InlayZahnersatz"/>
+        <display value="Inlay-Zahnersatz"/>
+    </concept>
+    <concept>
+        <code value="IntracochleaereProthese"/>
+        <display value="Intracochleäre Prothese"/>
+    </concept>
+    <concept>
+        <code value="IntrauterinesVerhuetungsmittel"/>
+        <display value="Intrauterines Verhütungsmittel"/>
+    </concept>
+    <concept>
+        <code value="IntraventrikulaerePumpe"/>
+        <display value="Intraventrikuläre Pumpe"/>
+    </concept>
+    <concept>
+        <code value="JJStent"/>
+        <display value="JJ-Stent"/>
+    </concept>
+    <concept>
+        <code value="Karotisstent"/>
+        <display value="Karotisstent"/>
+    </concept>
+    <concept>
+        <code value="Katheter"/>
+        <display value="Katheter"/>
+    </concept>
+    <concept>
+        <code value="Kehlkopfimplantat"/>
+        <display value="Kehlkopfimplantat"/>
+    </concept>
+    <concept>
+        <code value="Kehlkopfkiel"/>
+        <display value="Kehlkopfkiel"/>
+    </concept>
+    <concept>
+        <code value="KieferundGesichtsprothesegeraet"/>
+        <display value="Kiefer- und Gesichtsprothese / -gerät"/>
+    </concept>
+    <concept>
+        <code value="Knochendraht"/>
+        <display value="Knochendraht"/>
+    </concept>
+    <concept>
+        <code value="Knochenheftklammer"/>
+        <display value="Knochenheftklammer"/>
+    </concept>
+    <concept>
+        <code value="Knochenplatte"/>
+        <display value="Knochenplatte"/>
+    </concept>
+    <concept>
+        <code value="Knochenprothese"/>
+        <display value="Knochenprothese"/>
+    </concept>
+    <concept>
+        <code value="Knochenschraube"/>
+        <display value="Knochenschraube"/>
+    </concept>
+    <concept>
+        <code value="Knochenstift"/>
+        <display value="Knochenstift"/>
+    </concept>
+    <concept>
+        <code value="Kolostomiebeutel"/>
+        <display value="Kolostomiebeutel"/>
+    </concept>
+    <concept>
+        <code value="KolostomieSet"/>
+        <display value="Kolostomie-Set"/>
+    </concept>
+    <concept>
+        <code value="Koerperwandimplantat"/>
+        <display value="Körperwandimplantat"/>
+    </concept>
+    <concept>
+        <code value="KuenstlicheBandscheibe"/>
+        <display value="Künstliche Bandscheibe"/>
+    </concept>
+    <concept>
+        <code value="KuenstlicheHerzklappenprothese"/>
+        <display value="Künstliche Herzklappenprothese"/>
+    </concept>
+    <concept>
+        <code value="KunststoffStent"/>
+        <display value="Kunststoff-Stent"/>
+    </concept>
+    <concept>
+        <code value="LeitungohneVentil"/>
+        <display value="Leitung ohne Ventil"/>
+    </concept>
+    <concept>
+        <code value="Magenblase"/>
+        <display value="Magenblase"/>
+    </concept>
+    <concept>
+        <code value="MagenDarmImplantat"/>
+        <display value="Magen-Darm-Implantat"/>
+    </concept>
+    <concept>
+        <code value="Metallperiostimplantat"/>
+        <display value="Metallperiostimplantat"/>
+    </concept>
+    <concept>
+        <code value="MetallStent"/>
+        <display value="Metall-Stent"/>
+    </concept>
+    <concept>
+        <code value="Mitralklappenprothese"/>
+        <display value="Mitralklappenprothese"/>
+    </concept>
+    <concept>
+        <code value="MuskelSkelettImplantat"/>
+        <display value="Muskel-Skelett-Implantat"/>
+    </concept>
+    <concept>
+        <code value="NeurostimulatorGeraet"/>
+        <display value="Neurostimulator, Gerät"/>
+    </concept>
+    <concept>
+        <code value="Orbitalimplantat"/>
+        <display value="Orbitalimplantat"/>
+    </concept>
+    <concept>
+        <code value="OrthopaedischesGeraet"/>
+        <display value="Orthopädisches Gerät"/>
+    </concept>
+    <concept>
+        <code value="OrthopaedischesinternesFixationssystem"/>
+        <display value="Orthopädisches internes Fixationssystem"/>
+    </concept>
+    <concept>
+        <code value="Peritonealdialysator"/>
+        <display value="Peritonealdialysator"/>
+    </concept>
+    <concept>
+        <code value="PerkutanetransluminaleAngioplastieBallon"/>
+        <display value="Perkutane transluminale Angioplastie Ballon"/>
+    </concept>
+    <concept>
+        <code value="PermanenterHerzschrittmacherGeraet"/>
+        <display value="Permanenter Herzschrittmacher, Gerät"/>
+    </concept>
+    <concept>
+        <code value="ProthesenringfuerdieHerzanuloplastik"/>
+        <display value="Prothesenring für die Herzanuloplastik"/>
+    </concept>
+    <concept>
+        <code value="PulmonalklappenprotheseGeraet"/>
+        <display value="Pulmonalklappenprothese, Gerät"/>
+    </concept>
+    <concept>
+        <code value="SchrittmacherImpulsgeber"/>
+        <display value="Schrittmacher-Impulsgeber"/>
+    </concept>
+    <concept>
+        <code value="Schultergelenkimplantat"/>
+        <display value="Schultergelenkimplantat"/>
+    </concept>
+    <concept>
+        <code value="Schultergelenkprothese"/>
+        <display value="Schultergelenkprothese"/>
+    </concept>
+    <concept>
+        <code value="SilikongelgefuelltesBrustimplantat"/>
+        <display value="Silikongel-gefülltes Brustimplantat"/>
+    </concept>
+    <concept>
+        <code value="Silikonimplantat"/>
+        <display value="Silikonimplantat"/>
+    </concept>
+    <concept>
+        <code value="Sprunggelenkimplantat"/>
+        <display value="Sprunggelenkimplantat"/>
+    </concept>
+    <concept>
+        <code value="Stangenfixierungssystem"/>
+        <display value="Stangenfixierungssystem"/>
+    </concept>
+    <concept>
+        <code value="Stent"/>
+        <display value="Stent"/>
+    </concept>
+    <concept>
+        <code value="TotalHueftprothese"/>
+        <display value="Total Hüftprothese"/>
+    </concept>
+    <concept>
+        <code value="Trachealstent"/>
+        <display value="Trachealstent"/>
+    </concept>
+    <concept>
+        <code value="TransseptalerKatheter"/>
+        <display value="Transseptaler Katheter"/>
+    </concept>
+    <concept>
+        <code value="Ureterstent"/>
+        <display value="Ureterstent"/>
+    </concept>
+    <concept>
+        <code value="Urogenitalimplantat"/>
+        <display value="Urogenitalimplantat"/>
+    </concept>
+    <concept>
+        <code value="UrostomieBeutel"/>
+        <display value="Urostomie-Beutel"/>
+    </concept>
+    <concept>
+        <code value="UrostomieSet"/>
+        <display value="Urostomie-Set"/>
+    </concept>
+    <concept>
+        <code value="VentilierterHerzkanal"/>
+        <display value="Ventilierter Herzkanal"/>
+    </concept>
+    <concept>
+        <code value="VentrikulaererShunt"/>
+        <display value="Ventrikulärer Shunt"/>
+    </concept>
+    <concept>
+        <code value="VentrikulaeresReservoir"/>
+        <display value="Ventrikuläres Reservoir"/>
+    </concept>
+    <concept>
+        <code value="Wirbelsaeulenkaefig"/>
+        <display value="Wirbelsäulenkäfig"/>
+    </concept>
+    <concept>
+        <code value="XenotransplantatHerzklappe"/>
+        <display value="Xenotransplantat-Herzklappe"/>
+    </concept>
+    <concept>
+        <code value="Zahnprothese"/>
+        <display value="Zahnprothese"/>
+    </concept>
+    <concept>
+        <code value="ZentralerVenenkatheter"/>
+        <display value="Zentraler Venenkatheter"/>
+    </concept>
+</CodeSystem>

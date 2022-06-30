@@ -1,0 +1,279 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Device_Use_Statement_Implant" />
+  <version value="1.0.0" />
+  <name value="KBV_PR_MIO_NFD_Device_Use_Statement_Implant" />
+  <status value="active" />
+  <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <description value="Mit diesem Profil kann der Verwendungszeitraum des Medizinproduktes abgebildet werden. außerdem kann die assoziierte Prozedur in diesem Profil aufgeführt werden." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="quick" />
+    <uri value="http://siframework.org/cqf" />
+    <name value="Quality Improvement and Clinical Knowledge (QUICK)" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="DeviceUseStatement" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DeviceUseStatement" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="DeviceUseStatement">
+      <path value="DeviceUseStatement" />
+      <constraint>
+        <key value="DUS-1" />
+        <severity value="error" />
+        <human value="The date, the device was implanted, must at least consist of a year" />
+        <expression value="timingPeriod.start.exists() implies timingPeriod.start.toString().length() &gt;= 4" />
+        <source value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Device_Use_Statement_Implant" />
+      </constraint>
+      <constraint>
+        <key value="DUS-2" />
+        <severity value="error" />
+        <human value="The date, the device was removed, must at least consist of a year" />
+        <expression value="timingPeriod.end.exists() implies timingPeriod.end.toString().length() &gt;= 4" />
+        <source value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Device_Use_Statement_Implant" />
+      </constraint>
+    </element>
+    <element id="DeviceUseStatement.meta">
+      <path value="DeviceUseStatement.meta" />
+      <min value="1" />
+    </element>
+    <element id="DeviceUseStatement.meta.versionId">
+      <path value="DeviceUseStatement.meta.versionId" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.meta.lastUpdated">
+      <path value="DeviceUseStatement.meta.lastUpdated" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.meta.source">
+      <path value="DeviceUseStatement.meta.source" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.meta.profile">
+      <path value="DeviceUseStatement.meta.profile" />
+      <min value="1" />
+      <max value="1" />
+      <fixedCanonical value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Device_Use_Statement_Implant|1.0.0" />
+    </element>
+    <element id="DeviceUseStatement.meta.security">
+      <path value="DeviceUseStatement.meta.security" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.meta.tag">
+      <path value="DeviceUseStatement.meta.tag" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.implicitRules">
+      <path value="DeviceUseStatement.implicitRules" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.language">
+      <path value="DeviceUseStatement.language" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.contained">
+      <path value="DeviceUseStatement.contained" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.identifier">
+      <path value="DeviceUseStatement.identifier" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.basedOn">
+      <path value="DeviceUseStatement.basedOn" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.status">
+      <path value="DeviceUseStatement.status" />
+      <fixedCode value="active" />
+    </element>
+    <element id="DeviceUseStatement.subject">
+      <path value="DeviceUseStatement.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Patient_NFD|1.0.0" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.subject.reference">
+      <path value="DeviceUseStatement.subject.reference" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.subject.type">
+      <path value="DeviceUseStatement.subject.type" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.subject.identifier">
+      <path value="DeviceUseStatement.subject.identifier" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.subject.display">
+      <path value="DeviceUseStatement.subject.display" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.derivedFrom">
+      <path value="DeviceUseStatement.derivedFrom" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.timing[x]">
+      <path value="DeviceUseStatement.timing[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <type>
+        <code value="Period" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.timing[x]:timingPeriod">
+      <path value="DeviceUseStatement.timing[x]" />
+      <sliceName value="timingPeriod" />
+      <min value="1" />
+      <type>
+        <code value="Period" />
+      </type>
+    </element>
+    <element id="DeviceUseStatement.timing[x]:timingPeriod.extension">
+      <path value="DeviceUseStatement.timing[x].extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="DeviceUseStatement.timing[x]:timingPeriod.extension:datum">
+      <path value="DeviceUseStatement.timing[x].extension" />
+      <sliceName value="datum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_NFD_Date_Implantation" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.timing[x]:timingPeriod.extension:datum.value[x]">
+      <path value="DeviceUseStatement.timing[x].extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.timing[x]:timingPeriod.extension:datum.value[x]:valueString">
+      <path value="DeviceUseStatement.timing[x].extension.valueString" />
+      <sliceName value="valueString" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.timing[x]:timingPeriod.start">
+      <path value="DeviceUseStatement.timing[x].start" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.timing[x]:timingPeriod.end">
+      <path value="DeviceUseStatement.timing[x].end" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.recordedOn">
+      <path value="DeviceUseStatement.recordedOn" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.source">
+      <path value="DeviceUseStatement.source" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Practitioner_Role_With_Organization|1.0.0" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.source.reference">
+      <path value="DeviceUseStatement.source.reference" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.source.type">
+      <path value="DeviceUseStatement.source.type" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.source.identifier">
+      <path value="DeviceUseStatement.source.identifier" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.source.display">
+      <path value="DeviceUseStatement.source.display" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.device">
+      <path value="DeviceUseStatement.device" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_NFD_Device_Implant|1.0.0" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.device.reference">
+      <path value="DeviceUseStatement.device.reference" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DeviceUseStatement.device.type">
+      <path value="DeviceUseStatement.device.type" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.device.identifier">
+      <path value="DeviceUseStatement.device.identifier" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.device.display">
+      <path value="DeviceUseStatement.device.display" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.reasonCode">
+      <path value="DeviceUseStatement.reasonCode" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.reasonReference">
+      <path value="DeviceUseStatement.reasonReference" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.bodySite">
+      <path value="DeviceUseStatement.bodySite" />
+      <max value="0" />
+    </element>
+    <element id="DeviceUseStatement.note">
+      <path value="DeviceUseStatement.note" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

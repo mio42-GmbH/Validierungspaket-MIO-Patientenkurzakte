@@ -1,0 +1,2520 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.kbv.de/ValueSet/KBV_VS_MIO_NFD_Procedure" />
+  <version value="1.0.0" />
+  <name value="KBV_VS_MIO_NFD_Procedure" />
+  <title value="Prozedur SNOMEDCT" />
+  <status value="active" />
+  <experimental value="false" />
+  <publisher value="Kassenärztliche Bundesvereinigung (KBV)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="https://mio.kbv.de" />
+    </telecom>
+  </contact>
+    <description value="Dieses Valueset enthält die Codes zur Beschreibung von Prozedur SNOMEDCT."/>
+  <immutable value="false" />
+  <copyright value="Im folgenden Profil können Codes aus den Codesystemen Snomed, Loinc oder Ucum enthalten sein, die dem folgenden Urheberrecht unterliegen: This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of SNOMED International. All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. SNOMED and SNOMED CT are registered trademarks of SNOMED International. Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license. This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc. This product includes all or a portion of the UCUM table, UCUM codes, and UCUM definitions or is derived from it, subject to a license from Regenstrief Institute, Inc. and The UCUM Organization. Your use of the UCUM table, UCUM codes, UCUM definitions also is subject to this license, a copy of which is available at ?http://unitsofmeasure.org. The current complete UCUM table, UCUM Specification are available for download at http://unitsofmeasure.org. The UCUM table and UCUM codes are copyright © 1995-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. THE UCUM TABLE (IN ALL FORMATS), UCUM DEFINITIONS, AND SPECIFICATION ARE PROVIDED &quot;AS IS.&quot; ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE." />
+  <compose>
+    <include>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210731"/>
+            <concept>
+                <code value="116141005"/>
+                <display value="Abdominal hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="413144006"/>
+                <display value="Abdominal hysterectomy with conservation of ovaries (procedure)"/>
+            </concept>
+            <concept>
+                <code value="13254001"/>
+                <display value="Abdominal hysterectomy with colpo-urethrocystopexy, Marshall-Marchetti-Krantz type (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302191001"/>
+                <display value="Abdominal hysterectomy and left salpingo-oophorectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302190000"/>
+                <display value="Abdominal hysterectomy and right salpingo-oophorectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="309879006"/>
+                <display value="Abdominal hysterocolpectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236989008"/>
+                <display value="Abdominal delivery for shoulder dystocia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177250006"/>
+                <display value="Abdominoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428663009"/>
+                <display value="Ablation of atrioventricular node (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233159005"/>
+                <display value="Ablation operation for arrhythmia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="119954001"/>
+                <display value="Adenoid excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="408817009"/>
+                <display value="Amniotomy at delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="81723002"/>
+                <display value="Amputation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="397117006"/>
+                <display value="Amputation of lower limb (procedure)"/>
+            </concept>
+            <concept>
+                <code value="88312006"/>
+                <display value="Amputation of leg through tibia and fibula (procedure)"/>
+            </concept>
+            <concept>
+                <code value="371186005"/>
+                <display value="Amputation of toe (procedure)"/>
+            </concept>
+            <concept>
+                <code value="79733001"/>
+                <display value="Amputation above-knee (procedure)"/>
+            </concept>
+            <concept>
+                <code value="76956004"/>
+                <display value="Amputation of finger, except thumb (procedure)"/>
+            </concept>
+            <concept>
+                <code value="13662000"/>
+                <display value="Anastomosis of pulmonary-subclavian artery by Blalock-Taussig operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="359551000"/>
+                <display value="Angioplasty of vein (procedure)"/>
+            </concept>
+            <concept>
+                <code value="418285008"/>
+                <display value="Angioplasty of blood vessel (procedure)"/>
+            </concept>
+            <concept>
+                <code value="83333004"/>
+                <display value="Creation of cardiac pacemaker pocket new site in subcutaneous tissue (procedure)"/>
+            </concept>
+            <concept>
+                <code value="173977007"/>
+                <display value="Creation of ileostomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="40059006"/>
+                <display value="Creation of aortofemoral shunt (procedure)"/>
+            </concept>
+            <concept>
+                <code value="44777001"/>
+                <display value="Creation of conduit between right ventricle and pulmonary artery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="39845007"/>
+                <display value="Anterior colporrhaphy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233370007"/>
+                <display value="Aortic aneurysm repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429616001"/>
+                <display value="Aortopulmonary reconstruction with right ventricle to pulmonary arterial valveless conduit (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174826008"/>
+                <display value="Arterial switch operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="19578002"/>
+                <display value="Arthrodesis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="53976000"/>
+                <display value="Arthrodesis by anterior interbody technique of cervical region below C2 with bone graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="8874001"/>
+                <display value="Arthroscopy of knee with medial and lateral meniscectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="84877006"/>
+                <display value="Arthroscopy of knee with meniscus repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="55244002"/>
+                <display value="Arthroscopically aided anterior cruciate ligament repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302490008"/>
+                <display value="Arthroscopic meniscectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="179383008"/>
+                <display value="Arthroscopic partial lateral meniscectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="179381005"/>
+                <display value="Arthroscopic partial medial meniscectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="179382003"/>
+                <display value="Arthroscopic total medial meniscectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="84149000"/>
+                <display value="Aspiration of cataract by phacoemulsification (procedure)"/>
+            </concept>
+            <concept>
+                <code value="248273008"/>
+                <display value="Aspiration curettage of uterus after delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="6832004"/>
+                <display value="Atherectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="65659003"/>
+                <display value="Atherectomy by rotary cutter (procedure)"/>
+            </concept>
+            <concept>
+                <code value="76611008"/>
+                <display value="Atherectomy by laser (procedure)"/>
+            </concept>
+            <concept>
+                <code value="36228007"/>
+                <display value="Ophthalmic examination and evaluation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="22890008"/>
+                <display value="Augmentation mammoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="231751005"/>
+                <display value="Exchange of intraocular lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="176766002"/>
+                <display value="Avulsion of lesion of cervix uteri (procedure)"/>
+            </concept>
+            <concept>
+                <code value="430715008"/>
+                <display value="Bariatric operative procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="53266006"/>
+                <display value="Operation on diaphragm (procedure)"/>
+            </concept>
+            <concept>
+                <code value="443989003"/>
+                <display value="Bidirectional Glenn shunt procedure of left superior vena cava (procedure)"/>
+            </concept>
+            <concept>
+                <code value="444034006"/>
+                <display value="Bidirectional Glenn shunt procedure of right superior vena cava (procedure)"/>
+            </concept>
+            <concept>
+                <code value="287664005"/>
+                <display value="Bilateral tubal ligation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177866001"/>
+                <display value="Bilateral inguinal hernia repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265250008"/>
+                <display value="Bilateral reduction mammoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="29827000"/>
+                <display value="Bilateral salpingectomy with oophorectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="17293009"/>
+                <display value="Bilateral segmental vasectomy and ligation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="308665009"/>
+                <display value="Biological pulmonary valve replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="86273004"/>
+                <display value="Biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="80146002"/>
+                <display value="Excision of appendix (procedure)"/>
+            </concept>
+            <concept>
+                <code value="178283002"/>
+                <display value="Block dissection of cervical lymph nodes (procedure)"/>
+            </concept>
+            <concept>
+                <code value="10847001"/>
+                <display value="Bronchoscopy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="18692006"/>
+                <display value="Bypass gastroenterostomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112828007"/>
+                <display value="Femoral-popliteal artery bypass graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232717009"/>
+                <display value="Coronary artery bypass grafting (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265636007"/>
+                <display value="Cerclage of cervix (procedure)"/>
+            </concept>
+            <concept>
+                <code value="90442009"/>
+                <display value="Cerclage of cervix during pregnancy by vaginal approach (procedure)"/>
+            </concept>
+            <concept>
+                <code value="46681009"/>
+                <display value="Cerclage of cervix during pregnancy by abdominal approach (procedure)"/>
+            </concept>
+            <concept>
+                <code value="274330002"/>
+                <display value="Surgical biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="274331003"/>
+                <display value="Surgical biopsy of breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="387713003"/>
+                <display value="Surgical procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="373353005"/>
+                <display value="Surgical procedure on eye proper (procedure)"/>
+            </concept>
+            <concept>
+                <code value="385487005"/>
+                <display value="Surgical procedure on thorax (procedure)"/>
+            </concept>
+            <concept>
+                <code value="385488000"/>
+                <display value="Surgical procedure on chest wall (procedure)"/>
+            </concept>
+            <concept>
+                <code value="38102005"/>
+                <display value="Cholecystectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="45993005"/>
+                <display value="Cholecystectomy with exploration of common duct (procedure)"/>
+            </concept>
+            <concept>
+                <code value="3418002"/>
+                <display value="Chondrectomy of spine (procedure)"/>
+            </concept>
+            <concept>
+                <code value="308696000"/>
+                <display value="Coarctation angioplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="85548006"/>
+                <display value="Episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233134001"/>
+                <display value="Damus-Stansel-Kaye operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="73761001"/>
+                <display value="Colonoscopy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="312775003"/>
+                <display value="Debridement of ulcer (procedure)"/>
+            </concept>
+            <concept>
+                <code value="47534009"/>
+                <display value="Decompression of median nerve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="178814008"/>
+                <display value="Spinal facet joint denervation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="37236007"/>
+                <display value="Dermabrasion (procedure)"/>
+            </concept>
+            <concept>
+                <code value="76810006"/>
+                <display value="Diagnostic dilation and curettage of uterus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="195565004"/>
+                <display value="Dilation of esophagus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="235570008"/>
+                <display value="Dilatation of bile duct (procedure)"/>
+            </concept>
+            <concept>
+                <code value="315308008"/>
+                <display value="Dilatation of cervix for delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="13091001"/>
+                <display value="Dilation and curettage (procedure)"/>
+            </concept>
+            <concept>
+                <code value="11401008"/>
+                <display value="Dilation and curettage of uterus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="391998006"/>
+                <display value="Dilation and curettage of uterus after delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="287977004"/>
+                <display value="Dilation/incision of cervix - delivery aid (procedure)"/>
+            </concept>
+            <concept>
+                <code value="89355001"/>
+                <display value="Discectomy for intervertebral herniated disc, nucleus pulposus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="122459003"/>
+                <display value="Dissection procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232658009"/>
+                <display value="Double lung transplant (procedure)"/>
+            </concept>
+            <concept>
+                <code value="12826007"/>
+                <display value="Dorrance operation, push-back operation for cleft palate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="107938000"/>
+                <display value="Small intestine excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177854007"/>
+                <display value="Simple excision of inguinal hernial sac (procedure)"/>
+            </concept>
+            <concept>
+                <code value="84282008"/>
+                <display value="Simple ligature of hemorrhoid (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172043006"/>
+                <display value="Simple mastectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="175135009"/>
+                <display value="Introduction of cardiac pacemaker system via vein (procedure)"/>
+            </concept>
+            <concept>
+                <code value="426153007"/>
+                <display value="Insertion of artificial airway (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302343007"/>
+                <display value="Insertion of prosthesis for breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="398010007"/>
+                <display value="Prosthetic arthroplasty of hip (procedure)"/>
+            </concept>
+            <concept>
+                <code value="54974006"/>
+                <display value="Insertion of permanent pacemaker with transvenous electrodes, ventricular (procedure)"/>
+            </concept>
+            <concept>
+                <code value="449389000"/>
+                <display value="Placement of stent in cardiac conduit (procedure)"/>
+            </concept>
+            <concept>
+                <code value="36969009"/>
+                <display value="Placement of stent in coronary artery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="52852000"/>
+                <display value="Insertion of bilateral breast prostheses (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236988000"/>
+                <display value="Elective cesarean hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265060005"/>
+                <display value="Endometrial ablation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="423827005"/>
+                <display value="Endoscopy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="119922005"/>
+                <display value="Biliary tract endoscopy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="444588006"/>
+                <display value="Endovascular repair of abdominal aortic aneurysm (procedure)"/>
+            </concept>
+            <concept>
+                <code value="40219000"/>
+                <display value="Delivery by Malstrom's extraction with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="26313002"/>
+                <display value="Delivery by vacuum extraction with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="9888007"/>
+                <display value="Excision of intracranial lesion (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233188006"/>
+                <display value="Removal of cardiac pacing electrode (procedure)"/>
+            </concept>
+            <concept>
+                <code value="285663000"/>
+                <display value="Removal of bone screw from bone (procedure)"/>
+            </concept>
+            <concept>
+                <code value="387740003"/>
+                <display value="Removal of ovarian cyst (procedure)"/>
+            </concept>
+            <concept>
+                <code value="285662005"/>
+                <display value="Removal of plate from bone (procedure)"/>
+            </concept>
+            <concept>
+                <code value="300009002"/>
+                <display value="Removal of acoustic neuroma (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233171004"/>
+                <display value="Removal of automatic cardiac defibrillator (procedure)"/>
+            </concept>
+            <concept>
+                <code value="46116005"/>
+                <display value="Excision of malignant tumor of breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="27315000"/>
+                <display value="Removal of breast implant (procedure)"/>
+            </concept>
+            <concept>
+                <code value="303650005"/>
+                <display value="Removal of mole of skin by excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="62881002"/>
+                <display value="Removal of cardiac pacemaker (procedure)"/>
+            </concept>
+            <concept>
+                <code value="72010008"/>
+                <display value="Removal of internal fixation device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="45921003"/>
+                <display value="Removal of cardiac pacemaker electrodes with replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="370611004"/>
+                <display value="Excision of malignant neoplasm (procedure)"/>
+            </concept>
+            <concept>
+                <code value="56361007"/>
+                <display value="Excision of soft tissue (procedure)"/>
+            </concept>
+            <concept>
+                <code value="3713005"/>
+                <display value="Release for de Quervain's tenosynovitis of hand (procedure)"/>
+            </concept>
+            <concept>
+                <code value="418576007"/>
+                <display value="Harvesting of peripheral blood stem cells (procedure)"/>
+            </concept>
+            <concept>
+                <code value="53958007"/>
+                <display value="Harvesting of donor material (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172132001"/>
+                <display value="Enucleation of eyeball (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177765008"/>
+                <display value="Opening of chest (procedure)"/>
+            </concept>
+            <concept>
+                <code value="53059001"/>
+                <display value="Replacement of mitral valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="50216001"/>
+                <display value="Replacement of mitral valve with tissue graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="55253009"/>
+                <display value="Replacement of tricuspid valve with tissue graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="26212005"/>
+                <display value="Replacement of aortic valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="3515001"/>
+                <display value="Replacement of electronic heart device, pulse generator (procedure)"/>
+            </concept>
+            <concept>
+                <code value="444566006"/>
+                <display value="Replacement of cardiac pacemaker (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428625001"/>
+                <display value="Replacement of cardioverter defibrillator (procedure)"/>
+            </concept>
+            <concept>
+                <code value="443434006"/>
+                <display value="Replacement of dual chamber pulse generator (procedure)"/>
+            </concept>
+            <concept>
+                <code value="88722002"/>
+                <display value="Initial implantation of electrode into cardiac atrium (procedure)"/>
+            </concept>
+            <concept>
+                <code value="87825006"/>
+                <display value="Initial implantation of electrode into cardiac atrium and ventricle (procedure)"/>
+            </concept>
+            <concept>
+                <code value="54866009"/>
+                <display value="Initial implantation of cardiac single-chamber device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="58863009"/>
+                <display value="Initial implantation of cardiac dual-chamber device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302605004"/>
+                <display value="Forced manual dilatation of anus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="10458001"/>
+                <display value="Evacuation of intracerebral hematoma (procedure)"/>
+            </concept>
+            <concept>
+                <code value="59712006"/>
+                <display value="Evacuation of subdural hematoma (procedure)"/>
+            </concept>
+            <concept>
+                <code value="74770008"/>
+                <display value="Exploratory laparotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="257822003"/>
+                <display value="Extracapsular extraction (qualifier value)"/>
+            </concept>
+            <concept>
+                <code value="13793006"/>
+                <display value="Extracapsular extraction of lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="75170007"/>
+                <display value="Extraction of lens of eye (procedure)"/>
+            </concept>
+            <concept>
+                <code value="54885007"/>
+                <display value="Extraction of cataract (procedure)"/>
+            </concept>
+            <concept>
+                <code value="57271003"/>
+                <display value="Extraperitoneal cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="363187007"/>
+                <display value="Limb operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="65801008"/>
+                <display value="Excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="54261007"/>
+                <display value="Excision of uterus and supporting structures (procedure)"/>
+            </concept>
+            <concept>
+                <code value="445429009"/>
+                <display value="Excision of lamina of cervical vertebra (procedure)"/>
+            </concept>
+            <concept>
+                <code value="387731002"/>
+                <display value="Excision of lamina of vertebra (procedure)"/>
+            </concept>
+            <concept>
+                <code value="427107006"/>
+                <display value="Excision of accessory uterus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="309430005"/>
+                <display value="Excision of skin tag (procedure)"/>
+            </concept>
+            <concept>
+                <code value="301890004"/>
+                <display value="Excision of skin cyst (procedure)"/>
+            </concept>
+            <concept>
+                <code value="398027004"/>
+                <display value="Excision of varicose vein of lower limb (procedure)"/>
+            </concept>
+            <concept>
+                <code value="35646002"/>
+                <display value="Excision of lesion of skin (procedure)"/>
+            </concept>
+            <concept>
+                <code value="53442002"/>
+                <display value="Excision of stomach structure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="300589005"/>
+                <display value="Excision of sebaceous cyst (procedure)"/>
+            </concept>
+            <concept>
+                <code value="27480002"/>
+                <display value="Excision of bunion (procedure)"/>
+            </concept>
+            <concept>
+                <code value="301889008"/>
+                <display value="Excision of malignant skin tumor (procedure)"/>
+            </concept>
+            <concept>
+                <code value="178095009"/>
+                <display value="Excision of ganglion of wrist (procedure)"/>
+            </concept>
+            <concept>
+                <code value="178097001"/>
+                <display value="Excision of ganglion of knee (procedure)"/>
+            </concept>
+            <concept>
+                <code value="274068006"/>
+                <display value="Excision of lipoma (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177735003"/>
+                <display value="Excision of wedge of nail (procedure)"/>
+            </concept>
+            <concept>
+                <code value="370612006"/>
+                <display value="Excision of neoplasm (procedure)"/>
+            </concept>
+            <concept>
+                <code value="303648002"/>
+                <display value="Excision of papilloma (procedure)"/>
+            </concept>
+            <concept>
+                <code value="230810008"/>
+                <display value="Excision of tumor of brain meninges (procedure)"/>
+            </concept>
+            <concept>
+                <code value="69031006"/>
+                <display value="Excision of breast tissue (procedure)"/>
+            </concept>
+            <concept>
+                <code value="12398007"/>
+                <display value="Excision of endometrial synechiae (procedure)"/>
+            </concept>
+            <concept>
+                <code value="8889005"/>
+                <display value="Excisional biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="312968005"/>
+                <display value="Excision biopsy of skin lesion (procedure)"/>
+            </concept>
+            <concept>
+                <code value="50807007"/>
+                <display value="Femoral-popliteal artery bypass graft with vein (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302441008"/>
+                <display value="Liposuction of subcutaneous tissue (procedure)"/>
+            </concept>
+            <concept>
+                <code value="735023007"/>
+                <display value="Fixation of left testis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="735024001"/>
+                <display value="Fixation of right testis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="277764006"/>
+                <display value="Fusion of posterior lumbar spine (procedure)"/>
+            </concept>
+            <concept>
+                <code value="54956002"/>
+                <display value="Gastrostomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="386638009"/>
+                <display value="Obstetric operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="84275009"/>
+                <display value="Obstetrical hysterotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="30904006"/>
+                <display value="Vascular surgery procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="234336002"/>
+                <display value="Hemopoietic stem cell transplant (procedure)"/>
+            </concept>
+            <concept>
+                <code value="127601009"/>
+                <display value="Hammer toe operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="24496007"/>
+                <display value="Hemorrhoidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="108034003"/>
+                <display value="Urinary bladder excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="16564004"/>
+                <display value="Hartmann operation, rectal resection (procedure)"/>
+            </concept>
+            <concept>
+                <code value="304040003"/>
+                <display value="Grafting to skin (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233230003"/>
+                <display value="Hemi-Fontan operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="50465008"/>
+                <display value="Hernia repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="34068001"/>
+                <display value="Heart valve replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="275035006"/>
+                <display value="Heart valve replacement - prosthesis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112802009"/>
+                <display value="Cardiovascular operative procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="32477003"/>
+                <display value="Heart-lung transplant with recipient cardiectomy-pneumonectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="32413006"/>
+                <display value="Transplantation of heart (procedure)"/>
+            </concept>
+            <concept>
+                <code value="15413009"/>
+                <display value="High forceps delivery with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="120001005"/>
+                <display value="Testis excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="60656008"/>
+                <display value="Corneal transplant (procedure)"/>
+            </concept>
+            <concept>
+                <code value="119614000"/>
+                <display value="Hip joint reconstruction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236886002"/>
+                <display value="Hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="288043009"/>
+                <display value="Hysterectomy in pregnancy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="41059002"/>
+                <display value="Cesarean hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="288042004"/>
+                <display value="Hysterectomy and fetus removal (procedure)"/>
+            </concept>
+            <concept>
+                <code value="392000009"/>
+                <display value="Hysterotomy for retained placenta (procedure)"/>
+            </concept>
+            <concept>
+                <code value="84267003"/>
+                <display value="Hysterotomy with removal of foreign body (procedure)"/>
+            </concept>
+            <concept>
+                <code value="26578004"/>
+                <display value="Hysterotomy with removal of hydatidiform mole (procedure)"/>
+            </concept>
+            <concept>
+                <code value="35350000"/>
+                <display value="Implantation of aortic valve prosthesis or synthetic device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="44218004"/>
+                <display value="Implantation of cochlear electrode (procedure)"/>
+            </concept>
+            <concept>
+                <code value="359612003"/>
+                <display value="Implantation of cochlear prosthetic device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="43815004"/>
+                <display value="Implantation of cochlear prosthetic device, single channel (procedure)"/>
+            </concept>
+            <concept>
+                <code value="359608009"/>
+                <display value="Implantation of cochlear prosthetic device, electrode and receiver (procedure)"/>
+            </concept>
+            <concept>
+                <code value="50676004"/>
+                <display value="Implantation of cochlear prosthetic device, multiple channels (procedure)"/>
+            </concept>
+            <concept>
+                <code value="37153009"/>
+                <display value="Implantation of heart valve with tissue graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="47432005"/>
+                <display value="Implantation of heart valve prosthesis or synthetic device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172732009"/>
+                <display value="Implantation of intracochlear prosthesis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="373415004"/>
+                <display value="Implantation of posterior chamber intraocular lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="77181006"/>
+                <display value="Implantation of mitral valve prosthesis or synthetic device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="47411002"/>
+                <display value="Implantation of penile prosthesis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="69724002"/>
+                <display value="Implantation of prosthetic intraocular lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="79917009"/>
+                <display value="Implantation of pulmonary valve prosthesis or synthetic device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="8069005"/>
+                <display value="Implantation of tricuspid valve prosthesis or synthetic device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233170003"/>
+                <display value="Implantation of automatic cardiac defibrillator (procedure)"/>
+            </concept>
+            <concept>
+                <code value="45965006"/>
+                <display value="Implantation of automatic cardioverter/defibrillator, total system (procedure)"/>
+            </concept>
+            <concept>
+                <code value="307280005"/>
+                <display value="Implantation of cardiac pacemaker (procedure)"/>
+            </concept>
+            <concept>
+                <code value="64253000"/>
+                <display value="Implantation of heart assist system (procedure)"/>
+            </concept>
+            <concept>
+                <code value="395218007"/>
+                <display value="Implantation of internal cardiac defibrillator (procedure)"/>
+            </concept>
+            <concept>
+                <code value="310582005"/>
+                <display value="Implantation of intravenous dual chamber permanent cardiac pacemaker (procedure)"/>
+            </concept>
+            <concept>
+                <code value="442249009"/>
+                <display value="Implantation of cardioverter defibrillator with three electrode leads (procedure)"/>
+            </concept>
+            <concept>
+                <code value="425435003"/>
+                <display value="Implantation of cardioverter defibrillator with one electrode lead (procedure)"/>
+            </concept>
+            <concept>
+                <code value="427508005"/>
+                <display value="Implantation of cardioverter defibrillator with two electrode leads (procedure)"/>
+            </concept>
+            <concept>
+                <code value="30542005"/>
+                <display value="Implantation of umbrella into vena cava (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118955007"/>
+                <display value="Implantation to cardiovascular system (procedure)"/>
+            </concept>
+            <concept>
+                <code value="245544005"/>
+                <display value="Implantation of baffle, atrial or interatrial (procedure)"/>
+            </concept>
+            <concept>
+                <code value="52660002"/>
+                <display value="Induced abortion following intra-amniotic injection with hysterotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="40250003"/>
+                <display value="Interatrial transposition of venous return (procedure)"/>
+            </concept>
+            <concept>
+                <code value="257834006"/>
+                <display value="Internal fixation using screw (procedure)"/>
+            </concept>
+            <concept>
+                <code value="257835007"/>
+                <display value="Internal fixation using plate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="257833000"/>
+                <display value="Internal fixation using staple (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118470002"/>
+                <display value="Internal skeletal fixation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="59657005"/>
+                <display value="Intestinal bypass for morbid obesity (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172523009"/>
+                <display value="Intracapsular extraction of lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="260216002"/>
+                <display value="Intra-capsular cataract extraction (procedure)"/>
+            </concept>
+            <concept>
+                <code value="308695001"/>
+                <display value="Intracapsular cataract extraction and insertion of intraocular lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="384692006"/>
+                <display value="Intracavitary brachytherapy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="44337006"/>
+                <display value="Incision of gallbladder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="48387007"/>
+                <display value="Incision of trachea (procedure)"/>
+            </concept>
+            <concept>
+                <code value="56783008"/>
+                <display value="Incision AND drainage (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177694006"/>
+                <display value="Incision and drainage of wound (procedure)"/>
+            </concept>
+            <concept>
+                <code value="284181007"/>
+                <display value="Incision and drainage of abscess (procedure)"/>
+            </concept>
+            <concept>
+                <code value="70871006"/>
+                <display value="Incisional biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="28768007"/>
+                <display value="Incisional biopsy of breast mass (procedure)"/>
+            </concept>
+            <concept>
+                <code value="11466000"/>
+                <display value="Cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="63697000"/>
+                <display value="Cardiopulmonary bypass operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="250980009"/>
+                <display value="Cardioversion (procedure)"/>
+            </concept>
+            <concept>
+                <code value="66951008"/>
+                <display value="Carotid endarterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="385468004"/>
+                <display value="Cataract extraction and insertion of intraocular lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="18286008"/>
+                <display value="Catheter ablation of tissue of heart (procedure)"/>
+            </concept>
+            <concept>
+                <code value="128952006"/>
+                <display value="Catheterization of both left and right heart with graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172812000"/>
+                <display value="Cauterization of internal nose (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172805009"/>
+                <display value="Cauterization of nasal turbinate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="307273008"/>
+                <display value="Cautery of wart (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232632009"/>
+                <display value="Wedge excision of lung (procedure)"/>
+            </concept>
+            <concept>
+                <code value="20418004"/>
+                <display value="Wedge resection (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265703000"/>
+                <display value="Jaw and temporomandibular joint operations (procedure)"/>
+            </concept>
+            <concept>
+                <code value="84195007"/>
+                <display value="Classical cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="302369001"/>
+                <display value="Clitoridectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="19063003"/>
+                <display value="Arthroplasty of knee (procedure)"/>
+            </concept>
+            <concept>
+                <code value="179342005"/>
+                <display value="Knee joint operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="23968004"/>
+                <display value="Excision of colon (procedure)"/>
+            </concept>
+            <concept>
+                <code value="311774002"/>
+                <display value="Colonoscopic polypectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="398740003"/>
+                <display value="Colostomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="57411006"/>
+                <display value="Colpoperineorrhaphy following delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="4770005"/>
+                <display value="Colporrhaphy for repair of urethrocele (procedure)"/>
+            </concept>
+            <concept>
+                <code value="13910004"/>
+                <display value="Combined anteroposterior colporrhaphy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="61498008"/>
+                <display value="Complete external hemorrhoidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="63016009"/>
+                <display value="Total resection of urinary bladder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233022006"/>
+                <display value="Construction of conduit - right atrium to pulmonary trunk (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429620002"/>
+                <display value="Construction of left ventricle to aorta tunnel with right ventricle to pulmonary artery valved conduit (procedure)"/>
+            </concept>
+            <concept>
+                <code value="54535009"/>
+                <display value="Cone biopsy of cervix (procedure)"/>
+            </concept>
+            <concept>
+                <code value="41339005"/>
+                <display value="Coronary angioplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="10326007"/>
+                <display value="Coronary artery bypass with autogenous graft, three grafts (procedure)"/>
+            </concept>
+            <concept>
+                <code value="39202005"/>
+                <display value="Coronary artery bypass with autogenous graft, four grafts (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232721002"/>
+                <display value="Coronary artery bypass grafts x 3 (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232723004"/>
+                <display value="Coronary artery bypass grafts x 5 (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232720001"/>
+                <display value="Coronary artery bypass grafts x 2 (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232722009"/>
+                <display value="Coronary artery bypass grafts x 4 (procedure)"/>
+            </concept>
+            <concept>
+                <code value="84088001"/>
+                <display value="Correction of atresia of external meatus of ear (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428613004"/>
+                <display value="Correction of congenital cardiovascular deformity (procedure)"/>
+            </concept>
+            <concept>
+                <code value="76025005"/>
+                <display value="Correction of ventricular septal defect (procedure)"/>
+            </concept>
+            <concept>
+                <code value="56306000"/>
+                <display value="Cosmetic surgery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="25353009"/>
+                <display value="Craniotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233161001"/>
+                <display value="Cryoablation operation for arrhythmia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="427752004"/>
+                <display value="Excision of lamina of lumbar vertebra for decompression of spinal cord (procedure)"/>
+            </concept>
+            <concept>
+                <code value="282191000"/>
+                <display value="Laminotomy for decompression and exploration (procedure)"/>
+            </concept>
+            <concept>
+                <code value="12132004"/>
+                <display value="Langenbeck operation, cleft palate repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="6025007"/>
+                <display value="Laparoscopic appendectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="45595009"/>
+                <display value="Laparoscopic cholecystectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="67557008"/>
+                <display value="Laparoscopic cholecystectomy with exploration of common duct (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236887006"/>
+                <display value="Laparoscopic hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="314128006"/>
+                <display value="Laparoscopic Nissen fundoplication using abdominal approach (procedure)"/>
+            </concept>
+            <concept>
+                <code value="15018006"/>
+                <display value="Laparoscopic repair of inguinal hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="86481000"/>
+                <display value="Laparotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="72791001"/>
+                <display value="Laryngectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="312965008"/>
+                <display value="Laser assisted in situ keratomileusis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="414582004"/>
+                <display value="Laser assisted subepithelial keratomileusis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="371345007"/>
+                <display value="Laser iridotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="399867007"/>
+                <display value="Laser photocoagulation to retina (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172485001"/>
+                <display value="Laser trabeculoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="107963000"/>
+                <display value="Excision of liver (procedure)"/>
+            </concept>
+            <concept>
+                <code value="18027006"/>
+                <display value="Transplantation of liver (procedure)"/>
+            </concept>
+            <concept>
+                <code value="444178004"/>
+                <display value="Left Glenn shunt procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="89432003"/>
+                <display value="Lemesurier operation, cleft lip repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="15617002"/>
+                <display value="Ligation of varicose vein of lower limb (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265542003"/>
+                <display value="Ligation of long saphenous vein (procedure)"/>
+            </concept>
+            <concept>
+                <code value="77543007"/>
+                <display value="Ligation of fallopian tube (procedure)"/>
+            </concept>
+            <concept>
+                <code value="133864008"/>
+                <display value="Lithotripsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="125571002"/>
+                <display value="Lobectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="173171007"/>
+                <display value="Lobectomy of lung (procedure)"/>
+            </concept>
+            <concept>
+                <code value="86743009"/>
+                <display value="Local excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="40862005"/>
+                <display value="Local excision of skin and subcutaneous tissue (procedure)"/>
+            </concept>
+            <concept>
+                <code value="50172003"/>
+                <display value="Lumbar spinal fusion (procedure)"/>
+            </concept>
+            <concept>
+                <code value="392021009"/>
+                <display value="Lumpectomy of breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="88039007"/>
+                <display value="Transplant of lung (procedure)"/>
+            </concept>
+            <concept>
+                <code value="287310004"/>
+                <display value="Lung tumor excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236946009"/>
+                <display value="Macdonald's cervical cerclage (procedure)"/>
+            </concept>
+            <concept>
+                <code value="443906008"/>
+                <display value="Bypass of stomach with short limb Roux-en-Y gastroenterostomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="50445001"/>
+                <display value="Mastoidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="87021001"/>
+                <display value="Mechanical vitrectomy by pars plana approach (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174929002"/>
+                <display value="Mechanical prosthetic aortic valve replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="431339008"/>
+                <display value="Mechanical prosthetic mitral valve replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="384642005"/>
+                <display value="Mitral valvuloplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="25828002"/>
+                <display value="Mid forceps delivery with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="726437009"/>
+                <display value="Modified radical mastectomy of left breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="726436000"/>
+                <display value="Modified radical mastectomy of right breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="275227003"/>
+                <display value="Myocardial revascularization (procedure)"/>
+            </concept>
+            <concept>
+                <code value="396490007"/>
+                <display value="Myringoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172676009"/>
+                <display value="Myringotomy and insertion of short-term tympanic ventilation tube (procedure)"/>
+            </concept>
+            <concept>
+                <code value="275001008"/>
+                <display value="Myringotomy and insertion of long-term ventilation tube (procedure)"/>
+            </concept>
+            <concept>
+                <code value="284532000"/>
+                <display value="Myringotomy and insertion of tympanic ventilation tube (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172679002"/>
+                <display value="Myringotomy and insertion of T tube (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172825008"/>
+                <display value="Nasal polypectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="13529000"/>
+                <display value="Nasal septoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="53610001"/>
+                <display value="Nasal septoplasty with graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="359901001"/>
+                <display value="Neuroplasty and transposition of median nerve at carpal tunnel (procedure)"/>
+            </concept>
+            <concept>
+                <code value="176785004"/>
+                <display value="Non-obstetric encircling suture of cervical os (procedure)"/>
+            </concept>
+            <concept>
+                <code value="17860005"/>
+                <display value="Low forceps delivery with episiotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="108022006"/>
+                <display value="Kidney excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="70536003"/>
+                <display value="Transplant of kidney (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233139006"/>
+                <display value="Norwood type operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174036004"/>
+                <display value="Emergency appendectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236986001"/>
+                <display value="Emergency upper segment cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236985002"/>
+                <display value="Emergency lower segment cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236987005"/>
+                <display value="Emergency cesarean hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="414088005"/>
+                <display value="Emergency coronary artery bypass graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="175095005"/>
+                <display value="Open ablation of atrioventricular node (procedure)"/>
+            </concept>
+            <concept>
+                <code value="297709009"/>
+                <display value="Open acromioplasty for decompression of rotator cuff (procedure)"/>
+            </concept>
+            <concept>
+                <code value="119283008"/>
+                <display value="Open biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="86480004"/>
+                <display value="Open reduction of fracture (procedure)"/>
+            </concept>
+            <concept>
+                <code value="20701002"/>
+                <display value="Open reduction of fracture with internal fixation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="83152002"/>
+                <display value="Oophorectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112788002"/>
+                <display value="Operation on accessory sinus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="40654000"/>
+                <display value="Operation on eyelid (procedure)"/>
+            </concept>
+            <concept>
+                <code value="26476002"/>
+                <display value="Operation on bronchus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112698002"/>
+                <display value="Operation on joint (procedure)"/>
+            </concept>
+            <concept>
+                <code value="37508003"/>
+                <display value="Operation on neck (procedure)"/>
+            </concept>
+            <concept>
+                <code value="392048005"/>
+                <display value="Operation on urinary system (procedure)"/>
+            </concept>
+            <concept>
+                <code value="64915003"/>
+                <display value="Operation on heart (procedure)"/>
+            </concept>
+            <concept>
+                <code value="57168000"/>
+                <display value="Operation on bone (procedure)"/>
+            </concept>
+            <concept>
+								 
+																		
+				
+			   
+								  
+																
+				
+			   
+                <code value="16545005"/>
+                <display value="Operation on nervous system (procedure)"/>
+            </concept>
+            <concept>
+                <code value="68265005"/>
+                <display value="Operation on the ear (procedure)"/>
+            </concept>
+            <concept>
+                <code value="34969007"/>
+                <display value="Operation on retroperitoneum (procedure)"/>
+            </concept>
+            <concept>
+                <code value="21371007"/>
+                <display value="Operation on abdominal region (procedure)"/>
+            </concept>
+            <concept>
+                <code value="392090004"/>
+                <display value="Operation on breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="73544002"/>
+                <display value="Operation on heart valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="86800006"/>
+                <display value="Operation on trachea (procedure)"/>
+            </concept>
+            <concept>
+                <code value="387714009"/>
+                <display value="Operation on lung (procedure)"/>
+            </concept>
+            <concept>
+                <code value="49509003"/>
+                <display value="Operation on lymphatic structure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="59300005"/>
+                <display value="Operation on spleen (procedure)"/>
+            </concept>
+            <concept>
+                <code value="5781000"/>
+                <display value="Operation on nasal septum (procedure)"/>
+            </concept>
+            <concept>
+                <code value="78418002"/>
+                <display value="Operation on heart and pericardium (procedure)"/>
+            </concept>
+            <concept>
+                <code value="12658000"/>
+                <display value="Operation on female genital organs (procedure)"/>
+            </concept>
+            <concept>
+                <code value="392011001"/>
+                <display value="Operation on skin (procedure)"/>
+            </concept>
+            <concept>
+                <code value="386765006"/>
+                <display value="Operation on mediastinum (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233224003"/>
+                <display value="Central aortopulmonary shunt operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="428989006"/>
+                <display value="Operation on ganglion cyst (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236991000"/>
+                <display value="Operation to facilitate delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="108021004"/>
+                <display value="Operative procedure on male genitourinary system (procedure)"/>
+            </concept>
+            <concept>
+                <code value="107907001"/>
+                <display value="Operative procedure on digestive system (procedure)"/>
+            </concept>
+            <concept>
+                <code value="392236004"/>
+                <display value="Operative procedure on spinal structure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="61661004"/>
+                <display value="Operative procedure on foot (procedure)"/>
+            </concept>
+            <concept>
+                <code value="6240004"/>
+                <display value="Operative procedure on knee (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112746006"/>
+                <display value="Operative procedure on hand (procedure)"/>
+            </concept>
+            <concept>
+                <code value="78559005"/>
+                <display value="Operative procedure on shoulder region (procedure)"/>
+            </concept>
+            <concept>
+                <code value="85419002"/>
+                <display value="Orchidopexy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="48835001"/>
+                <display value="Esophagogastric fundoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="150062003"/>
+                <display value="Osteotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="33149006"/>
+                <display value="Pancreatectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="116241004"/>
+                <display value="Pancreaticoduodenectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="53304009"/>
+                <display value="Parathyroidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="81870009"/>
+                <display value="Parotidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="38829003"/>
+                <display value="Partial excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="387643005"/>
+                <display value="Partial hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="44378008"/>
+                <display value="Partial colectomy with anastomosis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="64368001"/>
+                <display value="Partial mastectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="81516001"/>
+                <display value="Partial nephrectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="42101009"/>
+                <display value="Penetrating keratoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="77166000"/>
+                <display value="Percutaneous balloon valvuloplasty of aortic valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="178668000"/>
+                <display value="Percutaneous discectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="313270001"/>
+                <display value="Percutaneous insertion of nephrostomy tube (procedure)"/>
+            </concept>
+            <concept>
+                <code value="105373008"/>
+                <display value="Percutaneous insertion of intravascular filter (procedure)"/>
+            </concept>
+            <concept>
+                <code value="235159007"/>
+                <display value="Percutaneous endoscopic insertion of gastrostomy tube (procedure)"/>
+            </concept>
+            <concept>
+                <code value="415070008"/>
+                <display value="Percutaneous coronary intervention (procedure)"/>
+            </concept>
+            <concept>
+                <code value="175125003"/>
+                <display value="Percutaneous transluminal ablation of atrioventricular node (procedure)"/>
+            </concept>
+            <concept>
+                <code value="68457009"/>
+                <display value="Percutaneous transluminal balloon angioplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="443829004"/>
+                <display value="Percutaneous transluminal balloon angioplasty of coarctation of aorta with insertion of stent (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429639007"/>
+                <display value="Percutaneous transluminal balloon angioplasty with insertion of stent into coronary artery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="11101003"/>
+                <display value="Percutaneous transluminal coronary angioplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="397431004"/>
+                <display value="Percutaneous transluminal coronary angioplasty with rotoablation, single vessel (procedure)"/>
+            </concept>
+            <concept>
+                <code value="441873006"/>
+                <display value="Percutaneous replacement of aortic valve using fluoroscopic guidance (procedure)"/>
+            </concept>
+            <concept>
+                <code value="397516006"/>
+                <display value="Photorefractive keratectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174396007"/>
+                <display value="Pilonidal sinus operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="237406004"/>
+                <display value="Plastic operation on the breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265473002"/>
+                <display value="Plastic repair of aortic valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265472007"/>
+                <display value="Plastic repair of mitral valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="178155009"/>
+                <display value="Plastic repair of tendon (procedure)"/>
+            </concept>
+            <concept>
+                <code value="178517008"/>
+                <display value="Primary excision of cervical intervertebral disc (procedure)"/>
+            </concept>
+            <concept>
+                <code value="178618008"/>
+                <display value="Primary lumbar discectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265132005"/>
+                <display value="Primary open reduction and internal fixation of proximal femoral fracture with screw/nail and plate device (procedure)"/>
+            </concept>
+            <concept>
+                <code value="264959005"/>
+                <display value="Primary repair of femoral hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="450350009"/>
+                <display value="Primary repair of cleft palate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177860007"/>
+                <display value="Primary repair of inguinal hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="90470006"/>
+                <display value="Prostatectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="397956004"/>
+                <display value="Prosthetic arthroplasty of the hip (procedure)"/>
+            </concept>
+            <concept>
+                <code value="307279007"/>
+                <display value="307279007"/>
+            </concept>
+            <concept>
+                <code value="387711001"/>
+                <display value="Pubiotomy to assist delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="85921004"/>
+                <display value="Puncture procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172049005"/>
+                <display value="Quadrantectomy of breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="51683002"/>
+                <display value="Radial keratotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="307771009"/>
+                <display value="Radical abdominal hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="62141006"/>
+                <display value="Radical excision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="88088007"/>
+                <display value="Radical excision with lymph node dissection (procedure)"/>
+            </concept>
+            <concept>
+                <code value="384723003"/>
+                <display value="Radical mastectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="726429001"/>
+                <display value="Radical mastectomy of left breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="726430006"/>
+                <display value="Radical mastectomy of right breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="8782006"/>
+                <display value="Radical perineal prostatectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="26294005"/>
+                <display value="Radical prostatectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="65551008"/>
+                <display value="Radical retropubic prostatectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233163003"/>
+                <display value="Radiofrequency ablation operation for arrhythmia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="312235007"/>
+                <display value="Radiolabeled antibody therapy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="64978007"/>
+                <display value="Radionuclide therapy for hyperthyroidism (procedure)"/>
+            </concept>
+            <concept>
+                <code value="122470005"/>
+                <display value="Reduction of closed fracture (procedure)"/>
+            </concept>
+            <concept>
+                <code value="122471009"/>
+                <display value="Reduction of open fracture (procedure)"/>
+            </concept>
+            <concept>
+                <code value="59214008"/>
+                <display value="Reduction mammoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="65854006"/>
+                <display value="Reexcision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="33496007"/>
+                <display value="Reconstruction of breast (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232470004"/>
+                <display value="Reconstruction of nose (procedure)"/>
+            </concept>
+            <concept>
+                <code value="239431009"/>
+                <display value="Reconstruction of anterior cruciate ligament of knee joint (procedure)"/>
+            </concept>
+            <concept>
+                <code value="122465003"/>
+                <display value="Reconstruction procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112695004"/>
+                <display value="Reparative closure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="52247003"/>
+                <display value="Repair of aortic valve with tissue graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="234892006"/>
+                <display value="Repair of cleft of soft palate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="59213002"/>
+                <display value="Repair of ruptured supraspinatus tendon, acute (procedure)"/>
+            </concept>
+            <concept>
+                <code value="66692001"/>
+                <display value="Repair of ruptured supraspinatus tendon, chronic (procedure)"/>
+            </concept>
+            <concept>
+                <code value="384641003"/>
+                <display value="Repair of mitral valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="432394003"/>
+                <display value="Repair of mitral valve using fluoroscopic guidance (procedure)"/>
+            </concept>
+            <concept>
+                <code value="56060000"/>
+                <display value="Repair of musculotendinous cuff of shoulder (procedure)"/>
+            </concept>
+            <concept>
+                <code value="8920006"/>
+                <display value="Repair of retina for retinal detachment (procedure)"/>
+            </concept>
+            <concept>
+                <code value="61774002"/>
+                <display value="Repair of rotator cuff by suture (procedure)"/>
+            </concept>
+            <concept>
+                <code value="234891004"/>
+                <display value="Repair of cleft of hard palate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="384643000"/>
+                <display value="Repair of tricuspid valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="405525004"/>
+                <display value="Repair of aneurysm of abdominal aorta (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174836000"/>
+                <display value="Repair of defect of the atrioventricular septum (procedure)"/>
+            </concept>
+            <concept>
+                <code value="441612006"/>
+                <display value="Repair of infrarenal abdominal aortic aneurysm with insertion of endovascular stent (procedure)"/>
+            </concept>
+            <concept>
+                <code value="386556002"/>
+                <display value="Repair of middle ear (procedure)"/>
+            </concept>
+            <concept>
+                <code value="35860002"/>
+                <display value="Repair by nailing (procedure)"/>
+            </concept>
+            <concept>
+                <code value="274022008"/>
+                <display value="Repair of coarctation of aorta (procedure)"/>
+            </concept>
+            <concept>
+                <code value="234650003"/>
+                <display value="Repair of bilateral cleft lip (procedure)"/>
+            </concept>
+            <concept>
+                <code value="234890003"/>
+                <display value="Repair of cleft palate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="56062008"/>
+                <display value="Repair of sliding inguinal hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="234647001"/>
+                <display value="Repair of cleft lip (procedure)"/>
+            </concept>
+            <concept>
+                <code value="359908007"/>
+                <display value="Repair of paraesophageal diaphragmatic hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174900004"/>
+                <display value="Repair of partial anomalous pulmonary venous connection (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174830006"/>
+                <display value="Repair of total anomalous pulmonary venous connection (procedure)"/>
+            </concept>
+            <concept>
+                <code value="238192002"/>
+                <display value="Repair of ventral hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="771453009"/>
+                <display value="Repair of abdominal aortic aneurysm with insertion of stent (procedure)"/>
+            </concept>
+            <concept>
+                <code value="21574003"/>
+                <display value="Repair of aneurysm of abdominal aorta with graft (procedure)"/>
+            </concept>
+            <concept>
+                <code value="232841002"/>
+                <display value="Repair of implanted aortic paravalvular leak (procedure)"/>
+            </concept>
+            <concept>
+                <code value="12660003"/>
+                <display value="Repair of complete shoulder cuff avulsion, chronic (procedure)"/>
+            </concept>
+            <concept>
+                <code value="44946007"/>
+                <display value="Repair of umbilical hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429653007"/>
+                <display value="Repair of reducible inguinal hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="19273005"/>
+                <display value="Repair of recurrent inguinal hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="89814007"/>
+                <display value="Repair of ventricular septal defect with prosthesis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="30123000"/>
+                <display value="Repair of atrial septal defect with prosthesis by closed heart technique (procedure)"/>
+            </concept>
+            <concept>
+                <code value="44558001"/>
+                <display value="Repair of inguinal hernia (procedure)"/>
+            </concept>
+            <concept>
+                <code value="429595007"/>
+                <display value="Resection of neoplasm of heart (procedure)"/>
+            </concept>
+            <concept>
+                <code value="82035006"/>
+                <display value="Resection of polyp (procedure)"/>
+            </concept>
+            <concept>
+                <code value="8616005"/>
+                <display value="Rhinocheiloplasty repair for cleft lip (procedure)"/>
+            </concept>
+            <concept>
+                <code value="20805001"/>
+                <display value="Rhinoseptoplasty (procedure)"/>
+            </concept>
+            <concept>
+                <code value="444001009"/>
+                <display value="Right Glenn shunt procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="173747005"/>
+                <display value="Roux-en-Y gastrojejunostomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="116028008"/>
+                <display value="Salpingo-oophorectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="442123009"/>
+                <display value="Sano procedure (procedure)"/>
+            </concept>
+            <concept>
+                <code value="13619001"/>
+                <display value="Thyroidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="56757003"/>
+                <display value="Scraping (procedure)"/>
+            </concept>
+            <concept>
+                <code value="89540006"/>
+                <display value="Segmental excision and ligation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="72342005"/>
+                <display value="Shave biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="236947000"/>
+                <display value="Shirodkar's cervical cerclage (procedure)"/>
+            </concept>
+            <concept>
+                <code value="26786002"/>
+                <display value="Scleral buckling (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177217006"/>
+                <display value="Immediate repair of obstetric laceration (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177221004"/>
+                <display value="Immediate repair of minor obstetric laceration (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177218001"/>
+                <display value="Immediate repair of obstetric laceration of uterus or cervix uteri (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177220003"/>
+                <display value="Immediate repair of obstetric laceration of vagina and floor of pelvis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177219009"/>
+                <display value="Immediate repair of obstetric laceration of perineum and sphincter of anus (procedure)"/>
+            </concept>
+            <concept>
+                <code value="234319005"/>
+                <display value="Splenectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="303633008"/>
+                <display value="Irrigation of maxillary antrum (procedure)"/>
+            </concept>
+            <concept>
+                <code value="45681003"/>
+                <display value="Staging operation involving incision, exploration and biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="176548009"/>
+                <display value="Standard circumcision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="68660007"/>
+                <display value="Punch biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="69130005"/>
+                <display value="Stapedectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="41453009"/>
+                <display value="Strabismus surgery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="86749008"/>
+                <display value="Stripping and ligation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233456008"/>
+                <display value="Stripping of vein (procedure)"/>
+            </concept>
+            <concept>
+                <code value="70183006"/>
+                <display value="Subcutaneous mastectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172790004"/>
+                <display value="Submucous resection of nasal septum (procedure)"/>
+            </concept>
+            <concept>
+                <code value="176795006"/>
+                <display value="Subtotal abdominal hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="49209004"/>
+                <display value="Subtotal gastrectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="17744000"/>
+                <display value="Subtotal hysterectomy after cesarean delivery (procedure)"/>
+            </concept>
+            <concept>
+                <code value="30956003"/>
+                <display value="Subtotal thyroidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="129252005"/>
+                <display value="Suprapubic cystostomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="387644004"/>
+                <display value="Supracervical hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="43075005"/>
+                <display value="Partial resection of colon (procedure)"/>
+            </concept>
+            <concept>
+                <code value="179390003"/>
+                <display value="Therapeutic arthroscopic operations on cavity of knee joint (procedure)"/>
+            </concept>
+            <concept>
+                <code value="18302006"/>
+                <display value="Therapeutic abortion by hysterotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="57217008"/>
+                <display value="Thompson operation, cleft lip repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="15023006"/>
+                <display value="Thromboendarterectomy with graft of carotid artery by neck incision (procedure)"/>
+            </concept>
+            <concept>
+                <code value="173422009"/>
+                <display value="Tonsillectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="28913000"/>
+                <display value="Tonsillectomy and adenoidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="116143008"/>
+                <display value="Total abdominal hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="116144002"/>
+                <display value="Total abdominal hysterectomy with bilateral salpingo-oophorectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="183668008"/>
+                <display value="Total avulsion of nail plate (procedure)"/>
+            </concept>
+            <concept>
+                <code value="86477000"/>
+                <display value="Total hysterectomy with removal of both tubes and ovaries (procedure)"/>
+            </concept>
+            <concept>
+                <code value="427886002"/>
+                <display value="Total cavopulmonary connection with lateral atrial tunnel (procedure)"/>
+            </concept>
+            <concept>
+                <code value="26390003"/>
+                <display value="Total colectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="359623004"/>
+                <display value="Total lobectomy of lung (procedure)"/>
+            </concept>
+            <concept>
+                <code value="175905003"/>
+                <display value="Total nephrectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="49795001"/>
+                <display value="Total pneumonectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174776001"/>
+                <display value="Total splenectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="24443003"/>
+                <display value="Total thyroidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="443681002"/>
+                <display value="Total replacement of left knee joint (procedure)"/>
+            </concept>
+            <concept>
+                <code value="443682009"/>
+                <display value="Total replacement of right knee joint (procedure)"/>
+            </concept>
+            <concept>
+                <code value="609588000"/>
+                <display value="Total knee replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265157000"/>
+                <display value="Total prosthetic replacement of hip joint using cement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265170009"/>
+                <display value="Total prosthetic replacement of knee joint using cement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="42262007"/>
+                <display value="Total shoulder replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="52734007"/>
+                <display value="Total replacement of hip (procedure)"/>
+            </concept>
+            <concept>
+                <code value="87366001"/>
+                <display value="Total elbow replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="30880003"/>
+                <display value="Trabeculectomy ab externo (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233445008"/>
+                <display value="Transjugular intrahepatic portosystemic shunt (procedure)"/>
+            </concept>
+            <concept>
+                <code value="62438007"/>
+                <display value="Transplantation of pancreas (procedure)"/>
+            </concept>
+            <concept>
+                <code value="119762001"/>
+                <display value="Cardiovascular system transplantation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="443887000"/>
+                <display value="Grafting of aortic valve prosthesis by transapical approach (procedure)"/>
+            </concept>
+            <concept>
+                <code value="313039003"/>
+                <display value="Solid organ transplant (procedure)"/>
+            </concept>
+            <concept>
+                <code value="56283009"/>
+                <display value="Transplantation of small intestine (procedure)"/>
+            </concept>
+            <concept>
+                <code value="90199006"/>
+                <display value="Transurethral prostatectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="50590007"/>
+                <display value="Trephine biopsy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="8378006"/>
+                <display value="Trimming (procedure)"/>
+            </concept>
+            <concept>
+                <code value="31932005"/>
+                <display value="Tympanomastoidectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="397760009"/>
+                <display value="Tympanotomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112727005"/>
+                <display value="Revision of hip replacement (procedure)"/>
+            </concept>
+            <concept>
+                <code value="243306000"/>
+                <display value="Ureteroileostomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265056007"/>
+                <display value="Vaginal hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="89053004"/>
+                <display value="Vaginal cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112816004"/>
+                <display value="Valvuloplasty of aortic valve (procedure)"/>
+            </concept>
+            <concept>
+                <code value="274023003"/>
+                <display value="Varicose vein operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="265855005"/>
+                <display value="Varicose vein stripping (procedure)"/>
+            </concept>
+            <concept>
+                <code value="22523008"/>
+                <display value="Vasectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="47020004"/>
+                <display value="Ventriculoperitoneal shunt (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118804001"/>
+                <display value="Procedure on blood vessel (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118831003"/>
+                <display value="Procedure on intestine (procedure)"/>
+            </concept>
+            <concept>
+								  
+														 
+				
+			   
+                <code value="118950002"/>
+                <display value="Procedure on head AND/OR neck (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118683007"/>
+                <display value="Procedure on ear and related structures (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118675001"/>
+                <display value="Procedure on female genital system (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118949002"/>
+                <display value="Procedure on extremity (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118795000"/>
+                <display value="Procedure on pleura (procedure)"/>
+            </concept>
+            <concept>
+                <code value="118716003"/>
+                <display value="Procedure on foot (procedure)"/>
+            </concept>
+            <concept>
+                <code value="8422009"/>
+                <display value="Destruction of hemorrhoids by sclerotherapy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="233199008"/>
+                <display value="Closure of ductus arteriosus with clip (procedure)"/>
+            </concept>
+            <concept>
+                <code value="441676000"/>
+                <display value="Occlusion of patent ductus arteriosus using embolization coil (procedure)"/>
+            </concept>
+            <concept>
+                <code value="41817002"/>
+                <display value="Closure of patent foramen ovale (procedure)"/>
+            </concept>
+            <concept>
+                <code value="432670006"/>
+                <display value="Closure of patent foramen ovale using fluoroscopic guidance (procedure)"/>
+            </concept>
+            <concept>
+                <code value="442087005"/>
+                <display value="Closure of ventricular septal defect using fluoroscopic guidance (procedure)"/>
+            </concept>
+            <concept>
+                <code value="432114008"/>
+                <display value="Closure of atrial septal defect using fluoroscopic guidance (procedure)"/>
+            </concept>
+            <concept>
+                <code value="18557009"/>
+                <display value="Closure by suture (procedure)"/>
+            </concept>
+            <concept>
+                <code value="11050006"/>
+                <display value="Closure of vesicouterine fistula with hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="112811009"/>
+                <display value="Closure of atrial septal defect (procedure)"/>
+            </concept>
+            <concept>
+                <code value="75732000"/>
+                <display value="Vitrectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="79095000"/>
+                <display value="Complete excision of organ (procedure)"/>
+            </concept>
+            <concept>
+                <code value="87795007"/>
+                <display value="Complete transurethral resection of prostate, including control of postoperative bleeding (procedure)"/>
+            </concept>
+            <concept>
+                <code value="174822005"/>
+                <display value="Atrial inversion operation using atrial wall (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177141003"/>
+                <display value="Elective cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177142005"/>
+                <display value="Elective upper segment cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="177143000"/>
+                <display value="Elective lower segment cesarean section (procedure)"/>
+            </concept>
+            <concept>
+                <code value="68792000"/>
+                <display value="Wardill operation, cleft palate repair (procedure)"/>
+            </concept>
+            <concept>
+                <code value="361222003"/>
+                <display value="Wertheim-Meigs abdominal hysterectomy (procedure)"/>
+            </concept>
+            <concept>
+                <code value="361223008"/>
+                <display value="Wertheim operation (procedure)"/>
+            </concept>
+            <concept>
+                <code value="239503002"/>
+                <display value="Resurfacing of the patella (procedure)"/>
+            </concept>
+            <concept>
+                <code value="445185007"/>
+                <display value="Resurfacing of head of femur (procedure)"/>
+            </concept>
+            <concept>
+                <code value="55705006"/>
+                <display value="Spinal arthrodesis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172532006"/>
+                <display value="Yttrium-aluminum-garnet laser capsulotomy of lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="172524003"/>
+                <display value="Forceps extraction of lens (procedure)"/>
+            </concept>
+            <concept>
+                <code value="81099000"/>
+                <display value="Cervical arthrodesis (procedure)"/>
+            </concept>
+            <concept>
+                <code value="59703009"/>
+                <display value="Cervical arthrodesis by anterior technique (procedure)"/>
+            </concept>
+            <concept>
+                <code value="72310004"/>
+                <display value="Circumcision (procedure)"/>
+            </concept>
+        </include>
+  </compose>
+</ValueSet>
