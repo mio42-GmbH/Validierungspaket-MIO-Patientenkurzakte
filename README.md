@@ -21,22 +21,22 @@ You can use the following commands to validate the examples:
 
 REAL_EXAMPLE_1_Bundle:
 ```
-java -jar validator_cli.jar .\Example\Example_1 -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification\StructureDefinitions\Profiles -ig .\FHIR-Specification\StructureDefinitions\Extensions -ig .\FHIR-Specification\Terminologies\VS -ig .\FHIR-Specification\Terminologies\CM -ig .\FHIR-Specification\Terminologies\CS
+java -jar validator_cli.jar .\Example\Example_1.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 REAL_EXAMPLE_2_Bundle:
 ```
-java -jar validator_cli.jar .\Example\Example_2 -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification\StructureDefinitions\Profiles -ig .\FHIR-Specification\StructureDefinitions\Extensions -ig .\FHIR-Specification\Terminologies\VS -ig .\FHIR-Specification\Terminologies\CM -ig .\FHIR-Specification\Terminologies\CS
+java -jar validator_cli.jar .\Example\Example_2.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 REAL_EXAMPLE_3_Bundle
 ```
-java -jar validator_cli.jar .\Example\Example_3 -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification\StructureDefinitions\Profiles -ig .\FHIR-Specification\StructureDefinitions\Extensions -ig .\FHIR-Specification\Terminologies\VS -ig .\FHIR-Specification\Terminologies\CM -ig .\FHIR-Specification\Terminologies\CS
+java -jar validator_cli.jar .\Example\Example_3.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 REAL_EXAMPLE_4_Bundle
 ```
-java -jar validator_cli.jar .\Example\Example_4 -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification\StructureDefinitions\Profiles -ig .\FHIR-Specification\StructureDefinitions\Extensions -ig .\FHIR-Specification\Terminologies\VS -ig .\FHIR-Specification\Terminologies\CM -ig .\FHIR-Specification\Terminologies\CS
+java -jar validator_cli.jar .\Example\Example_4.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 Please note that a current version of Java is required (we would recommend the most recent one).
@@ -65,22 +65,22 @@ Zur Validierung der Beispiele können Sie folgende Aufrufe verwenden:
 
 Praxisbeispiel_1_Bundle:
 ```
-java -jar validator_cli.jar .\Praxisbeispiel\Beispiel_1 -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Basis -ig .\HL7-Basis-de -ig .\FHIR-Spezifikation\StructureDefinitions\Profile -ig .\FHIR-Spezifikation\StructureDefinitions\Extensions -ig .\FHIR-Spezifikation\Terminologien\VS -ig .\FHIR-Spezifikation\Terminologien\CM -ig .\FHIR-Spezifikation\Terminologien\CS
+java -jar validator_cli.jar .\Example\Example_1.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 Praxisbeispiel_2_Bundle:
 ```
-java -jar validator_cli.jar .\Praxisbeispiel\Beispiel_2 -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Basis -ig .\HL7-Basis-de -ig .\FHIR-Spezifikation\StructureDefinitions\Profile -ig .\FHIR-Spezifikation\StructureDefinitions\Extensions -ig .\FHIR-Spezifikation\Terminologien\VS -ig .\FHIR-Spezifikation\Terminologien\CM -ig .\FHIR-Spezifikation\Terminologien\CS
+java -jar validator_cli.jar .\Example\Example_2.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 Praxisbeispiel_3_Bundle
 ```
-java -jar validator_cli.jar .\Praxisbeispiel\Beispiel_3 -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Basis -ig .\HL7-Basis-de -ig .\FHIR-Spezifikation\StructureDefinitions\Profile -ig .\FHIR-Spezifikation\StructureDefinitions\Extensions -ig .\FHIR-Spezifikation\Terminologien\VS -ig .\FHIR-Spezifikation\Terminologien\CM -ig .\FHIR-Spezifikation\Terminologien\CS
+java -jar validator_cli.jar .\Example\Example_3.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 Praxisbeispiel_4_Bundle
 ```
-java -jar validator_cli.jar .\Praxisbeispiel\Beispiel_4 -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Basis -ig .\HL7-Basis-de -ig .\FHIR-Spezifikation\StructureDefinitions\Profile -ig .\FHIR-Spezifikation\StructureDefinitions\Extensions -ig .\FHIR-Spezifikation\Terminologien\VS -ig .\FHIR-Spezifikation\Terminologien\CM -ig .\FHIR-Spezifikation\Terminologien\CS
+java -jar validator_cli.jar .\Example\Example_4.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 Weitere Voraussetzung ist eine aktuelle Java Version.
