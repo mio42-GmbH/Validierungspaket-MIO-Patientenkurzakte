@@ -11,32 +11,36 @@ Alternatively, the dependencies can also be found here:
 - kbv.basis 1.1.3: https://simplifier.net/packages/kbv.basis/1.1.3
 - kbv.mio.patientenkurzakte 1.0.0:	https://simplifier.net/packages/kbv.mio.patientenkurzakte/1.0.0
 
-The version of the validator, which was used by the mio42 GmbH, is included. If the version provided should cause any problems, you may also use the most recent one. All releases can be found here:
-- https://github.com/hapifhir/org.hl7.fhir.core/releases
+
+The version of the validator, which was used by the mio42 GmbH, you can find here:
+- https://github.com/hapifhir/org.hl7.fhir.core/releases/tag/5.6.80
+
+If the version provided should cause any problems, you may also use the most recent one. All releases can be found here:
+-https://github.com/hapifhir/org.hl7.fhir.core/releases
 
 For a thorough documentation on the use of the validator, please follow this link:
-- https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator
+-https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator
 
-You can use the following commands to validate the examples:
+You can use the following command to validate the examples:
 
 REAL_EXAMPLE_1_Bundle:
 ```
-java -jar validator_cli.jar .\Example\Example_1.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
+java -jar validator_cli.jar .\Example\REAL_EXAMPLE_1_Bundle.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 REAL_EXAMPLE_2_Bundle:
 ```
-java -jar validator_cli.jar .\Example\Example_2.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
+java -jar validator_cli.jar .\Example\REAL_EXAMPLE_2_Bundle.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 REAL_EXAMPLE_3_Bundle
 ```
-java -jar validator_cli.jar .\Example\Example_3.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
+java -jar validator_cli.jar .\Example\REAL_EXAMPLE_3_Bundle.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 REAL_EXAMPLE_4_Bundle
 ```
-java -jar validator_cli.jar .\Example\Example_4.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
+java -jar validator_cli.jar .\Example\REAL_EXAMPLE_4_Bundle.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
 Please note that a current version of Java is required (we would recommend the most recent one).
@@ -55,7 +59,10 @@ Die Dependencies finden Sie alternativ unter folgenden Links:
 - kbv.basis 1.1.3: https://simplifier.net/packages/kbv.basis/1.1.3
 - kbv.mio.patientenkurzakte 1.0.0:	https://simplifier.net/packages/kbv.mio.patientenkurzakte/1.0.0
 
-Die Version des Validators, welche von der mio42 GmbH für die Validierung verwendet wurde, ist enthalten. Sollte diese zu Problemen führen, können Sie auch die aktuelle Version des Validators nutzen. Alle Releases finden Sie unter: 
+Die Version des Validators, welche von der mio42 GmbH für die Validierung verwendet wurde, fnden Sie hier:
+- https://github.com/hapifhir/org.hl7.fhir.core/releases/tag/5.6.80
+
+Sollte diese zu Prolemen führen, können Sie auch die aktuelle Version des Validators nutzen. Alle Releases finden Sie unter:
 - https://github.com/hapifhir/org.hl7.fhir.core/releases
 
 Eine Ausführliche Dokumentation zur Verwendung des Validators finden Sie hier:
@@ -63,24 +70,21 @@ Eine Ausführliche Dokumentation zur Verwendung des Validators finden Sie hier:
 
 Zur Validierung der Beispiele können Sie folgende Aufrufe verwenden:
 
-Praxisbeispiel_1_Bundle:
+REAL_EXAMPLE_1_Bundle:
 ```
-java -jar validator_cli.jar .\Example\Example_1.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
-```
-
-Praxisbeispiel_2_Bundle:
-```
-java -jar validator_cli.jar .\Example\Example_2.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
+java -jar validator_cli.jar .\Example\REAL_EXAMPLE_1_Bundle.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
-Praxisbeispiel_3_Bundle
+REAL_EXAMPLE_2_Bundle:
 ```
-java -jar validator_cli.jar .\Example\Example_3.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
-```
-
-Praxisbeispiel_4_Bundle
-```
-java -jar validator_cli.jar .\Example\Example_4.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
+java -jar validator_cli.jar .\Example\REAL_EXAMPLE_2_Bundle.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
 ```
 
-Weitere Voraussetzung ist eine aktuelle Java Version.
+REAL_EXAMPLE_3_Bundle
+```
+java -jar validator_cli.jar .\Example\REAL_EXAMPLE_3_Bundle.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
+```
+
+REAL_EXAMPLE_4_Bundle
+```
+java -jar validator_cli.jar .\Example\REAL_EXAMPLE_4_Bundle.xml -ig "hl7.fhir.core#4.0.1" -ig .\KBV-Base -ig .\HL7-Base-de -ig .\FHIR-Specification -recurse
